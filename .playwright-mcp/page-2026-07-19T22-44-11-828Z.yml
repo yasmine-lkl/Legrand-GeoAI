@@ -1,0 +1,205 @@
+- generic [active] [ref=f41e1]:
+  - button "Manage your preferences about cookies" [ref=f41e2] [cursor=pointer]
+  - generic [ref=f41e9]:
+    - generic [ref=f41e11]:
+      - heading "Tarificateur - Tarificateur" [level=1] [ref=f41e12]
+      - main [ref=f41e13]:
+        - generic [ref=f41e23]:
+          - link [ref=f41e29] [cursor=pointer]:
+            - /url: /web/tarificateur/calcul
+          - text:  * * *  * * *
+          - generic [ref=f41e33]:
+            - generic [ref=f41e35]:
+              - generic [ref=f41e36]:
+                - generic [ref=f41e37]: Vous souhaitez échanger avec un conseiller ou souscrire un contrat ?
+                - generic [ref=f41e39]:
+                  - generic [ref=f41e40]: Demande de rappel
+                  - generic [ref=f41e44]:
+                    - strong
+                  - generic [ref=f41e45]: 04 67 50 67 50
+              - generic [ref=f41e52]:
+                - heading "Votre véhicule" [level=2] [ref=f41e53]
+                - generic [ref=f41e54]: JM MOTORS 50 OLDIES
+                - generic [ref=f41e55]: Immatriculé en 03/10/2018
+                - generic [ref=f41e56]: 75013 PARIS 13
+                - generic [ref=f41e57]: Promenade / Trajet travail
+                - heading "Votre expérience moto" [level=2] [ref=f41e58]
+                - generic [ref=f41e59]: 0 an d'assurance
+                - generic [ref=f41e60]: Bonus de 1 (soit ni bonus ni malus)
+                - generic [ref=f41e61]: Aucun accident responsable ces 2 dernières années
+                - heading "Votre expérience auto" [level=2] [ref=f41e62]
+                - generic [ref=f41e63]: 0 an d'assurance
+                - generic [ref=f41e64]: Bonus de 1 (soit ni bonus ni malus)
+                - generic [ref=f41e65]: Aucun accident responsable ces 2 dernières années
+            - generic [ref=f41e66]:
+              - generic [ref=f41e67]:
+                - generic [ref=f41e71]:
+                  - paragraph [ref=f41e72]: Votre tarif
+                  - text:  
+                - generic [ref=f41e75]:
+                  - generic [ref=f41e78]:
+                    - generic [ref=f41e79]: 
+                    - generic [ref=f41e80]: Formule conseillée par nos experts moto
+                  - generic [ref=f41e83]:
+                    - generic [ref=f41e85] [cursor=pointer]:
+                      - generic [ref=f41e86]: Responsabilité civile
+                      - generic [ref=f41e87]:
+                        - generic [ref=f41e88]: "626"
+                        - text: € / an
+                    - generic [ref=f41e91] [cursor=pointer]:
+                      - generic [ref=f41e92]: Vol
+                      - generic [ref=f41e93]:
+                        - generic [ref=f41e94]: "1047"
+                        - text: € / an
+                    - generic [ref=f41e97] [cursor=pointer]:
+                      - generic [ref=f41e98]: Tous risques
+                      - generic [ref=f41e99]:
+                        - generic [ref=f41e100]: "1479"
+                        - text: € / an
+              - generic [ref=f41e111]:
+                - 'heading "Votre protection, notre engagement : les garanties essentielles incluses" [level=2] [ref=f41e113]'
+                - generic [ref=f41e114]:
+                  - generic [ref=f41e115]:
+                    - generic [ref=f41e118]:
+                      - generic [ref=f41e119]: Assistance 0 km - Soyez dépanné en bas de chez vous !
+                      - paragraph [ref=f41e120]: "En cas d'accident, de panne, crevaison, erreur de carburant, batterie déchargée, perte des clefs ... : on vous dépanne même en bas de chez vous."
+                    - generic [ref=f41e123]:
+                      - generic [ref=f41e124]: "Corporelle basic : jusqu'à 15 300€"
+                      - paragraph [ref=f41e125]: "Protection de tous les conducteurs : indemnisation en cas d'invalidité jusqu'à 15 300€, AIPP 11%."
+                    - generic [ref=f41e128]:
+                      - generic [ref=f41e129]: "Casque : remboursement valeur à neuf sans franchise"
+                      - paragraph [ref=f41e130]: "Casque : remboursement valeur à neuf sans franchise"
+                  - heading "Les autres garanties comprises dans la formule Responsabilité civile" [level=2] [ref=f41e132]
+                  - generic [ref=f41e133]:
+                    - link " Responsabilité civile" [ref=f41e135] [cursor=pointer]:
+                      - /url: "#c_collapse_PURBS1_RC"
+                      - generic [ref=f41e136]:
+                        - generic [ref=f41e137]: 
+                        - generic [ref=f41e139]: Responsabilité civile
+                    - link " Protection et Défense de vos droits" [ref=f41e144] [cursor=pointer]:
+                      - /url: "#c_collapse_PURBS1_DPRSA"
+                      - generic [ref=f41e145]:
+                        - generic [ref=f41e146]: 
+                        - generic [ref=f41e148]: Protection et Défense de vos droits
+                    - 'link " Avance sur Recours : avance des frais de vos sinistres non responsables" [ref=f41e153] [cursor=pointer]':
+                      - /url: "#c_collapse_PURBS1_AVR"
+                      - generic [ref=f41e154]:
+                        - generic [ref=f41e155]: 
+                        - generic [ref=f41e157]: "Avance sur Recours : avance des frais de vos sinistres non responsables"
+                    - 'link " SAVE : soutien et accompagnement des victimes et de leur entourage" [ref=f41e162] [cursor=pointer]':
+                      - /url: "#c_collapse_PURBS1_SAVE"
+                      - generic [ref=f41e163]:
+                        - generic [ref=f41e164]: 
+                        - generic [ref=f41e166]: "SAVE : soutien et accompagnement des victimes et de leur entourage"
+                    - 'link " Jurimotard : protection juridique de votre vie quotidienne et de votre permis de conduire" [ref=f41e171] [cursor=pointer]':
+                      - /url: "#c_collapse_PURBS1_JURMO"
+                      - generic [ref=f41e172]:
+                        - generic [ref=f41e173]: 
+                        - generic [ref=f41e175]: "Jurimotard : protection juridique de votre vie quotidienne et de votre permis de conduire"
+                  - generic [ref=f41e179] [cursor=pointer]:
+                    - 'link "× Vol : remboursement sous 15 jours" [ref=f41e181]':
+                      - /url: "#c_collapse_PURBS1_VO"
+                      - generic [ref=f41e182]:
+                        - generic [ref=f41e183]: ×
+                        - generic [ref=f41e185]: "Vol : remboursement sous 15 jours"
+                    - 'link "× Bris de glace : sans franchise" [ref=f41e190]':
+                      - /url: "#c_collapse_PURBS1_BG"
+                      - generic [ref=f41e191]:
+                        - generic [ref=f41e192]: ×
+                        - generic [ref=f41e194]: "Bris de glace : sans franchise"
+                    - link "× Incendie, Attentats" [ref=f41e199]:
+                      - /url: "#c_collapse_PURBS1_IN"
+                      - generic [ref=f41e200]:
+                        - generic [ref=f41e201]: ×
+                        - generic [ref=f41e203]: Incendie, Attentats
+                    - link "× Catastrophes naturelles, Force de la nature" [ref=f41e208]:
+                      - /url: "#c_collapse_PURBS1_CN"
+                      - generic [ref=f41e209]:
+                        - generic [ref=f41e210]: ×
+                        - generic [ref=f41e212]: Catastrophes naturelles, Force de la nature
+                    - link "× Dommage tous accidents" [ref=f41e217]:
+                      - /url: "#c_collapse_PURBS1_DTA"
+                      - generic [ref=f41e218]:
+                        - generic [ref=f41e219]: ×
+                        - generic [ref=f41e221]: Dommage tous accidents
+                  - generic [ref=f41e225]:
+                    - generic [ref=f41e226]: 
+                    - generic [ref=f41e228]: Nouveau sociétaire ? Un droit d'adhésion de 50€ s'ajoute à votre cotisation annuelle la 1ère année.
+              - generic [ref=f41e229]:
+                - paragraph [ref=f41e230]: Personnalisez votre devis selon vos besoins
+                - generic [ref=f41e231]: Renforcez votre protection conducteur, optez pour un véhicule de remplacement, assurez vos équipements et accessoires… Ajoutez les options qui vous correspondent
+                - generic [ref=f41e232]:
+                  - generic [ref=f41e233]: Protection conducteur
+                  - generic [ref=f41e239]:
+                    - generic [ref=f41e240] [cursor=pointer]:
+                      - generic [ref=f41e241]: 
+                      - generic [ref=f41e243]: Sans option protection conducteur
+                    - generic [ref=f41e245] [cursor=pointer]:
+                      - generic [ref=f41e246]: 
+                      - generic [ref=f41e248]:
+                        - generic [ref=f41e250]:
+                          - text: Conducteur + 30 € / an (
+                          - generic [ref=f41e251]: 
+                          - text: conseillé)
+                        - generic [ref=f41e252]: Plafond d'indemnisation 80 000€Taux AIPP 11% - Capital décès 7 700€
+                    - generic [ref=f41e253] [cursor=pointer]:
+                      - generic [ref=f41e254]: 
+                      - generic [ref=f41e256]:
+                        - generic [ref=f41e257]: Conducteur Optimale + 77 € / an
+                        - generic [ref=f41e258]: Plafond d'indemnisation 150 000€Taux AIPP 11% - Capital décès 18 000€
+                  - generic [ref=f41e262]:
+                    - generic [ref=f41e263]: Assistance
+                    - generic [ref=f41e264] [cursor=pointer]: "?"
+                  - generic [ref=f41e266]:
+                    - generic [ref=f41e267] [cursor=pointer]:
+                      - generic [ref=f41e268]: 
+                      - generic [ref=f41e270]: Assistance 0 km (inclus)
+                    - generic [ref=f41e272] [cursor=pointer]:
+                      - generic [ref=f41e273]: 
+                      - generic [ref=f41e275]:
+                        - generic [ref=f41e276]: Assistance optimale + 119 € / an
+                        - text: Mise à disposition d'un véhicule de remplacement.
+                  - generic [ref=f41e280]:
+                    - generic [ref=f41e281]: Equipement conducteur
+                    - generic [ref=f41e282] [cursor=pointer]: "?"
+                  - generic [ref=f41e284]:
+                    - generic [ref=f41e285] [cursor=pointer]:
+                      - generic [ref=f41e286]: 
+                      - generic [ref=f41e288]: Sans option equipement conducteur
+                    - generic [ref=f41e290] [cursor=pointer]:
+                      - generic [ref=f41e291]: 
+                      - generic [ref=f41e293]:
+                        - generic [ref=f41e294]: Equipement conducteur + 30 € / an
+                        - text: Plafond de remboursement 1 000€
+                    - generic [ref=f41e295] [cursor=pointer]:
+                      - generic [ref=f41e296]: 
+                      - generic [ref=f41e298]:
+                        - generic [ref=f41e299]: Equipement conducteur optimal + 74 € / an
+                        - text: Plafond de remboursement 2 000€
+                  - button "Recevoir mon devis par email" [disabled] [ref=f41e304]:
+                    - generic [ref=f41e305]: 
+                  - generic [ref=f41e309]:
+                    - text: La
+                    - link "Notice d'information" [ref=f41e310] [cursor=pointer]:
+                      - /url: https://www.mutuelledesmotards.fr/sites/default/files/inline/images/MUT248V02.pdf
+                    - text: et le
+                    - link "Document d'information sur le produit d'assurance" [ref=f41e311] [cursor=pointer]:
+                      - /url: https://www.mutuelledesmotards.fr/sites/default/files/inline/images/mut198.pdf
+              - text:          ×      ?   ?    ?                   ?   ?    ?   ?   
+              - generic [ref=f41e312]:
+                - heading "Vos avantages" [level=2] [ref=f41e313]
+                - generic [ref=f41e316]:
+                  - generic [ref=f41e317]: De 5% à 50% de réduction !En assurant plusieurs de vos 2-roues
+                  - generic [ref=f41e321]: BÉNÉFICIEZ D’UNE REMISE !Avec la conduite exclusive
+                  - generic [ref=f41e325]: PAYEZ MOINS CHER !En réglant votre cotisation en une seule fois !
+              - button "Calculez un nouveau tarif" [ref=f41e332] [cursor=pointer]
+              - heading [level=6] [ref=f41e334]
+          - generic [ref=f41e338]:
+            - generic [ref=f41e339]:
+              - generic [ref=f41e340]: Tous droits réservés
+              - text: Société d'assurance mutuelle à cotisations variables, entreprise régie par le code des assurances
+            - link "Mentions légales" [ref=f41e343] [cursor=pointer]:
+              - /url: https://www.mutuelledesmotards.fr/mentions-legales
+          - text: "* * * * *"
+    - button "Besoin d’aide <span>?</span>" [ref=f41e344] [cursor=pointer]:
+      - generic: Besoin d’aide ?

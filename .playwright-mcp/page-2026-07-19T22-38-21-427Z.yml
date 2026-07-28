@@ -1,0 +1,105 @@
+- generic [active] [ref=f33e1]:
+  - link "Aller au contenu principal" [ref=f33e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f33e3]:
+    - banner [ref=f33e4]:
+      - generic [ref=f33e8]:
+        - generic [ref=f33e11]:
+          - navigation "Progression du formulaire" [ref=f33e12]:
+            - list [ref=f33e13]:
+              - listitem: Votre véhicule (en cours)
+              - listitem: Votre profil (à venir)
+              - listitem: Vos antécédents (à venir)
+              - listitem: Vos besoins (à venir)
+          - navigation "Étapes du formulaire" [ref=f33e14]:
+            - generic [ref=f33e15]: "Étape 1 sur 4: Votre véhicule"
+            - generic [ref=f33e16]:
+              - generic [ref=f33e17]:
+                - paragraph [ref=f33e18]: Votre véhicule
+                - progressbar "Progression de l'étape Votre véhicule" [ref=f33e19]
+              - generic [ref=f33e21]:
+                - paragraph [ref=f33e22]: Votre profil
+                - progressbar "Progression de l'étape Votre profil" [ref=f33e23]
+              - generic [ref=f33e24]:
+                - paragraph [ref=f33e25]: Vos antécédents
+                - progressbar "Progression de l'étape Vos antécédents" [ref=f33e26]
+              - generic [ref=f33e27]:
+                - paragraph [ref=f33e28]: Vos besoins
+                - progressbar "Progression de l'étape Vos besoins" [ref=f33e29]
+        - generic [ref=f33e30]:
+          - button "Un conseiller vous aide, appeler le 02 19 01 14 94" [ref=f33e31] [cursor=pointer]:
+            - generic [ref=f33e33]:
+              - generic [ref=f33e34]: Besoin d'aide ? Appelez
+              - generic [ref=f33e35]: le 02 19 01 14 94
+          - button [ref=f33e36] [cursor=pointer]:
+            - generic [ref=f33e38]: Rappelez-moi ouprendre rendez-vous
+          - button [ref=f33e39] [cursor=pointer]:
+            - strong [ref=f33e40]: Recommencer le devis
+    - main [ref=f33e41]:
+      - heading "Assurance 2 roues - Devis en ligne" [level=1] [ref=f33e42]
+      - generic [ref=f33e49]:
+        - generic [ref=f33e53]:
+          - heading "Bonjour !" [level=2] [ref=f33e54]
+          - paragraph
+        - generic [ref=f33e56]:
+          - paragraph [ref=f33e57]: Pour vous proposer un devis personnalisé, nous avons besoin de collecter des informations sur vous et votre deux-roues.
+          - paragraph [ref=f33e58]: Commençons d'abord par quelques questions concernant votre véhicule !
+          - paragraph [ref=f33e59]: "Avant de commencer, munissez-vous de :"
+          - list [ref=f33e60]:
+            - listitem [ref=f33e61]: Votre permis de conduire
+            - listitem [ref=f33e62]: La carte grise du véhicule à assurer (si vous l'avez déjà)
+            - listitem [ref=f33e63]: Le relevé de sinistres de votre assureur (si vous l’avez également)
+          - paragraph [ref=f33e64]: Vous êtes prêt ?
+        - button "C'est parti !" [ref=f33e65] [cursor=pointer]
+    - contentinfo [ref=f33e66]:
+      - generic [ref=f33e67]:
+        - generic [ref=f33e69]:
+          - heading "Et en plus, des offres exclusives rien que pour vous" [level=2] [ref=f33e72]
+          - paragraph [ref=f33e75]:
+            - generic [ref=f33e77]:
+              - text: Abonnement Premium d’1 an àl’application Liberty Rider inclus*
+              - generic [ref=f33e78]: "*pour toute souscription à un contrat Moto ou Scooter"
+          - paragraph [ref=f33e81]: 15% de réduction sur l'achat de votre traceur GPS
+          - paragraph [ref=f33e85]:
+            - generic [ref=f33e87]:
+              - text: 3 mois de location d’airbagIn&Motion offerts
+              - superscript [ref=f33e88]: "**"
+              - generic [ref=f33e89]: "**pour les motards équipés d’un airbag.Pour toute souscription à un contrat Moto ou Scooter"
+        - generic [ref=f33e93]:
+          - img "Recommandé par Le Repaire des Motards - Partenaire de Johann Zarco - Label d'Excellence 2025 Moto et Scooter, Les Dossiers de l'Assurance, APRIL Moto" [ref=f33e96]
+          - generic [ref=f33e97]:
+            - generic [ref=f33e98]:
+              - img "Note de 4.4 sur 5" [ref=f33e99]:
+                - generic [ref=f33e100]: 4.4/5
+              - paragraph [ref=f33e112]: sur 3 728 votes
+            - link "Opinions Assurances (nouvelle fenêtre)" [ref=f33e114] [cursor=pointer]:
+              - /url: https://www.opinion-assurances.fr/assureur-april-moto.html
+              - img "Opinions Assurances" [ref=f33e115]
+              - generic [ref=f33e116]: (nouvelle fenêtre)
+        - navigation "Liens légaux" [ref=f33e119]:
+          - list [ref=f33e120]:
+            - listitem [ref=f33e121]:
+              - link "Mentions légales (version accessible, nouvelle fenêtre)" [ref=f33e122] [cursor=pointer]:
+                - /url: /mentions-legales/cgu.html
+                - text: Mentions légales
+                - generic [ref=f33e123]: (version accessible, nouvelle fenêtre)
+            - listitem [ref=f33e124]:
+              - link "Gestion des cookies (nouvelle fenêtre)" [ref=f33e125] [cursor=pointer]:
+                - /url: https://www.april-moto.com/gestion-des-cookies/
+                - text: Gestion des cookies
+                - generic [ref=f33e126]: (nouvelle fenêtre)
+            - listitem [ref=f33e127]:
+              - link "Politique Données Personnelles (version accessible, nouvelle fenêtre)" [ref=f33e128] [cursor=pointer]:
+                - /url: /mentions-legales/donnees-personnelles.html
+                - text: Politique Données Personnelles
+                - generic [ref=f33e129]: (version accessible, nouvelle fenêtre)
+            - listitem [ref=f33e130]:
+              - link "Traitement de vos réclamations (version accessible, nouvelle fenêtre)" [ref=f33e131] [cursor=pointer]:
+                - /url: /mentions-legales/reclamations.html
+                - text: Traitement de vos réclamations
+                - generic [ref=f33e132]: (version accessible, nouvelle fenêtre)
+            - listitem [ref=f33e133]:
+              - link "Fonctionnement du Tarificateur (version accessible, nouvelle fenêtre)" [ref=f33e134] [cursor=pointer]:
+                - /url: /mentions-legales/fonctionnement-tarificateurs.html
+                - text: Fonctionnement du Tarificateur
+                - generic [ref=f33e135]: (version accessible, nouvelle fenêtre)

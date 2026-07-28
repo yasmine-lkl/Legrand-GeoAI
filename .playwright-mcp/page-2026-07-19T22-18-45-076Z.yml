@@ -1,0 +1,93 @@
+- generic [ref=f8e1]:
+  - generic [ref=f8e2]:
+    - banner [ref=f8e3]:
+      - generic:
+        - generic:
+          - link "Assurance AMV":
+            - /url: https://www.amv.fr
+            - img "Assurance AMV" [ref=f8e5] [cursor=pointer]
+    - generic [ref=f8e8]:
+      - generic [ref=f8e10]:
+        - img "Devis assurance scooter" [ref=f8e12]
+        - heading "Votre assurance scooter" [level=1] [ref=f8e13]
+      - generic [ref=f8e15]:
+        - list [ref=f8e19]:
+          - listitem [ref=f8e20]:
+            - link "Votre véhicule" [ref=f8e22] [cursor=pointer]:
+              - /url: scooter_vehicule.aspx?id=c94ozB5deUsAbq15NIb2ww~~
+          - listitem [ref=f8e23]: Vous
+          - listitem [ref=f8e25]: Vos déclarations
+          - listitem [ref=f8e26]: Votre tarif
+          - listitem [ref=f8e27]: Souscription
+        - generic [ref=f8e28]:
+          - heading " Vos informations" [level=2] [ref=f8e29]:
+            - generic [ref=f8e30]: 
+            - text: Vos informations
+          - generic [ref=f8e31]: Le souscripteur du contrat doit être le titulaire du compte à débiter.
+          - generic [ref=f8e35]:
+            - generic [ref=f8e36]:
+              - generic [ref=f8e37]: Vous êtes
+              - combobox [ref=f8e39] [cursor=pointer]:
+                - generic [ref=f8e41]: Monsieur
+            - generic [ref=f8e43]:
+              - generic [ref=f8e44]: Date de naissance
+              - generic [ref=f8e45]:
+                - textbox [ref=f8e46]: 12/02/2003
+                - img "Sélectionnez une date" [ref=f8e47]
+              - generic [ref=f8e49]:
+                - text: Si le conducteur est mineur, le contrat doit être établi au nom de son
+                - strong [ref=f8e50]: représentant légal majeur
+                - text: (père, mère, tuteur), sous réserve que l'un ET l'autre correspondent à l’ensemble de nos conditions de souscription et soient titulaires du permis de conduire en rapport avec la cylindrée du véhicule à assurer (BSR, permis AM, permis AL, A1, A et B).
+            - generic [ref=f8e51]:
+              - generic [ref=f8e52]:
+                - generic [ref=f8e53]: Type de permis en rapport avec le véhicule assuré     
+                - combobox [ref=f8e56] [cursor=pointer]:
+                  - generic [ref=f8e58]: Sélectionnez votre permis...
+                - generic [ref=f8e59]: Permis national, en cours de validité, délivré par un état de l'Union Européenne et en rapport avec le véhicule à assurer
+              - generic [ref=f8e61]:
+                - generic [ref=f8e62]: Date d'obtention du permis
+                - generic [ref=f8e63]:
+                  - textbox [ref=f8e64]: "--/--/----"
+                  - img "Sélectionnez une date" [ref=f8e65]
+                - generic [ref=f8e66]: En cas d'annulation de permis, indiquez la dernière date d'obtention de votre permis de conduire Français en cours de validité
+          - generic [ref=f8e67]:
+            - link "Suivant " [ref=f8e68] [cursor=pointer]:
+              - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$SampleContent$btnValider$btnButton", "", true, "", "", false, true))
+              - text: Suivant
+              - generic [ref=f8e69]: 
+            - link " Précédent" [ref=f8e70] [cursor=pointer]:
+              - /url: javascript:__doPostBack('ctl00$SampleContent$btnPrecedent$btnButton','')
+              - generic [ref=f8e71]: 
+              - text: Précédent
+    - contentinfo [ref=f8e76]:
+      - generic [ref=f8e79]:
+        - list [ref=f8e80]:
+          - list [ref=f8e81]:
+            - listitem [ref=f8e82]:
+              - link "Mentions légales" [ref=f8e83] [cursor=pointer]:
+                - /url: https://www.amv.fr/mentions-legales
+            - listitem [ref=f8e84]:
+              - link "Protection des données" [ref=f8e85] [cursor=pointer]:
+                - /url: https://www.amv.fr/protection-des-donnees/
+            - listitem [ref=f8e86]:
+              - link "Gérer mes cookies" [ref=f8e87] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=f8e88]: AMV, leader de l'assurance scooter et moto, propose des solutions en ligne adaptées aux particuliers. Choisissez parmi notre gamme complète de formules d'assurance, incluant l'assurance moto de collection, 4X4, jetski, quad, et bien plus encore. Personnalisez vos contrats en ajoutant des garanties spécifiques en fonction de votre véhicule et de vos besoins réels. Obtenez rapidement un devis et souscrivez votre contrat en ligne. Nos experts sont là pour vous guider et répondre à vos questions. Découvrez l'histoire des constructeurs moto et leurs modèles de référence. Optez pour l'excellence avec AMV, votre assurance moto scooter. Note de satisfaction de 4,7/5 selon les 5286 clients interrogés par Avis Vérifiés.
+    - generic "titre dialog"
+  - dialog "Désolé !" [ref=f8e89]:
+    - generic [ref=f8e90]:
+      - generic [ref=f8e91]: Désolé !
+      - button [ref=f8e92] [cursor=pointer]
+    - generic [ref=f8e94]:
+      - generic [ref=f8e95]: Veuillez indiquer la date d'obtention de votre permis
+      - generic [ref=f8e97]:
+        - link "Modifier votre déclaration " [active] [ref=f8e98] [cursor=pointer]:
+          - /url: javascript:__doPostBack('ctl00$uscModalPopupBasic2$btnOk$btnButton','')
+          - text: Modifier votre déclaration
+          - generic [ref=f8e99]: 
+        - link " Retourner à l'accueil" [ref=f8e100] [cursor=pointer]:
+          - /url: javascript:__doPostBack('ctl00$uscModalPopupBasic2$btnAnnuler$btnButton','')
+          - generic [ref=f8e101]: 
+          - text: Retourner à l'accueil
+        - link:
+          - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$uscModalPopupBasic2$lnkClose", "", true, "", "", false, true))

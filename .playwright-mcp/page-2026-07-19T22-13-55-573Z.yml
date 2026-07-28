@@ -1,0 +1,150 @@
+- generic [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - banner [ref=f2e3]:
+      - generic:
+        - generic:
+          - link "Assurance AMV":
+            - /url: https://www.amv.fr
+            - img "Assurance AMV" [ref=f2e5] [cursor=pointer]
+    - generic [ref=f2e8]:
+      - generic [ref=f2e10]:
+        - img "Devis assurance scooter" [ref=f2e12]
+        - heading "Votre assurance scooter" [level=1] [ref=f2e13]
+      - generic [ref=f2e15]:
+        - list [ref=f2e19]:
+          - listitem [ref=f2e20]: Votre véhicule
+          - listitem [ref=f2e22]: Vous
+          - listitem [ref=f2e23]: Vos déclarations
+          - listitem [ref=f2e24]: Votre tarif
+          - listitem [ref=f2e25]: Souscription
+        - generic [ref=f2e26]:
+          - generic [ref=f2e27]:
+            - heading " Votre véhicule" [level=2] [ref=f2e1699]:
+              - generic [ref=f2e1700]: 
+              - text: Votre véhicule
+            - generic [ref=f2e1701]:
+              - generic [ref=f2e1702]:
+                - generic [ref=f2e1703]: Marque
+                - combobox [ref=f2e1706] [cursor=pointer]:
+                  - generic [ref=f2e1708]: JM MOTORS
+              - generic [ref=f2e1709]:
+                - generic [ref=f2e1710]: Modèle
+                - combobox "Choisissez..." [expanded] [active] [ref=f2e1720] [cursor=pointer]
+            - generic [ref=f2e1716]:
+              - generic [ref=f2e1717]: Cylindrée
+              - spinbutton "Cylindrée" [ref=f2e1719]
+          - link "Suivant " [ref=f2e50] [cursor=pointer]:
+            - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$SampleContent$btnValider$btnButton", "", true, "", "", false, true))
+            - text: Suivant
+            - generic [ref=f2e51]: 
+      - generic [ref=f2e55]:
+        - heading "Conseil AMV" [level=3] [ref=f2e56]
+        - generic [ref=f2e59]:
+          - img "Carte grise et permis" [ref=f2e61]
+          - generic [ref=f2e62]:
+            - text: Aidez-vous de votre
+            - strong [ref=f2e63]: carte grise
+            - text: et de votre
+            - strong [ref=f2e64]: permis
+            - text: .
+    - contentinfo [ref=f2e68]:
+      - generic [ref=f2e71]:
+        - list [ref=f2e72]:
+          - list [ref=f2e73]:
+            - listitem [ref=f2e74]:
+              - link "Mentions légales" [ref=f2e75] [cursor=pointer]:
+                - /url: https://www.amv.fr/mentions-legales
+            - listitem [ref=f2e76]:
+              - link "Protection des données" [ref=f2e77] [cursor=pointer]:
+                - /url: https://www.amv.fr/protection-des-donnees/
+            - listitem [ref=f2e78]:
+              - link "Gérer mes cookies" [ref=f2e79] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=f2e80]: AMV, leader de l'assurance scooter et moto, propose des solutions en ligne adaptées aux particuliers. Choisissez parmi notre gamme complète de formules d'assurance, incluant l'assurance moto de collection, 4X4, jetski, quad, et bien plus encore. Personnalisez vos contrats en ajoutant des garanties spécifiques en fonction de votre véhicule et de vos besoins réels. Obtenez rapidement un devis et souscrivez votre contrat en ligne. Nos experts sont là pour vous guider et répondre à vos questions. Découvrez l'histoire des constructeurs moto et leurs modèles de référence. Optez pour l'excellence avec AMV, votre assurance moto scooter. Note de satisfaction de 4,7/5 selon les 5286 clients interrogés par Avis Vérifiés.
+    - generic "titre dialog"
+  - button "Besoin d’aide ?" [ref=f2e1698] [cursor=pointer]: Besoin d’aide ? ?
+  - listbox [ref=f2e1722]:
+    - listitem [ref=f2e1723] [cursor=pointer]:
+      - option "Choisissez..." [ref=f2e1724]
+    - listitem [ref=f2e1725] [cursor=pointer]:
+      - option "50 BUZZ EL" [ref=f2e1726]
+    - listitem [ref=f2e1727] [cursor=pointer]:
+      - option "BUBBLY 125" [ref=f2e1728]
+    - listitem [ref=f2e1729] [cursor=pointer]:
+      - option "BUBBLY 50" [ref=f2e1730]
+    - listitem [ref=f2e1731] [cursor=pointer]:
+      - option "BUZZ 50" [ref=f2e1732]
+    - listitem [ref=f2e1733] [cursor=pointer]:
+      - option "CAFE RACER 50" [ref=f2e1734]
+    - listitem [ref=f2e1735] [cursor=pointer]:
+      - option "CHAMPS 50" [ref=f2e1736]
+    - listitem [ref=f2e1737] [cursor=pointer]:
+      - option "EVOLIS 50" [ref=f2e1738]
+    - listitem [ref=f2e1739] [cursor=pointer]:
+      - option "F45" [ref=f2e1740]
+    - listitem [ref=f2e1741] [cursor=pointer]:
+      - option "GT LINE 50" [ref=f2e1742]
+    - listitem [ref=f2e1743] [cursor=pointer]:
+      - option "GT LINE RS 50" [ref=f2e1744]
+    - listitem [ref=f2e1745] [cursor=pointer]:
+      - option "GTR 125" [ref=f2e1746]
+    - listitem [ref=f2e1747] [cursor=pointer]:
+      - option "GTX 50" [ref=f2e1748]
+    - listitem [ref=f2e1749] [cursor=pointer]:
+      - option "GY02-C" [ref=f2e1750]
+    - listitem [ref=f2e1751] [cursor=pointer]:
+      - option "JOURNEY 50" [ref=f2e1752]
+    - listitem [ref=f2e1753] [cursor=pointer]:
+      - option "LISA 50" [ref=f2e1754]
+    - listitem [ref=f2e1755] [cursor=pointer]:
+      - option "MIA 50" [ref=f2e1756]
+    - listitem [ref=f2e1757] [cursor=pointer]:
+      - option "MILANO 50" [ref=f2e1758]
+    - listitem [ref=f2e1759] [cursor=pointer]:
+      - option "NR-V TECH 125" [ref=f2e1760]
+    - listitem [ref=f2e1761] [cursor=pointer]:
+      - option "OLDIES 125" [ref=f2e1762]
+    - listitem [ref=f2e1763] [cursor=pointer]:
+      - option "OLDIES 50" [ref=f2e1764]
+    - listitem [ref=f2e1765] [cursor=pointer]:
+      - option "PONY 50" [ref=f2e1766]
+    - listitem [ref=f2e1767] [cursor=pointer]:
+      - option "RITMO 50" [ref=f2e1768]
+    - listitem [ref=f2e1769] [cursor=pointer]:
+      - option "RIVA 50" [ref=f2e1770]
+    - listitem [ref=f2e1771] [cursor=pointer]:
+      - option "R-MAX 50" [ref=f2e1772]
+    - listitem [ref=f2e1773] [cursor=pointer]:
+      - option "SANTANA 125" [ref=f2e1774]
+    - listitem [ref=f2e1775] [cursor=pointer]:
+      - option "SANTANA 50" [ref=f2e1776]
+    - listitem [ref=f2e1777] [cursor=pointer]:
+      - option "SANTANA EVO 125" [ref=f2e1778]
+    - listitem [ref=f2e1779] [cursor=pointer]:
+      - option "SANTANA EVO 50" [ref=f2e1780]
+    - listitem [ref=f2e1781] [cursor=pointer]:
+      - option "SANTANA RS 50" [ref=f2e1782]
+    - listitem [ref=f2e1783] [cursor=pointer]:
+      - option "SC 50" [ref=f2e1784]
+    - listitem [ref=f2e1785] [cursor=pointer]:
+      - option "STREETFIGHT 50" [ref=f2e1786]
+    - listitem [ref=f2e1787] [cursor=pointer]:
+      - option "STREETLINE 50" [ref=f2e1788]
+    - listitem [ref=f2e1789] [cursor=pointer]:
+      - option "SUM-X 50" [ref=f2e1790]
+    - listitem [ref=f2e1791] [cursor=pointer]:
+      - option "SUNNY 50" [ref=f2e1792]
+    - listitem [ref=f2e1793] [cursor=pointer]:
+      - option "VIPER 50" [ref=f2e1794]
+    - listitem [ref=f2e1795] [cursor=pointer]:
+      - option "VX 125" [ref=f2e1796]
+    - listitem [ref=f2e1797] [cursor=pointer]:
+      - option "VX 50" [ref=f2e1798]
+    - listitem [ref=f2e1799] [cursor=pointer]:
+      - option "XROAD 125" [ref=f2e1800]
+    - listitem [ref=f2e1801] [cursor=pointer]:
+      - option "X-RV TECH 125" [ref=f2e1802]
+    - listitem [ref=f2e1803] [cursor=pointer]:
+      - option "YM50QT" [ref=f2e1804]
+    - listitem [ref=f2e1805] [cursor=pointer]:
+      - option "Autre modèle" [ref=f2e1806]

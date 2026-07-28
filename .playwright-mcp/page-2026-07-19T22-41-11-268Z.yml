@@ -1,0 +1,188 @@
+- generic [ref=f40e2]:
+  - button "Manage your preferences about cookies" [ref=f40e3] [cursor=pointer]
+  - generic [ref=f40e11]:
+    - heading "Tarificateur - Tarificateur" [level=1] [ref=f40e12]
+    - main [ref=f40e13]:
+      - generic [ref=f40e23]:
+        - link [ref=f40e29] [cursor=pointer]:
+          - /url: /web/tarificateur/calcul
+        - text:  * * *  * * *
+        - generic [ref=f40e33]:
+          - generic [ref=f40e35]:
+            - generic [ref=f40e36]: Nos conseillers experts moto à votre écoute
+            - generic [ref=f40e38]:
+              - generic [ref=f40e39]: Demande de rappel
+              - generic [ref=f40e43]:
+                - strong
+              - generic [ref=f40e44]: 04 67 50 67 50
+          - generic [ref=f40e51]:
+            - generic [ref=f40e52]:
+              - generic [ref=f40e54]:
+                - generic [ref=f40e55]:
+                  - paragraph [ref=f40e56]: Calculez votre tarif
+                  - generic [ref=f40e57]:
+                    - generic [ref=f40e58]: 
+                    - text: En 2 minutes chrono !
+                  - heading "Votre véhicule" [level=2] [ref=f40e59]
+                - link [ref=f40e62] [cursor=pointer]:
+                  - /url: https://www.avis-verifies.com/avis-clients/mutuelledesmotards.fr
+                  - img "Avis Vérifiés - 4.8 sur 5 - 5812 avis clients" [ref=f40e63]
+              - generic [ref=f40e64]:
+                - generic [ref=f40e65]:
+                  - generic [ref=f40e66]: Date de 1ère immatriculation *
+                  - generic [ref=f40e67] [cursor=pointer]: "?"
+                - textbox "Date de 1ère immatriculation" [ref=f40e70]:
+                  - /placeholder: JJ/MM/AAAA
+                  - text: 03/10/2018
+                - generic [ref=f40e72]:
+                  - text: Vous allez acheter un véhicule non immatriculé ? Sélectionnez
+                  - generic [ref=f40e73] [cursor=pointer]: la date d'aujourd'hui
+              - generic [ref=f40e78]:
+                - text: "*"
+                - generic:
+                  - generic [ref=f40e95]: Marque *
+                  - 'textbox "Saisir la marque ex: Honda" [ref=f40e100]': JM MOTORS
+                - generic [ref=f40e84] [cursor=pointer]: Marques favorites
+              - generic [ref=f40e1968]:
+                - generic [ref=f40e1969]:
+                  - generic [ref=f40e1970]: Moteur *
+                  - generic "..." [ref=f40e1974]:
+                    - button "Thermique" [ref=f40e1976] [cursor=pointer]
+                    - button "Electrique" [ref=f40e1978] [cursor=pointer]
+                - generic [ref=f40e1979]:
+                  - generic [ref=f40e1980]: Cylindrée *
+                  - combobox "Cylindrée du véhicule" [ref=f40e1984] [cursor=pointer]:
+                    - option
+                    - option "125"
+                    - option "50" [selected]
+                - generic [ref=f40e1985]:
+                  - generic [ref=f40e1986]: Modèle du véhicule *
+                  - generic [ref=f40e1988]:
+                    - combobox "Modèle du véhicule" [ref=f40e1990] [cursor=pointer]:
+                      - option "Sélectionnez le modèle du véhicule"
+                      - option "CAFE RACER (depuis 2017 )"
+                      - option "CHAMPS (2015 à 2017 )"
+                      - option "F45I (depuis 2019 )"
+                      - option "GTR (depuis 2016 )"
+                      - option "MIA (depuis 2018 )"
+                      - option "MILANO (depuis 2017 )"
+                      - option "OLDIES (2015 à 2021 )" [selected]
+                      - option "OLDIES (depuis 2019 )"
+                      - option "OLDIES GTS (depuis 2018 )"
+                      - option "SANTANA (depuis 2018 )"
+                      - option "SPORT (depuis 2017 )"
+                      - option "STREETFIGHT 4T (depuis 2017 )"
+                      - option "SUNNY 2T (depuis 2017 )"
+                      - option "SUNNY 4T (depuis 2017 )"
+                      - option "VX (2015 à 2017 )"
+                    - generic [ref=f40e1993] [cursor=pointer]:
+                      - generic [ref=f40e1994]: 
+                      - generic [ref=f40e1996]:
+                        - generic [ref=f40e1997]: OLDIES 50
+                        - generic [ref=f40e1998]: "Commercialisation : 2015 à 2021"
+                        - generic [ref=f40e1999]: "Type Mine : ZN50QT-AZN5AZ"
+              - generic [ref=f40e2000]:
+                - text:  * ?
+                - generic [ref=f40e2001]:
+                  - generic [ref=f40e2002]:
+                    - generic [ref=f40e2003]: Mode de financement du véhicule *
+                    - generic [ref=f40e2004] [cursor=pointer]: "?"
+                  - generic "..." [ref=f40e2007]:
+                    - button "Comptant" [active] [ref=f40e2009] [cursor=pointer]
+                    - button "Crédit" [ref=f40e2011] [cursor=pointer]
+                    - button "LOA" [ref=f40e2013] [cursor=pointer]
+                    - button "LLD" [ref=f40e2015] [cursor=pointer]
+                - generic [ref=f40e2016]:
+                  - generic [ref=f40e2017]:
+                    - generic [ref=f40e2018]: Lieu de garage *
+                    - generic [ref=f40e2019] [cursor=pointer]: "?"
+                  - generic [ref=f40e2020]:
+                    - generic [ref=f40e2021]: Code postal et Ville *
+                    - generic [ref=f40e2022]:
+                      - textbox "Code postal" [ref=f40e2025]
+                      - combobox "Ville" [ref=f40e2028] [cursor=pointer]:
+                        - option "Aucune ville trouvée" [disabled] [selected]
+                - generic [ref=f40e2030]:
+                  - generic [ref=f40e2031]:
+                    - generic [ref=f40e2032]: Usage *
+                    - generic [ref=f40e2033] [cursor=pointer]: "?"
+                  - generic "..." [ref=f40e2036]:
+                    - button "Promenade / Trajet travail" [ref=f40e2038] [cursor=pointer]
+                    - button "Professionnel" [ref=f40e2040] [cursor=pointer]
+                - text: "* ? * ?"
+                - generic [ref=f40e2041]:
+                  - generic [ref=f40e2042]: ÊTES-VOUS OU AVEZ-VOUS DÉJÀ ÉTÉ SOCIÉTAIRE ? *
+                  - generic "..." [ref=f40e2046]:
+                    - button "Oui" [ref=f40e2048] [cursor=pointer]
+                    - button "Non" [ref=f40e2050] [cursor=pointer]
+                - text: "* * * * *"
+                - generic [ref=f40e2052]:
+                  - heading "Expérience moto/scooter (hors 50cc) du conducteur principal ?" [level=2] [ref=f40e2053]:
+                    - generic [ref=f40e2054]:
+                      - text: Expérience moto/scooter (hors 50cc) du conducteur principal
+                      - generic [ref=f40e2055] [cursor=pointer]: "?"
+                  - generic [ref=f40e2056]:
+                    - generic [ref=f40e2057]:
+                      - generic [ref=f40e2058]:
+                        - generic [ref=f40e2059]: Nombre d'années d'assurance *
+                        - generic [ref=f40e2060]: Pas de nombre à virgule. Si vous avez moins d'1 an d'assurance, veuillez indiquer " 0 ".
+                      - spinbutton "Nombre d'années d'assurance en moto" [ref=f40e2063]
+                    - generic [ref=f40e2064]:
+                      - generic [ref=f40e2065]:
+                        - generic [ref=f40e2066]: Bonus / Malus *
+                        - generic [ref=f40e2067] [cursor=pointer]: "?"
+                      - generic "..." [ref=f40e2070]:
+                        - button "Bonus" [ref=f40e2072] [cursor=pointer]
+                        - button "Malus" [ref=f40e2074] [cursor=pointer]
+                        - button "Ni bonus, ni malus" [ref=f40e2076] [cursor=pointer]
+                    - generic [ref=f40e2077]:
+                      - generic [ref=f40e2078]: Nombre d'accidents responsables ces 2 dernières années *
+                      - generic "..." [ref=f40e2083]:
+                        - button "Aucun" [ref=f40e2085] [cursor=pointer]
+                        - button "1" [ref=f40e2087] [cursor=pointer]
+                        - button "2" [ref=f40e2089] [cursor=pointer]
+                        - button "3 et +" [ref=f40e2091] [cursor=pointer]
+                - generic [ref=f40e2093]:
+                  - heading "Votre expérience auto" [level=2] [ref=f40e2094]
+                  - generic [ref=f40e2095]: La mutuelle prend en compte votre meilleur bonus, auto ou moto, pour vous offrir le tarif le plus bas !
+                  - generic [ref=f40e2096]:
+                    - generic [ref=f40e2097]:
+                      - generic [ref=f40e2098]:
+                        - generic [ref=f40e2099]: Nombre d'années d'assurance *
+                        - generic [ref=f40e2100]: Pas de nombre à virgule. Si vous avez moins d'1 an d'assurance, veuillez indiquer " 0 ".
+                      - spinbutton "Nombre d'années d'assurance en auto" [ref=f40e2103]
+                    - generic [ref=f40e2104]:
+                      - generic [ref=f40e2105]:
+                        - generic [ref=f40e2106]: Bonus / Malus *
+                        - generic [ref=f40e2107] [cursor=pointer]: "?"
+                      - generic "..." [ref=f40e2110]:
+                        - button "Bonus" [ref=f40e2112] [cursor=pointer]
+                        - button "Malus" [ref=f40e2114] [cursor=pointer]
+                        - button "Ni bonus, ni malus" [ref=f40e2116] [cursor=pointer]
+                    - generic [ref=f40e2117]:
+                      - generic [ref=f40e2118]: Nombre d'accidents responsables ces 2 dernières années *
+                      - generic "..." [ref=f40e2123]:
+                        - button "Aucun" [ref=f40e2125] [cursor=pointer]
+                        - button "1" [ref=f40e2127] [cursor=pointer]
+                        - button "2" [ref=f40e2129] [cursor=pointer]
+                        - button "3 et +" [ref=f40e2131] [cursor=pointer]
+                - generic [ref=f40e2132]:
+                  - generic [ref=f40e2133]: Avez-vous fait l'objet d'une résiliation ou annulation de contrat par un précédent assureur ? *
+                  - generic "..." [ref=f40e2136]:
+                    - button "Oui" [ref=f40e2138] [cursor=pointer]
+                    - button "Non" [ref=f40e2140] [cursor=pointer]
+                  - generic [ref=f40e2141]: Au cours des 36 derniers mois, avez-vous fait l’objet d’un retrait, suspension ou annulation de permis pour conduite en état d'ivresse ? *
+                  - generic "..." [ref=f40e2144]:
+                    - button "Oui" [ref=f40e2146] [cursor=pointer]
+                    - button "Non" [ref=f40e2148] [cursor=pointer]
+                - text: "* * * * *"
+                - button "Calculez votre tarif" [ref=f40e2151] [cursor=pointer]
+            - paragraph [ref=f40e85]: "* Champs obligatoires"
+        - generic [ref=f40e88]:
+          - generic [ref=f40e89]:
+            - generic [ref=f40e90]: Tous droits réservés
+            - text: Société d'assurance mutuelle à cotisations variables, entreprise régie par le code des assurances
+          - link "Mentions légales" [ref=f40e93] [cursor=pointer]:
+            - /url: https://www.mutuelledesmotards.fr/mentions-legales
+  - button "Besoin d’aide <span>?</span>" [ref=f40e94] [cursor=pointer]:
+    - generic: Besoin d’aide ?

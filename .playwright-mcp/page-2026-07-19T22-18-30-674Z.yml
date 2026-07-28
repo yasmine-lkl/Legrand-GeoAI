@@ -1,0 +1,65 @@
+- generic [ref=f7e1]:
+  - generic [ref=f7e2]:
+    - banner [ref=f7e3]:
+      - generic:
+        - generic:
+          - link "Assurance AMV":
+            - /url: https://www.amv.fr
+            - img "Assurance AMV" [ref=f7e5] [cursor=pointer]
+    - generic [ref=f7e8]:
+      - generic [ref=f7e10]:
+        - img "Devis assurance scooter" [ref=f7e12]
+        - heading "Votre assurance scooter" [level=1] [ref=f7e13]
+      - generic [ref=f7e15]:
+        - list [ref=f7e19]:
+          - listitem [ref=f7e20]:
+            - link "Votre véhicule" [ref=f7e22] [cursor=pointer]:
+              - /url: scooter_vehicule.aspx?id=c94ozB5deUsAbq15NIb2ww~~
+          - listitem [ref=f7e23]: Vous
+          - listitem [ref=f7e25]: Vos déclarations
+          - listitem [ref=f7e26]: Votre tarif
+          - listitem [ref=f7e27]: Souscription
+        - generic [ref=f7e28]:
+          - heading " Vos informations" [level=2] [ref=f7e29]:
+            - generic [ref=f7e30]: 
+            - text: Vos informations
+          - generic [ref=f7e31]: Le souscripteur du contrat doit être le titulaire du compte à débiter.
+          - generic [ref=f7e35]:
+            - generic [ref=f7e74]:
+              - generic [ref=f7e75]: Vous êtes
+              - combobox [ref=f7e77] [cursor=pointer]:
+                - generic [ref=f7e79]: Monsieur
+            - generic [ref=f7e81]:
+              - generic [ref=f7e82]: Date de naissance
+              - generic [ref=f7e83]:
+                - textbox [active] [ref=f7e84]: 12/02/2003
+                - img "Sélectionnez une date" [ref=f7e85]
+              - generic [ref=f7e87]:
+                - text: Si le conducteur est mineur, le contrat doit être établi au nom de son
+                - strong [ref=f7e88]: représentant légal majeur
+                - text: (père, mère, tuteur), sous réserve que l'un ET l'autre correspondent à l’ensemble de nos conditions de souscription et soient titulaires du permis de conduire en rapport avec la cylindrée du véhicule à assurer (BSR, permis AM, permis AL, A1, A et B).
+          - generic [ref=f7e51]:
+            - link "Suivant " [ref=f7e52] [cursor=pointer]:
+              - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$SampleContent$btnValider$btnButton", "", true, "", "", false, true))
+              - text: Suivant
+              - generic [ref=f7e53]: 
+            - link " Précédent" [ref=f7e54] [cursor=pointer]:
+              - /url: javascript:__doPostBack('ctl00$SampleContent$btnPrecedent$btnButton','')
+              - generic [ref=f7e55]: 
+              - text: Précédent
+    - contentinfo [ref=f7e60]:
+      - generic [ref=f7e63]:
+        - list [ref=f7e64]:
+          - list [ref=f7e65]:
+            - listitem [ref=f7e66]:
+              - link "Mentions légales" [ref=f7e67] [cursor=pointer]:
+                - /url: https://www.amv.fr/mentions-legales
+            - listitem [ref=f7e68]:
+              - link "Protection des données" [ref=f7e69] [cursor=pointer]:
+                - /url: https://www.amv.fr/protection-des-donnees/
+            - listitem [ref=f7e70]:
+              - link "Gérer mes cookies" [ref=f7e71] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=f7e72]: AMV, leader de l'assurance scooter et moto, propose des solutions en ligne adaptées aux particuliers. Choisissez parmi notre gamme complète de formules d'assurance, incluant l'assurance moto de collection, 4X4, jetski, quad, et bien plus encore. Personnalisez vos contrats en ajoutant des garanties spécifiques en fonction de votre véhicule et de vos besoins réels. Obtenez rapidement un devis et souscrivez votre contrat en ligne. Nos experts sont là pour vous guider et répondre à vos questions. Découvrez l'histoire des constructeurs moto et leurs modèles de référence. Optez pour l'excellence avec AMV, votre assurance moto scooter. Note de satisfaction de 4,7/5 selon les 5286 clients interrogés par Avis Vérifiés.
+    - generic "titre dialog"
+  - button "Besoin d’aide ?" [ref=f7e73] [cursor=pointer]: Besoin d’aide ? ?

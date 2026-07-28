@@ -1,0 +1,77 @@
+# ============================================================
+# Legrand GeoAI — Docker Compose (Infrastructure only)
+# ============================================================
+# Pour le développement local : lance Postgres + Hatchet + Ollama
+# Usage : docker compose -f docker-compose.dev.yml up -d
+# Dashboard Hatchet : http://localhost:8888
+# ============================================================
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: geoai
+      POSTGRES_PASSWORD: geoai_dev_2024
+      POSTGRES_DB: legrand_geoai
+    ports:
+      - "5435:5432"
+    volumes:
+      - pg_data_dev:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U geoai -d legrand_geoai"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # --- Hatchet (orchestrateur de tâches) ---
+  hatchet-postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: hatchet
+      POSTGRES_PASSWORD: hatchet_dev_2024
+      POSTGRES_DB: hatchet
+    ports:
+      - "5436:5432"
+    volumes:
+      - hatchet_pg_data_dev:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U hatchet -d hatchet"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  hatchet:
+    image: ghcr.io/hatchet-dev/hatchet/hatchet-lite:latest
+    restart: unless-stopped
+    ports:
+      - "8888:8888"   # Dashboard + API
+      - "7077:7077"   # gRPC (workers / client)
+    environment:
+      DATABASE_URL: "postgresql://hatchet:hatchet_dev_2024@hatchet-postgres:5432/hatchet?sslmode=disable"
+      SERVER_GRPC_BIND_ADDRESS: "0.0.0.0"
+      SERVER_GRPC_INSECURE: "t"
+      SERVER_GRPC_PORT: "7077"
+      SERVER_GRPC_BROADCAST_ADDRESS: "localhost:7077"
+      SERVER_URL: "http://localhost:8888"
+      SERVER_AUTH_SET_EMAIL_VERIFIED: "t"
+      SERVER_DEFAULT_ENGINE_VERSION: "V1"
+    depends_on:
+      hatchet-postgres:
+        condition: service_healthy
+
+  ollama:
+    image: ollama/ollama:latest
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models_dev:/root/.ollama
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+
+volumes:
+  pg_data_dev:
+  hatchet_pg_data_dev:
+  ollama_models_dev:

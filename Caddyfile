@@ -1,0 +1,45 @@
+# ============================================================
+# Legrand GeoAI — Caddy Reverse Proxy
+# ============================================================
+
+{
+	admin off
+	local_certs
+}
+
+{$CADDY_DOMAIN:localhost} {
+	tls internal
+
+	# --- Security Headers ---
+	header {
+		X-Frame-Options "DENY"
+		X-Content-Type-Options "nosniff"
+		X-XSS-Protection "1; mode=block"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		Permissions-Policy "camera=(), microphone=(), geolocation=()"
+		-Server
+	}
+
+	# --- API → Backend FastAPI ---
+	handle /api/* {
+		reverse_proxy backend:8000
+	}
+
+	# --- Dashboard Hatchet (observabilité du pipeline) ---
+	handle_path /hatchet/* {
+		reverse_proxy hatchet:8888
+	}
+
+	# --- Frontend → Next.js ---
+	handle {
+		reverse_proxy frontend:3000
+	}
+
+	# --- Access Logs ---
+	log {
+		output stdout
+		format json
+		level INFO
+	}
+}

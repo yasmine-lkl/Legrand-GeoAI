@@ -1,0 +1,517 @@
+- generic [ref=f16e1]:
+  - dialog "Bienvenue chez APRIL Moto Gestion du consentement" [ref=f16e4]:
+    - document [active] [ref=f16e5]:
+      - heading "Logo" [level=1] [ref=f16e7]
+      - generic [ref=f16e8]:
+        - paragraph [ref=f16e10]:
+          - text: Gestion des cookiesAvec votre accord, nous et
+          - button "nos 5 partenaires" [ref=f16e11] [cursor=pointer]
+          - text: utilisons des cookies ou technologies similaires pour stocker, consulter et traiter des données personnelles telles que votre visite sur ce site internet, les adresses IP et les identifiants de cookie. Certains partenaires ne demandent pas votre consentement pour traiter vos données et se fondent sur leur intérêt commercial légitime. À tout moment, vous pouvez retirer votre consentement ou vous opposer au traitement des données fondé sur l'intérêt légitime en cliquant sur « En savoir plus » ou en allant dans notre politique de confidentialité sur ce site internet.
+        - paragraph [ref=f16e13]:
+          - heading "Vos données personnelles sont traitées pour les finalités suivantes:" [level=2] [ref=f16e14]
+          - generic [ref=f16e15]: Mesure d'audience, Publicités et contenu personnalisés, mesure de performance des publicités et du contenu, études d’audience et développement de services, Stocker et/ou accéder à des informations sur un appareil
+      - generic [ref=f16e16]:
+        - 'button "En savoir plus: Configurer vos consentements" [ref=f16e17] [cursor=pointer]': En savoir plus →
+        - button "Refuser & Fermer" [ref=f16e18] [cursor=pointer]
+        - 'button "Accepter & Fermer: Accepter notre traitement des données et fermer" [ref=f16e19] [cursor=pointer]': Accepter & Fermer
+  - link "Aller au contenu principal" [ref=f16e20] [cursor=pointer]:
+    - /url: "#main_content"
+  - generic [ref=f16e21]:
+    - banner [ref=f16e22]:
+      - generic [ref=f16e27]:
+        - link "APRIL Moto - Accueil" [ref=f16e28] [cursor=pointer]:
+          - /url: https://www.april-moto.com/
+          - img "APRIL Moto" [ref=f16e29]
+        - generic [ref=f16e30]:
+          - link "Espace assuré (nouvelle fenêtre)" [ref=f16e31] [cursor=pointer]:
+            - generic: Espace assuré
+          - button "Ouvrir le menu" [ref=f16e32] [cursor=pointer]
+    - main [ref=f16e37]:
+      - generic [ref=f16e38]:
+        - generic [ref=f16e41]:
+          - generic [ref=f16e42]:
+            - generic [ref=f16e44]:
+              - paragraph [ref=f16e45]:
+                - generic [ref=f16e46]: Souscription immédiate
+                - img "✓" [ref=f16e47]
+              - paragraph [ref=f16e48]:
+                - generic [ref=f16e49]: Contrats simples
+                - img "✓" [ref=f16e50]
+              - paragraph [ref=f16e51]:
+                - generic [ref=f16e52]: Garanties solides
+                - img "✓" [ref=f16e53]
+            - img "April Moto partenaire de Johann Zarco" [ref=f16e55]
+            - generic [ref=f16e56]:
+              - img "Logo Liberty Rider" [ref=f16e57]
+              - generic [ref=f16e58]:
+                - img "Abonnement Premium Offert" [ref=f16e59]
+                - paragraph [ref=f16e60]: ABONNEMENTPREMIUM OFFERT
+          - generic [ref=f16e63]:
+            - heading "Le spécialiste de l’assurance moto et de l’assurance scooter" [level=1] [ref=f16e64]
+            - paragraph [ref=f16e65]: Depuis plus de 35 ans !
+            - paragraph [ref=f16e66]:
+              - generic [ref=f16e67]: 4.4/5
+              - link "Voir les avis" [ref=f16e68] [cursor=pointer]:
+                - /url: https://www.april-moto.com/vos-avis-comptent-pour-nous/
+              - img "notes APRIL Moto" [ref=f16e69]
+            - generic:
+              - button "Obtenir mon tarif (3 min)" [ref=f16e71] [cursor=pointer]
+              - generic [ref=f16e72]:
+                - paragraph [ref=f16e74]: Paiement sécurisé
+                - 'img "Moyens de paiement acceptés : Visa, Mastercard, American Express, prélèvement SEPA" [ref=f16e75]'
+        - list [ref=f16e80]:
+          - listitem [ref=f16e81]:
+            - link "Assurance Moto" [ref=f16e82] [cursor=pointer]:
+              - /url: https://www.april-moto.com/assurance-moto/
+              - generic:
+                - text: Assurance
+                - strong: Moto
+          - listitem [ref=f16e83]:
+            - link "Assurance Scooter" [ref=f16e84] [cursor=pointer]:
+              - /url: https://www.april-moto.com/assurance-scooter/
+              - generic:
+                - text: Assurance
+                - strong: Scooter
+          - listitem [ref=f16e85]:
+            - link "Assurance Cyclo 50cm3" [ref=f16e86] [cursor=pointer]:
+              - /url: https://www.april-moto.com/cyclo-50cm3/
+              - generic:
+                - text: Assurance
+                - strong:
+                  - text: Cyclo 50cm
+                  - superscript: "3"
+          - listitem [ref=f16e87]:
+            - link "Assurance Moto tout terrain" [ref=f16e88] [cursor=pointer]:
+              - generic:
+                - text: Assurance
+                - strong: Moto tout terrain
+          - listitem [ref=f16e89]:
+            - link "Assurance Quad" [ref=f16e90] [cursor=pointer]:
+              - /url: https://www.april-moto.com/assurance-quad/
+              - generic:
+                - text: Assurance
+                - strong: Quad
+          - listitem [ref=f16e91]:
+            - link "Assurance Livraison" [ref=f16e92] [cursor=pointer]:
+              - /url: https://www.april-moto.com/assurance-livraison-50-cc/
+              - generic:
+                - text: Assurance
+                - strong: Livraison
+          - listitem [ref=f16e93]:
+            - link "Assurance Vélo" [ref=f16e94] [cursor=pointer]:
+              - /url: https://www.april-moto.com/assurance-velo/
+              - generic:
+                - text: Assurance
+                - strong: Vélo
+          - listitem [ref=f16e95]:
+            - link "Assurance Trottinette" [ref=f16e96] [cursor=pointer]:
+              - /url: https://www.april-moto.com/assurance-trottinette/
+              - generic:
+                - text: Assurance
+                - strong: Trottinette
+        - generic [ref=f16e97]:
+          - heading "Les plus de notre assurance moto et scooter selon le Label Excellence 2026" [level=2] [ref=f16e102]
+          - generic [ref=f16e105]:
+            - generic [ref=f16e107]:
+              - img "Label Excellence APRIL Moto 2026" [ref=f16e110]
+              - generic [ref=f16e112]:
+                - paragraph [ref=f16e117]: Option "Assistance complémentaire" avec panne 0 km et véhicule de remplacement jusqu'à 20 jours en cas de vol
+                - paragraph [ref=f16e122]: Couverture en option des accessoires et équipements jusqu'à 10 000 €
+                - paragraph [ref=f16e127]: Garantie conducteur en option sur toutes les formules jusqu'à 1,2M€
+                - paragraph [ref=f16e132]: "Indemnisation du véhicule parmi les plus performantes du banc d'essai : valeur d'achat pendant 12 mois extensible à 24 mois"
+                - paragraph [ref=f16e137]: Rachat de franchise en option si votre moto est volée, détruite ou endommagée au cours d'un évènement couvert
+                - paragraph [ref=f16e142]: Garantie mécanique pour les véhicules de moins de 10 ans et couverture du remplacement des pièces et main d'oeuvre
+            - generic [ref=f16e143]:
+              - heading "Profitez de nos offres partenaires pour toute souscription d'un contrat 2-roues" [level=3] [ref=f16e144]
+              - generic [ref=f16e145]:
+                - generic [ref=f16e146]:
+                  - img "Le logo orange Liberty Rider et le texte « ✓ ABONNEMENT PREMIUM OFFERT » sont affichés sur un bandeau vert, séparés par une ligne verticale." [ref=f16e147]
+                  - link "En savoir plus sur Liberty Rider (nouvelle fenêtre)" [ref=f16e150] [cursor=pointer]: En savoir plus
+                - generic [ref=f16e151]:
+                  - 'img "Le logo SENTIDRIVE, représentant un œil stylisé, est placé à côté du texte : « 15% de réduction sur votre traceur GPS » sur un fond blanc." [ref=f16e152]'
+                  - link "En savoir plus sur Sentidrive (nouvelle fenêtre)" [ref=f16e155] [cursor=pointer]: En savoir plus
+                - link "En savoir plus sur In & Motion (nouvelle fenêtre)" [ref=f16e159] [cursor=pointer]: En savoir plus
+                - link "En savoir plus sur Certimat (nouvelle fenêtre)" [ref=f16e163] [cursor=pointer]: En savoir plus
+                - generic [ref=f16e164]:
+                  - 'img "Une bannière publicitaire présente les logos DEKRA, NORISKO et AUTOCONTROL à côté du texte suivant : « 15 % de réduction sur votre contrôle technique »." [ref=f16e165]'
+                  - link "En savoir plus sur Dekra (nouvelle fenêtre)" [ref=f16e168] [cursor=pointer]: En savoir plus
+        - generic [ref=f16e170]:
+          - paragraph [ref=f16e172]:
+            - text: 96%
+            - generic [ref=f16e173]:
+              - text: de nos assurés sont satisfaits
+              - generic [ref=f16e174]: "Source : NPS MOAI 2024"
+          - heading "Ils donnent leur avis" [level=2] [ref=f16e175]
+          - generic [ref=f16e176]:
+            - paragraph [ref=f16e177]: 4.4/5
+            - link [ref=f16e178] [cursor=pointer]:
+              - img "Opinion assurances" [ref=f16e179]
+          - generic "Avis clients" [ref=f16e180]:
+            - group "Avis 1 sur 3" [ref=f16e181]:
+              - generic [ref=f16e182]:
+                - generic [ref=f16e183]: 5/5
+                - blockquote [ref=f16e185]: Très satisfait des prestations, choix, prix. C'est mon fils qui m'a fait découvrir cette enseigne pour sa moto. J'ai eu 3 contrats chez AXA durant une trentaine d'années et pas plus de fidélisation, 1 voiture et deux 2 roues. Je gagne - 40% de prime ! Bravo
+                - generic [ref=f16e186]: 08/07/2026
+            - group "Avis 2 sur 3" [ref=f16e187]:
+              - generic [ref=f16e188]:
+                - generic [ref=f16e189]: 5/5
+                - blockquote [ref=f16e191]: Le service a été très satisfaisant et très rapide merci de ce service bonne journée.
+                - generic [ref=f16e192]: 08/07/2026
+            - group "Avis 3 sur 3" [ref=f16e193]:
+              - generic [ref=f16e194]:
+                - generic [ref=f16e195]: 5/5
+                - blockquote [ref=f16e197]: Je suis satisfait de la rapidité et de la qualité de service. Merci beaucoup.
+                - generic [ref=f16e198]: 08/07/2026
+          - link "Voir tous les avis clients APRIL Moto" [ref=f16e201] [cursor=pointer]:
+            - /url: https://www.april-moto.com/vos-avis-comptent-pour-nous/
+            - text: Voir tous les avis
+        - generic [ref=f16e204]:
+          - generic [ref=f16e206]:
+            - heading "TRACK THE PRO" [level=2] [ref=f16e207]
+            - generic [ref=f16e208]:
+              - heading "Johann Zarco vous explique l’assurance deux-roues" [level=2] [ref=f16e209]
+              - paragraph [ref=f16e211]:
+                - text: Découvrez une série de vidéos exclusives où Johann Zarco, pilote de Grand Prix moto et ambassadeur APRIL Moto, échange avec
+                - strong [ref=f16e212]: nos experts
+                - text: sur les garanties et termes clés de l’assurance deux-roues afin de
+                - strong [ref=f16e213]: mieux comprendre l’assurance moto
+                - text: ". Franchise, avis d’échéance, options de protection : chaque vidéo vous offre des explications claires et simples pour faire le bon choix d’assurance. Faites de l’assurance moto un jeu d’enfant avec"
+                - emphasis [ref=f16e214]: Track the Pro
+                - text: "!"
+            - link "Voir plus de vidéos" [ref=f16e216] [cursor=pointer]:
+              - /url: https://www.april-moto.com/nos-videos/
+              - text: Voir plus
+          - generic "Vidéos Track the pro avec Johann Zarco" [ref=f16e218]:
+            - group "Vidéo 1 sur 4" [ref=f16e219]:
+              - button "Lire la vidéo 1" [ref=f16e221] [cursor=pointer]
+            - group "Vidéo 2 sur 4" [ref=f16e223]:
+              - button "Lire la vidéo 2" [ref=f16e225] [cursor=pointer]
+            - group "Vidéo 3 sur 4" [ref=f16e227]:
+              - button "Lire la vidéo 3" [ref=f16e229] [cursor=pointer]
+            - group "Vidéo 4 sur 4" [ref=f16e231]:
+              - button "Lire la vidéo 4" [ref=f16e233] [cursor=pointer]
+        - generic [ref=f16e237]:
+          - button "Voir le spot TV APRIL Moto" [ref=f16e239] [cursor=pointer]:
+            - img "Vu à la télé !" [ref=f16e240]
+          - generic [ref=f16e242]:
+            - heading [level=2] [ref=f16e243]:
+              - text: Avec APRIL Moto,
+              - strong [ref=f16e244]: roulez en toute confiance
+            - heading [level=3] [ref=f16e245]:
+              - text: APRIL Moto imagine, conçoit et gère depuis 1984 des
+              - strong [ref=f16e246]: contrats d'assurance spécialement développés pour la pratique du deux-roues
+            - paragraph [ref=f16e247]: Notre connaissance approfondie du marché et le savoir-faire de nos partenaires (compagnie, protection juridique, assistance...) nous permettent de proposer des garanties et des options sur-mesure à des tarifs parmi les plus bas du marché, avec un service irréprochable et une maîtrise technique de nos risques.
+            - generic [ref=f16e248]:
+              - img "Guide et Conseil" [ref=f16e249]
+              - paragraph [ref=f16e250]: Besoin d’un conseil ?
+              - paragraph [ref=f16e251]: Besoin d'informations sur nos offres d'assurance ? N'attendez plus etparcourez notre guide dédiéà l'assurance des deux-roues.
+              - link "Consultez notre guide" [ref=f16e252] [cursor=pointer]:
+                - /url: https://www.april-moto.com/guides-et-conseils/
+        - link "Actualités de Johann Zarco (nouvelle fenêtre)" [ref=f16e256] [cursor=pointer]:
+          - img "Actualités de Johann Zarco"
+        - generic [ref=f16e261]:
+          - heading "Vous avez une question ? Nos pros des deux-roues vous répondent !" [level=2] [ref=f16e265]: Vous avez une question ?Nos pros des deux-rouesvous répondent !
+          - generic [ref=f16e266]:
+            - link [ref=f16e267] [cursor=pointer]:
+              - paragraph [ref=f16e269]: Consultez la FAQ
+            - link [ref=f16e271] [cursor=pointer]:
+              - paragraph [ref=f16e273]: Contactez-nous
+            - link [ref=f16e275] [cursor=pointer]:
+              - paragraph [ref=f16e277]: Suivez-nous sur Facebook !
+        - generic [ref=f16e283]:
+          - img "Avec APRIL Moto, roulez en toute confiance" [ref=f16e286]
+          - generic [ref=f16e288]:
+            - heading "APRIL Moto, c'est aussi..." [level=2] [ref=f16e289]
+            - generic [ref=f16e290]:
+              - heading "Liberty Rider inclus dans votre contrat" [level=3] [ref=f16e293]
+              - paragraph [ref=f16e294]: L’abonnement Premium à l’application Liberty Rider est inclus gratuitement avec votre contrat APRIL Moto.
+            - generic [ref=f16e295]:
+              - 'heading "In&Motion : 3 mois de location offerts" [level=3] [ref=f16e298]'
+              - paragraph [ref=f16e299]: En achetant un gilet airbag équipé de la technologie In&motion, vous bénéficiez de 3 mois de location offerts à la In&box REVOLUTION grâce à APRIL Moto.
+            - generic [ref=f16e300]:
+              - 'heading "Sentidrive : 15% offerts sur votre traceur" [level=3] [ref=f16e303]'
+              - paragraph [ref=f16e304]: "Remise de 15% sur l'un des traceurs développés par Sentidrive : Sentinelle, Sentinelle Mini ou Sentinelle Air."
+            - generic [ref=f16e305]:
+              - heading "Une assistance 24/24 et 7/7" [level=3] [ref=f16e308]
+              - paragraph [ref=f16e309]: "Bénéficiez de plusieurs options d'assistance pour être dépanné partout et tout le temps ! Numéro de l'assistance : 01 49 93 65 82"
+            - generic [ref=f16e310]:
+              - heading "Des conseils sur mesure" [level=3] [ref=f16e313]
+              - paragraph [ref=f16e314]: L'équipe APRIL Moto connaît votre dossier et se fait un devoir de vous accompagner et de vous conseiller à chaque étape de votre vie.
+            - generic [ref=f16e315]:
+              - heading "Signature en ligne sécurisée" [level=3] [ref=f16e318]
+              - paragraph [ref=f16e319]: Vous signez numériquement votre contrat de manière totalement sécurisée pour gagner du temps.
+        - generic [ref=f16e321]:
+          - heading "Vous accompagner de motard à motard." [level=2] [ref=f16e322]
+          - paragraph [ref=f16e323]: Conseils d’achat et d’entretien, législation, nouvelles offres APRIL Moto... Consultez notre blog pour vous tenir au courant des dernières actualités des motards.
+          - heading "Les derniers articles du blog" [level=3] [ref=f16e324]
+          - generic [ref=f16e326]:
+            - generic [ref=f16e330]:
+              - 'link "Lire l''article : Remonter une file de voitures à moto : que dit vraiment le Code de la route ?" [ref=f16e331] [cursor=pointer]':
+                - /url: https://www.april-moto.com/remonter-une-file-de-voitures-a-moto-que-dit-vraiment-le-code-de-la-route/
+                - 'heading "Remonter une file de voitures à moto : que dit vraiment le Code de la route ?" [level=3] [ref=f16e332]'
+              - generic [ref=f16e333]: 16/07/2026
+            - generic [ref=f16e337]:
+              - 'link "Lire l''article : Peugeot 103 électrique : la légende renaît pour une nouvelle génération" [ref=f16e338] [cursor=pointer]':
+                - /url: https://www.april-moto.com/peugeot-103-electrique-la-legende-renait-pour-une-nouvelle-generation/
+                - 'heading "Peugeot 103 électrique : la légende renaît pour une nouvelle génération" [level=3] [ref=f16e339]'
+              - generic [ref=f16e340]: 09/07/2026
+            - generic [ref=f16e344]:
+              - 'link "Lire l''article : Comment nettoyer l’intérieur de son casque de moto en 6 étapes" [ref=f16e345] [cursor=pointer]':
+                - /url: https://www.april-moto.com/comment-nettoyer-linterieur-de-son-casque-de-moto-en-6-etapes/
+                - heading "Comment nettoyer l’intérieur de son casque de moto en 6 étapes" [level=3] [ref=f16e346]
+              - generic [ref=f16e347]: 07/07/2026
+          - link "Voir toutes les actualités" [ref=f16e349] [cursor=pointer]:
+            - /url: https://www.april-moto.com/blog/
+        - generic [ref=f16e354]:
+          - generic [ref=f16e357]:
+            - heading "Déjà assuré APRIL Moto ?" [level=2] [ref=f16e358]
+            - paragraph [ref=f16e359]: Garanties, couvertures, relevés... Retrouvez toutes vos infos dans votre espace assuré.
+          - link "Mon espace assuré" [ref=f16e362] [cursor=pointer]
+        - generic [ref=f16e363]:
+          - heading "Actualités, essais, dossiers... tout l'univers de la moto est sur" [level=2] [ref=f16e364]
+          - img "Repaire des Motards"
+          - generic [ref=f16e366]:
+            - 'link "Lire la suite : Essai" [ref=f16e368] [cursor=pointer]':
+              - generic [ref=f16e370]:
+                - paragraph [ref=f16e371]: Suzuki SV-7GX
+                - paragraph [ref=f16e372]: Essai
+                - paragraph [ref=f16e373]: Suzuki ressort une nouvelle fois son twin 650
+                - text: Lire la suite
+            - 'link "Lire la suite : Essai" [ref=f16e375] [cursor=pointer]':
+              - generic [ref=f16e376]:
+                - img "Scooter Peugeot Pulsion EVO 125"
+              - generic [ref=f16e377]:
+                - paragraph [ref=f16e378]: Scooter Peugeot Pulsion Evo 125
+                - paragraph [ref=f16e379]: Essai
+                - paragraph [ref=f16e380]: La part du lion ?
+                - text: Lire la suite
+            - 'link "Lire la suite : Essai" [ref=f16e382] [cursor=pointer]':
+              - generic [ref=f16e384]:
+                - paragraph [ref=f16e385]: Comparatif Moto Guzzi Stelvio PFF vs Ducati Multistrada V2
+                - paragraph [ref=f16e386]: Essai
+                - paragraph [ref=f16e387]: Laquelle vous parle mieux italien ?
+                - text: Lire la suite
+          - paragraph [ref=f16e388]:
+            - strong [ref=f16e389]:
+              - text: APRIL Moto partenaire
+              - link "lerepairedesmotards.com (nouvelle fenêtre)" [ref=f16e390] [cursor=pointer]: lerepairedesmotards.com
+        - generic [ref=f16e393]:
+          - heading "La FAQ assurance deux roues d’APRIL Moto" [level=2] [ref=f16e397]
+          - generic [ref=f16e398]:
+            - heading "J’ai acheté un véhicule, dois-je l’assurer ?" [level=3] [ref=f16e401]
+            - paragraph [ref=f16e402]: Pour couvrir vos motos contre les dommages que vous pourriez subir ou occasionner, vous devez souscrire à un contrat d’assurance. Selon la loi, tout véhicule terrestre à moteur doit être assuré en responsabilité civile. C’est la garantie minimale obligatoire à avoir. Elle permet, lors d’accidents de la circulation, d’indemniser le tiers auquel vous auriez pu occasionner des dommages.
+          - generic [ref=f16e403]:
+            - heading "Quelle formule choisir pour assurer ma moto ?" [level=3] [ref=f16e406]
+            - paragraph [ref=f16e407]: "Il existe différentes formules pour assurer votre deux-roues. Les 3 principaux niveaux de garantie sont l’assurance au tiers (obligatoire), l’assurance vol-incendie et l’assurance tous-risques. La garantie tous-risques est le niveau maximum de couverture proposé par les assureurs. Vous pouvez ensuite ajouter des options : l’option accessoires et équipements (pour couvrir votre casque par exemple), l’assistance panne ou encore l’option rachat de franchise."
+          - generic [ref=f16e408]:
+            - heading "Suis-je protégé en cas d’accident responsable ?" [level=3] [ref=f16e411]
+            - paragraph [ref=f16e412]: En cas d’accident responsable votre contrat d’assurance ne couvre pas les dommages corporels que vous pourriez subir. Aucun motard ne veut y penser, pourtant le risque est réel. C’est pourquoi, il fortement conseillé de souscrire à l’option protection corporelle du conducteur, afin d’être bien protégé.
+          - generic [ref=f16e413]:
+            - heading "Quel est le prix d’une assurance deux-roues ?" [level=3] [ref=f16e416]
+            - paragraph [ref=f16e417]: Que vous souhaitez assurer votre auto ou votre deux-roues, le tarif dépend de nombreux critères. Pour connaître le coût pour assurer votre véhicule, vous pouvez réaliser un devis en ligne en 2 minutes, rien de plus simple ! Vous pouvez aussi contacter nos conseillers qui vous aideront à créer le contrat d’assurance le plus adapté à vos besoins.
+        - text: ▼
+        - generic [ref=f16e418]:
+          - list [ref=f16e422]:
+            - listitem [ref=f16e423]:
+              - list [ref=f16e424]:
+                - listitem [ref=f16e425]:
+                  - link "Espace assuré" [ref=f16e426] [cursor=pointer]
+                - listitem [ref=f16e427]:
+                  - link "FAQ" [ref=f16e428] [cursor=pointer]
+                - listitem [ref=f16e429]:
+                  - link "Accès courtier" [ref=f16e430] [cursor=pointer]
+                - listitem [ref=f16e431]:
+                  - link "Contact" [ref=f16e432] [cursor=pointer]
+                - listitem [ref=f16e433]:
+                  - link "Blog" [ref=f16e434] [cursor=pointer]:
+                    - /url: https://www.april-moto.com/blog/
+                - listitem [ref=f16e435]:
+                  - link "Codes Promos" [ref=f16e436] [cursor=pointer]
+                - listitem [ref=f16e437]:
+                  - 'link "Accessibilité : partiellement conforme" [ref=f16e438] [cursor=pointer]'
+                - listitem [ref=f16e439]:
+                  - link "Résilier mon contrat" [ref=f16e440] [cursor=pointer]
+                - listitem [ref=f16e441]:
+                  - link "Renoncer à mon Contrat" [ref=f16e442] [cursor=pointer]
+                - listitem [ref=f16e443]:
+                  - link "Plan du site" [ref=f16e444] [cursor=pointer]
+            - listitem [ref=f16e445]:
+              - link "Suivez-nous" [ref=f16e446] [cursor=pointer]:
+                - /url: "#"
+              - list [ref=f16e447]:
+                - listitem [ref=f16e448]:
+                  - link "Facebook" [ref=f16e449] [cursor=pointer]
+                - listitem [ref=f16e450]:
+                  - link "Instagram" [ref=f16e451] [cursor=pointer]
+                - listitem [ref=f16e452]:
+                  - link "Linkedin" [ref=f16e453] [cursor=pointer]
+                - listitem [ref=f16e454]:
+                  - link "Youtube" [ref=f16e455] [cursor=pointer]:
+                    - /url: https://www.youtube-nocookie.com/playlist?list=PLMdi6YczweXkohiWRl0eA1k1pq4daray4
+            - listitem [ref=f16e456]:
+              - link "Obtenir votre devis" [ref=f16e457] [cursor=pointer]:
+                - /url: "#"
+              - list [ref=f16e458]:
+                - listitem [ref=f16e459]:
+                  - link "Devis assurance Moto" [ref=f16e460] [cursor=pointer]
+                - listitem [ref=f16e461]:
+                  - link "Devis assurance Scooter" [ref=f16e462] [cursor=pointer]
+                - listitem [ref=f16e463]:
+                  - link "Devis assurance Cyclo 50" [ref=f16e464] [cursor=pointer]
+                - listitem [ref=f16e465]:
+                  - link "Devis assurance Moto Tout Terrain" [ref=f16e466] [cursor=pointer]
+                - listitem [ref=f16e467]:
+                  - link "Devis assurance Quad" [ref=f16e468] [cursor=pointer]
+                - listitem [ref=f16e469]:
+                  - link "Devis assurance Livraison" [ref=f16e470] [cursor=pointer]
+                - listitem [ref=f16e471]:
+                  - link "Devis assurance Vélo" [ref=f16e472] [cursor=pointer]
+                - listitem [ref=f16e473]:
+                  - link "Devis assurance Trottinette" [ref=f16e474] [cursor=pointer]
+            - listitem [ref=f16e475]:
+              - link "A propos d’APRIL" [ref=f16e476] [cursor=pointer]:
+                - /url: "#"
+              - list [ref=f16e477]:
+                - listitem [ref=f16e478]:
+                  - link "Groupe APRIL" [ref=f16e479] [cursor=pointer]:
+                    - /url: https://www.april-moto.com/groupe-april/
+                - listitem [ref=f16e480]:
+                  - link "Qui sommes-nous ?" [ref=f16e481] [cursor=pointer]
+                - listitem [ref=f16e482]:
+                  - link "Fondation APRIL" [ref=f16e483] [cursor=pointer]
+          - generic [ref=f16e484]:
+            - separator [ref=f16e486]
+            - generic [ref=f16e488]:
+              - paragraph [ref=f16e490]: "Informations règlementaires :"
+              - list [ref=f16e491]:
+                - listitem [ref=f16e492]:
+                  - link "Conditions générales d’Utilisation" [ref=f16e493] [cursor=pointer]
+                - listitem [ref=f16e494]:
+                  - link "Gestion des cookies" [ref=f16e495] [cursor=pointer]
+                - listitem [ref=f16e496]:
+                  - link "Politique de données personnelles" [ref=f16e497] [cursor=pointer]
+                - listitem [ref=f16e498]:
+                  - link "Fonctionnement du Tarificateur" [ref=f16e499] [cursor=pointer]
+                - listitem [ref=f16e500]:
+                  - link "Faire une réclamation" [ref=f16e501] [cursor=pointer]
+                - listitem [ref=f16e502]:
+                  - link "Résilier mon contrat" [ref=f16e503] [cursor=pointer]
+            - separator [ref=f16e505]
+          - generic [ref=f16e508]:
+            - img "APRIL Moto" [ref=f16e510]
+            - list [ref=f16e511]:
+              - listitem [ref=f16e512]:
+                - link "APRIL Santé" [ref=f16e513] [cursor=pointer]
+              - listitem [ref=f16e514]:
+                - link "APRIL Emprunteur" [ref=f16e515] [cursor=pointer]
+              - listitem [ref=f16e516]:
+                - link "APRIL Prévoyance" [ref=f16e517] [cursor=pointer]
+              - listitem [ref=f16e518]:
+                - link "APRIL International" [ref=f16e519] [cursor=pointer]:
+                  - /url: https://www.april-international.com/fr
+              - listitem [ref=f16e520]:
+                - link "APRIL Moto" [ref=f16e521] [cursor=pointer]
+              - listitem [ref=f16e522]:
+                - link "APRIL Marine" [ref=f16e523] [cursor=pointer]
+              - listitem [ref=f16e524]:
+                - link "APRIL Auto" [ref=f16e525] [cursor=pointer]
+        - navigation "Navigation rapide":
+          - generic:
+            - button "Fermer le menu rapide" [ref=f16e526] [cursor=pointer]
+            - button "Devis & Contact - Ouvrir le menu rapide" [ref=f16e527] [cursor=pointer]:
+              - generic: Devis & Contact
+        - button "Ouvrir le panneau d'accessibilité" [ref=f16e528] [cursor=pointer]
+        - dialog "Paramètres d'accessibilité" [ref=f16e529]:
+          - generic [ref=f16e530]:
+            - heading "Accessibilité" [level=2] [ref=f16e531]
+            - generic [ref=f16e532]:
+              - button "Réinitialiser" [ref=f16e533] [cursor=pointer]
+              - button "Fermer le panneau d'accessibilité" [ref=f16e534] [cursor=pointer]
+          - generic [ref=f16e536]:
+            - group "Vision" [ref=f16e537]:
+              - generic [ref=f16e539]:
+                - generic [ref=f16e540]:
+                  - generic [ref=f16e541]: Dyslexie
+                  - button "Détails du filtre Dyslexie" [ref=f16e542]:
+                    - generic [ref=f16e543]: "?"
+                - generic [ref=f16e544] [cursor=pointer]:
+                  - switch "Dyslexie"
+              - generic [ref=f16e546]:
+                - generic [ref=f16e547]:
+                  - generic [ref=f16e548]: Senior
+                  - button "Détails du filtre Senior" [ref=f16e549]:
+                    - generic [ref=f16e550]: "?"
+                - generic [ref=f16e551] [cursor=pointer]:
+                  - switch "Senior"
+              - generic [ref=f16e553]:
+                - generic [ref=f16e554]:
+                  - generic [ref=f16e555]: Malvoyance
+                  - button "Détails du filtre Malvoyance" [ref=f16e556]:
+                    - generic [ref=f16e557]: "?"
+                - generic [ref=f16e558] [cursor=pointer]:
+                  - switch "Malvoyance"
+              - generic [ref=f16e560]:
+                - generic [ref=f16e561]:
+                  - generic [ref=f16e562]: Presbytie
+                  - button "Détails du filtre Presbytie" [ref=f16e563]:
+                    - generic [ref=f16e564]: "?"
+                - generic [ref=f16e565] [cursor=pointer]:
+                  - switch "Presbytie"
+              - generic [ref=f16e567]:
+                - generic [ref=f16e568]:
+                  - generic [ref=f16e569]: Cataracte
+                  - button "Détails du filtre Cataracte" [ref=f16e570]:
+                    - generic [ref=f16e571]: "?"
+                - generic [ref=f16e572] [cursor=pointer]:
+                  - switch "Cataracte"
+              - generic [ref=f16e574]:
+                - generic [ref=f16e575]:
+                  - generic [ref=f16e576]: DMLA
+                  - button "Détails du filtre DMLA" [ref=f16e577]:
+                    - generic [ref=f16e578]: "?"
+                - generic [ref=f16e579] [cursor=pointer]:
+                  - switch "DMLA"
+            - group "Confort" [ref=f16e581]:
+              - generic [ref=f16e583]:
+                - generic [ref=f16e584]:
+                  - generic [ref=f16e585]: Fatigue visuelle
+                  - button "Détails du filtre Fatigue visuelle" [ref=f16e586]:
+                    - generic [ref=f16e587]: "?"
+                - generic [ref=f16e588] [cursor=pointer]:
+                  - switch "Fatigue visuelle"
+              - generic [ref=f16e590]:
+                - generic [ref=f16e591]:
+                  - generic [ref=f16e592]: Migraine
+                  - button "Détails du filtre Migraine" [ref=f16e593]:
+                    - generic [ref=f16e594]: "?"
+                - generic [ref=f16e595] [cursor=pointer]:
+                  - switch "Migraine"
+              - generic [ref=f16e597]:
+                - generic [ref=f16e598]:
+                  - generic [ref=f16e599]: Confort de lecture
+                  - button "Détails du filtre Confort de lecture" [ref=f16e600]:
+                    - generic [ref=f16e601]: "?"
+                - generic [ref=f16e602] [cursor=pointer]:
+                  - switch "Confort de lecture"
+              - generic [ref=f16e604]:
+                - generic [ref=f16e605]:
+                  - generic [ref=f16e606]: Épilepsie photosensible
+                  - button "Détails du filtre Épilepsie photosensible" [ref=f16e607]:
+                    - generic [ref=f16e608]: "?"
+                - generic [ref=f16e609] [cursor=pointer]:
+                  - switch "Épilepsie photosensible"
+              - generic [ref=f16e611]:
+                - generic [ref=f16e612]:
+                  - generic [ref=f16e613]: Trouble de l'attention
+                  - button "Détails du filtre Trouble de l'attention" [ref=f16e614]:
+                    - generic [ref=f16e615]: "?"
+                - generic [ref=f16e616] [cursor=pointer]:
+                  - switch "Trouble de l'attention"
+            - group "Motricité" [ref=f16e618]:
+              - generic [ref=f16e620]:
+                - generic [ref=f16e621]:
+                  - generic [ref=f16e622]: Motricité réduite
+                  - button "Détails du filtre Motricité réduite" [ref=f16e623]:
+                    - generic [ref=f16e624]: "?"
+                - generic [ref=f16e625] [cursor=pointer]:
+                  - switch "Motricité réduite"

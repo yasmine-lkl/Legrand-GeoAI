@@ -1,0 +1,53 @@
+- generic [active] [ref=f43e1]:
+  - generic [ref=f43e2]:
+    - banner [ref=f43e3]:
+      - generic:
+        - generic:
+          - link "Assurance AMV":
+            - /url: https://www.amv.fr
+            - img "Assurance AMV" [ref=f43e5] [cursor=pointer]
+    - list [ref=f43e13]:
+      - listitem [ref=f43e14]:
+        - link "AMV" [ref=f43e15] [cursor=pointer]:
+          - /url: https://www.amv.fr
+        - generic [ref=f43e16]: 
+      - listitem [ref=f43e17]:
+        - link "Assurance Scooter" [ref=f43e18] [cursor=pointer]:
+          - /url: https://www.amv.fr/moto/assurance-scooter/assurance-scooter.aspx
+        - generic [ref=f43e19]: 
+      - listitem [ref=f43e20]: Devis Assurance Scooter
+    - generic [ref=f43e23]:
+      - generic [ref=f43e25]:
+        - img "Devis assurance scooter" [ref=f43e27]
+        - heading "Devis assurance scooter" [level=1] [ref=f43e28]
+      - generic [ref=f43e32]:
+        - generic [ref=f43e33]:
+          - generic [ref=f43e34]: 
+          - text: Obtenir un tarif
+        - link "Vous êtes client " [ref=f43e35] [cursor=pointer]:
+          - /url: javascript:;
+          - text: Vous êtes client
+          - generic [ref=f43e36]: 
+        - link "Vous n'êtes pas client " [ref=f43e37] [cursor=pointer]:
+          - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$SampleContent$btnPasClientAMV$btnButton", "", true, "", "", false, true))
+          - text: Vous n'êtes pas client
+          - generic [ref=f43e38]: 
+        - generic [ref=f43e39]:
+          - text: Lors de la tarification, vous pourrez
+          - strong [ref=f43e40]: enregistrer votre tarif
+          - text: ou
+          - strong [ref=f43e41]: recevoir votre devis par mail.
+    - contentinfo [ref=f43e46]:
+      - list [ref=f43e50]:
+        - list [ref=f43e51]:
+          - listitem [ref=f43e52]:
+            - link "Mentions légales" [ref=f43e53] [cursor=pointer]:
+              - /url: https://www.amv.fr/mentions-legales
+          - listitem [ref=f43e54]:
+            - link "Protection des données" [ref=f43e55] [cursor=pointer]:
+              - /url: https://www.amv.fr/protection-des-donnees/
+          - listitem [ref=f43e56]:
+            - link "Gérer mes cookies" [ref=f43e57] [cursor=pointer]:
+              - /url: "#"
+    - generic "titre dialog"
+  - text:  

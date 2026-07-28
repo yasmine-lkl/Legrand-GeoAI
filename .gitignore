@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+.next/
+out/
+.pnpm-store/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Docker volumes
+volumes/
+backend/storage/
+
+# Data (documents importés + base vectorielle — ne pas pousser)
+*.db
+*.sqlite3
+data/
+data/uploads/
+data/chromadb/
+
+# Supports de présentation (matériel de réunion, pas du code)
+*.pptx
+Legrand-GeoAI-Script-Presentation.pdf
+*.docx
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Coverage
+htmlcov/
+.coverage
+.pytest_cache/
+.mypy_cache/
+
+# Build artifacts
+*.tar.gz
+*.whl
+
+# LibreOffice lock files
+.~lock.*#

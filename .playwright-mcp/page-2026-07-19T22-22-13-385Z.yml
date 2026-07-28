@@ -1,0 +1,261 @@
+- generic [ref=f15e2]:
+  - banner [ref=f15e3]:
+    - generic:
+      - generic:
+        - link "Assurance AMV":
+          - /url: https://www.amv.fr
+          - img "Assurance AMV" [ref=f15e5] [cursor=pointer]
+  - generic [ref=f15e8]:
+    - generic [ref=f15e10]:
+      - img "Devis assurance scooter" [ref=f15e12]
+      - heading "Votre assurance scooter" [level=1] [ref=f15e13]
+    - generic [ref=f15e15]:
+      - list [ref=f15e19]:
+        - listitem [ref=f15e20]:
+          - link "Votre véhicule" [ref=f15e22] [cursor=pointer]:
+            - /url: scooter_vehicule.aspx?id=c94ozB5deUsAbq15NIb2ww~~
+        - listitem [ref=f15e23]:
+          - link "Vous" [ref=f15e25] [cursor=pointer]:
+            - /url: scooter_vous.aspx?id=c94ozB5deUsAbq15NIb2ww~~
+        - listitem [ref=f15e26]:
+          - link "Vos déclarations" [ref=f15e28] [cursor=pointer]:
+            - /url: scooter_conditions_souscription.aspx?id=c94ozB5deUsAbq15NIb2ww~~
+        - listitem [ref=f15e29]: Votre tarif
+        - listitem [ref=f15e31]: Souscription
+      - generic [ref=f15e33]:
+        - generic [ref=f15e35]:
+          - strong [ref=f15e36]: AMV vous recommande
+          - text: les garanties et option(s) les plus adaptées à votre situation.
+        - heading " Choisissez votre formule - Cliquez sur votre tarif" [level=2] [ref=f15e38]:
+          - generic [ref=f15e39]: 
+          - text: Choisissez votre formule - Cliquez sur votre tarif
+        - table [ref=f15e41]:
+          - rowgroup [ref=f15e42]:
+            - row [ref=f15e43]:
+              - columnheader [ref=f15e44]
+              - columnheader [ref=f15e45]:
+                - strong [ref=f15e46]: Tarifannuel
+                - text: TTC
+              - columnheader [ref=f15e47]:
+                - strong [ref=f15e48]: Tarifsemestriel
+                - text: TTC
+              - columnheader [ref=f15e49]:
+                - strong [ref=f15e50]: Tarifmensuel
+                - text: TTC
+            - row [ref=f15e51]:
+              - rowheader "Formule 1 Resp. civile, Assist.juridique, Casque, Gants, Gilet Airbag" [ref=f15e52]:
+                - generic [ref=f15e53]: Formule 1   
+                - generic [ref=f15e56]: Resp. civile, Assist.juridique, Casque, Gants, Gilet Airbag
+              - cell [ref=f15e57] [cursor=pointer]:
+                - generic [ref=f15e58]:
+                  - text: "213"
+                  - superscript [ref=f15e59]: €
+              - cell [ref=f15e60] [cursor=pointer]:
+                - generic [ref=f15e61]:
+                  - text: "110"
+                  - superscript [ref=f15e62]: ",60€"
+              - cell [ref=f15e63] [cursor=pointer]:
+                - generic [ref=f15e64]:
+                  - text: "19"
+                  - superscript [ref=f15e65]: ",90€"
+            - row [ref=f15e66]:
+              - rowheader "Formule 2 Formule 1 + Vol / incendie" [ref=f15e67]:
+                - generic [ref=f15e68]: Formule 2    
+                - generic [ref=f15e71]: Formule 1 + Vol / incendie
+              - cell [ref=f15e72] [cursor=pointer]:
+                - generic [ref=f15e73]:
+                  - text: "316"
+                  - superscript [ref=f15e74]: €
+              - cell [ref=f15e75] [cursor=pointer]:
+                - generic [ref=f15e76]:
+                  - text: "164"
+                  - superscript [ref=f15e77]: ",20€"
+              - cell [ref=f15e78] [cursor=pointer]:
+                - generic [ref=f15e79]:
+                  - text: "28"
+                  - superscript [ref=f15e80]: ",90€"
+            - row [ref=f15e81]:
+              - rowheader "Formule 3 Formule 2 + Dommages accident \"tous risques\"" [ref=f15e82]:
+                - generic [ref=f15e83]:
+                  - generic [ref=f15e84]: Formule 3
+                  - text:     
+                - generic [ref=f15e86]: Formule 2 + Dommages accident "tous risques"
+              - cell [ref=f15e87] [cursor=pointer]:
+                - generic [ref=f15e88]:
+                  - text: "442"
+                  - superscript [ref=f15e89]: €
+              - cell [ref=f15e90] [cursor=pointer]:
+                - generic [ref=f15e91]:
+                  - text: "229"
+                  - superscript [ref=f15e92]: ",60€"
+              - cell [ref=f15e93] [cursor=pointer]:
+                - generic [ref=f15e94]:
+                  - text: "39"
+                  - superscript [ref=f15e95]: ",90€"
+        - heading " Ajoutez des options - Cliquez sur votre tarif" [level=2] [ref=f15e97]:
+          - generic [ref=f15e98]: 
+          - text: Ajoutez des options - Cliquez sur votre tarif
+        - table [ref=f15e100]:
+          - rowgroup [ref=f15e101]:
+            - row [ref=f15e102]:
+              - columnheader [ref=f15e103]
+              - columnheader [ref=f15e104]:
+                - strong [ref=f15e105]: Tarifannuel
+                - text: TTC
+              - columnheader [ref=f15e106]:
+                - strong [ref=f15e107]: Tarifsemestriel
+                - text: TTC
+              - columnheader [ref=f15e108]:
+                - strong [ref=f15e109]: Tarifmensuel
+                - text: TTC
+            - row [ref=f15e110]:
+              - rowheader "Individuelle Pilote Capital en cas de décès ou invalidité" [ref=f15e111]:
+                - generic [ref=f15e112]: Individuelle Pilote
+                - generic [ref=f15e115]: Capital en cas de décès ou invalidité
+              - cell [ref=f15e116] [cursor=pointer]:
+                - generic [ref=f15e117]:
+                  - text: "36"
+                  - superscript [ref=f15e118]: €
+              - cell [ref=f15e119] [cursor=pointer]:
+                - generic [ref=f15e120]:
+                  - text: "18"
+                  - superscript [ref=f15e121]: ",60€"
+              - cell [ref=f15e122] [cursor=pointer]:
+                - generic [ref=f15e123]:
+                  - text: "3"
+                  - superscript [ref=f15e124]: ",10€"
+            - row [ref=f15e125]:
+              - rowheader "Assistance Panne et accident 0km" [ref=f15e126]:
+                - generic [ref=f15e127]: Assistance
+                - generic [ref=f15e130]: Panne et accident 0km
+              - cell [ref=f15e131] [cursor=pointer]:
+                - generic [ref=f15e132]:
+                  - text: "41"
+                  - superscript [ref=f15e133]: €
+              - cell [ref=f15e134] [cursor=pointer]:
+                - generic [ref=f15e135]:
+                  - text: "21"
+                  - superscript [ref=f15e136]: ",20€"
+              - cell [ref=f15e137] [cursor=pointer]:
+                - generic [ref=f15e138]:
+                  - text: "3"
+                  - superscript [ref=f15e139]: ",60€"
+            - row [ref=f15e140]:
+              - rowheader "Option plus Accessoires + tenue moto + valeur à neuf 18 mois" [ref=f15e141]:
+                - generic [ref=f15e142]: Option plus
+                - generic [ref=f15e145]: Accessoires + tenue moto + valeur à neuf 18 mois
+              - cell [ref=f15e146] [cursor=pointer]:
+                - generic [ref=f15e147]:
+                  - text: "49"
+                  - superscript [ref=f15e148]: €
+              - cell [ref=f15e149] [cursor=pointer]:
+                - generic [ref=f15e150]:
+                  - text: "25"
+                  - superscript [ref=f15e151]: ",40€"
+              - cell [ref=f15e152] [cursor=pointer]:
+                - generic [ref=f15e153]:
+                  - text: "4"
+                  - superscript [ref=f15e154]: ",30€"
+        - text:                      
+        - generic [ref=f15e155]:
+          - text: Consultez le
+          - link "Document d’Information sur le Produit d’Assurance moto" [ref=f15e156] [cursor=pointer]:
+            - /url: https://www.amv.fr/docs/docs/IPID_AMV_MOTO_EQ.pdf
+          - text: Consultez les
+          - link "dispositions générales Moto" [ref=f15e157] [cursor=pointer]:
+            - /url: https://www.amv.fr/docs/docs/DG_MOTO_Equite.pdf
+          - generic [ref=f15e158]:
+            - text: et les
+            - link "dispositions générales d'assistance" [ref=f15e159] [cursor=pointer]:
+              - /url: https://www.amv.fr/docs/docs/DG_AMVAssistance_EA.pdf
+        - generic [ref=f15e160]:
+          - link " Précédent" [ref=f15e161] [cursor=pointer]:
+            - /url: javascript:__doPostBack('ctl00$SampleContent$btnPrecedent$btnButton','')
+            - generic [ref=f15e162]: 
+            - text: Précédent
+          - link "Souscrire " [ref=f15e163] [cursor=pointer]:
+            - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$SampleContent$btnValider$btnButton", "", true, "", "", false, true))
+            - text: Souscrire
+            - generic [ref=f15e164]: 
+        - generic [ref=f15e165]:
+          - link "Enregistrer mon tarif" [ref=f15e166] [cursor=pointer]:
+            - /url: javascript:__doPostBack('ctl00$SampleContent$btnMemoriserDevis','')
+          - link "Recevoir mon devis" [ref=f15e167] [cursor=pointer]:
+            - /url: javascript:__doPostBack('ctl00$SampleContent$btnDemanderDevis','')
+    - generic [ref=f15e169]:
+      - generic [ref=f15e171]:
+        - heading "Votre tarif" [level=3] [ref=f15e172]
+        - generic [ref=f15e173]:
+          - heading "Votre véhicule" [level=4] [ref=f15e174]
+          - generic [ref=f15e176]:
+            - generic [ref=f15e177]: JM MOTORS OLDIES 50
+            - text: "50"
+          - generic [ref=f15e178]:
+            - strong [ref=f15e179]: Pour souscrire,
+            - text: veuillez sélectionner votre formule et vos options.
+          - generic [ref=f15e180]:
+            - link "Souscrire " [ref=f15e182] [cursor=pointer]:
+              - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$uscMenuPush$btnSouscrire$btnButton", "", true, "", "", false, true))
+              - text: Souscrire
+              - generic [ref=f15e183]: 
+            - link "Détail des garanties" [ref=f15e184] [cursor=pointer]:
+              - /url: javascript:__doPostBack('ctl00$uscMenuPush$btnDetailGaranties','')
+          - generic [ref=f15e185]:
+            - link "Enregistrer mon tarif " [ref=f15e186] [cursor=pointer]:
+              - /url: javascript:__doPostBack('ctl00$uscMenuPush$btnMemoriserDevis$btnButton','')
+              - text: Enregistrer mon tarif
+              - generic [ref=f15e187]: 
+            - link "Recevoir mon devis " [ref=f15e188] [cursor=pointer]:
+              - /url: javascript:__doPostBack('ctl00$uscMenuPush$btnRecevoirDevis$btnButton','')
+              - text: Recevoir mon devis
+              - generic [ref=f15e189]: 
+      - generic [ref=f15e191]:
+        - heading "Pourquoi choisir AMV ?" [level=3] [ref=f15e192]
+        - generic [ref=f15e194]:
+          - generic [ref=f15e195]:
+            - img "module" [ref=f15e197]
+            - generic [ref=f15e198]: Pas de droits d'entrée
+          - generic [ref=f15e199]:
+            - img "module" [ref=f15e201]
+            - generic [ref=f15e202]: Franchises plafonnées
+          - generic [ref=f15e203]:
+            - img "module" [ref=f15e205]
+            - generic [ref=f15e206]: Gestion personnalisée en cas de sinistre
+          - generic [ref=f15e207]:
+            - img "module" [ref=f15e209]
+            - generic [ref=f15e210]: Pas d'avance de frais en cas de réparation
+          - generic [ref=f15e211]:
+            - img "label_excellence" [ref=f15e213]
+            - generic [ref=f15e214]: Label Excellence 2022 obtenu pour la compétitivité des tarifs et des garanties
+      - generic [ref=f15e216]:
+        - heading "Changer d'assurance" [level=3] [ref=f15e217]
+        - generic [ref=f15e220]:
+          - img "module" [ref=f15e222]
+          - generic [ref=f15e223]:
+            - paragraph [ref=f15e224]: Dès maintenant, résiliez votre assurance actuelle pour rejoindre AMV !
+            - strong [ref=f15e225]: AMV s’occupe de tout.
+            - link "En savoir plus" [ref=f15e226] [cursor=pointer]:
+              - /url: scooter_aide_resiliation.aspx?id=c94ozB5deUsAbq15NIb2ww~~
+      - generic [ref=f15e228]:
+        - heading "Une Question ? Une Réponse !" [level=3] [ref=f15e229]
+        - generic [ref=f15e232]:
+          - img "module" [ref=f15e234]
+          - list [ref=f15e236]:
+            - listitem [ref=f15e237]:
+              - link "Comment s'assurer ?" [ref=f15e238] [cursor=pointer]:
+                - /url: scooter_comment_sassurer.aspx?id=c94ozB5deUsAbq15NIb2ww~~
+  - contentinfo [ref=f15e242]:
+    - generic [ref=f15e245]:
+      - list [ref=f15e246]:
+        - list [ref=f15e247]:
+          - listitem [ref=f15e248]:
+            - link "Mentions légales" [ref=f15e249] [cursor=pointer]:
+              - /url: https://www.amv.fr/mentions-legales
+          - listitem [ref=f15e250]:
+            - link "Protection des données" [ref=f15e251] [cursor=pointer]:
+              - /url: https://www.amv.fr/protection-des-donnees/
+          - listitem [ref=f15e252]:
+            - link "Gérer mes cookies" [ref=f15e253] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=f15e254]: AMV, leader de l'assurance scooter et moto, propose des solutions en ligne adaptées aux particuliers. Choisissez parmi notre gamme complète de formules d'assurance, incluant l'assurance moto de collection, 4X4, jetski, quad, et bien plus encore. Personnalisez vos contrats en ajoutant des garanties spécifiques en fonction de votre véhicule et de vos besoins réels. Obtenez rapidement un devis et souscrivez votre contrat en ligne. Nos experts sont là pour vous guider et répondre à vos questions. Découvrez l'histoire des constructeurs moto et leurs modèles de référence. Optez pour l'excellence avec AMV, votre assurance moto scooter. Note de satisfaction de 4,7/5 selon les 5286 clients interrogés par Avis Vérifiés.
+  - generic "titre dialog"

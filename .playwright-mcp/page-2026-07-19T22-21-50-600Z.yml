@@ -1,0 +1,96 @@
+- generic [ref=f14e2]:
+  - banner [ref=f14e3]:
+    - generic:
+      - generic:
+        - link "Assurance AMV":
+          - /url: https://www.amv.fr
+          - img "Assurance AMV" [ref=f14e5] [cursor=pointer]
+  - generic [ref=f14e8]:
+    - generic [ref=f14e10]:
+      - img "Devis assurance scooter" [ref=f14e12]
+      - heading "Votre assurance scooter" [level=1] [ref=f14e13]
+    - generic [ref=f14e15]:
+      - list [ref=f14e19]:
+        - listitem [ref=f14e20]:
+          - link "Votre véhicule" [ref=f14e22] [cursor=pointer]:
+            - /url: scooter_vehicule.aspx?id=c94ozB5deUsAbq15NIb2ww~~
+        - listitem [ref=f14e23]:
+          - link "Vous" [ref=f14e25] [cursor=pointer]:
+            - /url: scooter_vous.aspx?id=c94ozB5deUsAbq15NIb2ww~~
+        - listitem [ref=f14e26]: Vos déclarations
+        - listitem [ref=f14e28]: Votre tarif
+        - listitem [ref=f14e29]: Souscription
+      - generic [ref=f14e30]:
+        - heading " Vos déclarations" [level=2] [ref=f14e31]:
+          - generic [ref=f14e32]: 
+          - text: Vos déclarations
+        - generic [ref=f14e33]:
+          - generic [ref=f14e34]:
+            - text: Au cours des
+            - strong [ref=f14e35]: 36 derniers mois
+            - text: ", avec un véhicule vous appartenant ou non (AUTO ou MOTO), vous déclarez :"
+          - generic [ref=f14e36]:
+            - generic [ref=f14e37]: Nombre de sinistre(s) responsable(s) ou partiellement responsable(s)
+            - combobox [ref=f14e39] [cursor=pointer]:
+              - generic [ref=f14e41]: Choisissez...
+          - generic [ref=f14e42]:
+            - generic [ref=f14e43]: Nombre de sinistre(s) non responsable(s) (accident, vol et incendie)
+            - combobox [ref=f14e46] [cursor=pointer]:
+              - generic [ref=f14e48]: Choisissez...
+            - generic [ref=f14e49]: Attention, n'indiquez pas vos bris de glace.
+          - generic [ref=f14e51]:
+            - generic [ref=f14e52]: Un retrait de permis de plus de trois mois
+            - toolbar [ref=f14e55]:
+              - generic [ref=f14e56]:
+                - radio "Oui" [ref=f14e57]
+                - generic [ref=f14e58] [cursor=pointer]: Oui
+                - radio "Non" [ref=f14e60]
+                - generic [ref=f14e61] [cursor=pointer]: Non
+          - generic [ref=f14e64]:
+            - generic [ref=f14e65]: Une condamnation pour conduite sous l'emprise d'un état alcoolique et / ou de stupéfiants
+            - toolbar [ref=f14e67]:
+              - generic [ref=f14e68]:
+                - radio "Oui" [ref=f14e69]
+                - generic [ref=f14e70] [cursor=pointer]: Oui
+                - radio "Non" [ref=f14e72]
+                - generic [ref=f14e73] [cursor=pointer]: Non
+          - generic [ref=f14e76]:
+            - generic [ref=f14e77]: Un contrat d’assurance auto ou moto résilié par un précédent assureur
+            - toolbar [ref=f14e79]:
+              - generic [ref=f14e80]:
+                - radio "Oui" [ref=f14e81]
+                - generic [ref=f14e82] [cursor=pointer]: Oui
+                - radio "Non" [ref=f14e84]
+                - generic [ref=f14e85] [cursor=pointer]: Non
+          - generic [ref=f14e88]:
+            - generic [ref=f14e89]: "Utilisez-vous votre véhicule pour des transports rémunérés de personnes ou de marchandises? (ex: coursiers, taxis ...)"
+            - toolbar [ref=f14e92]:
+              - generic [ref=f14e93]:
+                - radio "Oui" [ref=f14e94]
+                - generic [ref=f14e95] [cursor=pointer]: Oui
+                - radio "Non" [ref=f14e97]
+                - generic [ref=f14e98] [cursor=pointer]: Non
+        - generic [ref=f14e100]:
+          - link "Suivant " [ref=f14e101] [cursor=pointer]:
+            - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$SampleContent$btnValider$btnButton", "", true, "", "", false, true))
+            - text: Suivant
+            - generic [ref=f14e102]: 
+          - link " Précédent" [ref=f14e103] [cursor=pointer]:
+            - /url: javascript:__doPostBack('ctl00$SampleContent$btnPrecedent$btnButton','')
+            - generic [ref=f14e104]: 
+            - text: Précédent
+  - contentinfo [ref=f14e109]:
+    - generic [ref=f14e112]:
+      - list [ref=f14e113]:
+        - list [ref=f14e114]:
+          - listitem [ref=f14e115]:
+            - link "Mentions légales" [ref=f14e116] [cursor=pointer]:
+              - /url: https://www.amv.fr/mentions-legales
+          - listitem [ref=f14e117]:
+            - link "Protection des données" [ref=f14e118] [cursor=pointer]:
+              - /url: https://www.amv.fr/protection-des-donnees/
+          - listitem [ref=f14e119]:
+            - link "Gérer mes cookies" [ref=f14e120] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=f14e121]: AMV, leader de l'assurance scooter et moto, propose des solutions en ligne adaptées aux particuliers. Choisissez parmi notre gamme complète de formules d'assurance, incluant l'assurance moto de collection, 4X4, jetski, quad, et bien plus encore. Personnalisez vos contrats en ajoutant des garanties spécifiques en fonction de votre véhicule et de vos besoins réels. Obtenez rapidement un devis et souscrivez votre contrat en ligne. Nos experts sont là pour vous guider et répondre à vos questions. Découvrez l'histoire des constructeurs moto et leurs modèles de référence. Optez pour l'excellence avec AMV, votre assurance moto scooter. Note de satisfaction de 4,7/5 selon les 5286 clients interrogés par Avis Vérifiés.
+  - generic "titre dialog"

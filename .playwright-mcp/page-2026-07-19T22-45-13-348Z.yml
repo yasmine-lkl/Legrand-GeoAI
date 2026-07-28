@@ -1,0 +1,58 @@
+- generic [ref=f41e1]:
+  - button "Manage your preferences about cookies" [ref=f41e2] [cursor=pointer]
+  - generic [ref=f41e351]:
+    - heading "Tarificateur - Tarificateur" [level=1] [ref=f41e352]
+    - main [ref=f41e353]:
+      - generic [ref=f41e363]:
+        - link [ref=f41e369] [cursor=pointer]:
+          - /url: /web/tarificateur/calcul
+        - text:  * * *  * * *
+        - generic [ref=f41e373]:
+          - generic [ref=f41e375]:
+            - generic [ref=f41e376]: Nos conseillers experts moto à votre écoute
+            - generic [ref=f41e378]:
+              - generic [ref=f41e379]: Demande de rappel
+              - generic [ref=f41e383]:
+                - strong
+              - generic [ref=f41e384]: 04 67 50 67 50
+          - generic [ref=f41e391]:
+            - generic [ref=f41e392]:
+              - generic [ref=f41e394]:
+                - generic [ref=f41e395]:
+                  - paragraph [ref=f41e396]: Calculez votre tarif
+                  - generic [ref=f41e397]:
+                    - generic [ref=f41e398]: 
+                    - text: En 2 minutes chrono !
+                  - heading "Votre véhicule" [level=2] [ref=f41e399]
+                - link [ref=f41e402] [cursor=pointer]:
+                  - /url: https://www.avis-verifies.com/avis-clients/mutuelledesmotards.fr
+                  - img "Avis Vérifiés - 4.8 sur 5 - 5812 avis clients" [ref=f41e403]
+              - generic [ref=f41e404]:
+                - generic [ref=f41e405]:
+                  - generic [ref=f41e406]: Date de 1ère immatriculation *
+                  - generic [ref=f41e407] [cursor=pointer]: "?"
+                - textbox "Date de 1ère immatriculation" [ref=f41e410]:
+                  - /placeholder: JJ/MM/AAAA
+                  - text: 03/10/2018
+                - generic [ref=f41e412]:
+                  - text: Vous allez acheter un véhicule non immatriculé ? Sélectionnez
+                  - generic [ref=f41e413] [cursor=pointer]: la date d'aujourd'hui
+              - generic [ref=f41e418]:
+                - text: "*"
+                - generic:
+                  - generic [ref=f41e455]: Marque *
+                  - generic [ref=f41e458]:
+                    - 'textbox "Saisir la marque ex: Honda" [active] [ref=f41e460]': JM
+                    - list [ref=f41e461]:
+                      - listitem [ref=f41e462] [cursor=pointer]: JMSTAR
+                      - listitem [ref=f41e463] [cursor=pointer]: JM MOTORS
+                      - listitem [ref=f41e464] [cursor=pointer]: JMS
+                - generic [ref=f41e424] [cursor=pointer]: Marques favorites
+              - text: "* * *  * ? * ? * ? * * ? * ? * ? * * * * * * ? * * ? * * * ? * * * * * * * *"
+            - paragraph [ref=f41e425]: "* Champs obligatoires"
+        - generic [ref=f41e428]:
+          - generic [ref=f41e429]:
+            - generic [ref=f41e430]: Tous droits réservés
+            - text: Société d'assurance mutuelle à cotisations variables, entreprise régie par le code des assurances
+          - link "Mentions légales" [ref=f41e433] [cursor=pointer]:
+            - /url: https://www.mutuelledesmotards.fr/mentions-legales

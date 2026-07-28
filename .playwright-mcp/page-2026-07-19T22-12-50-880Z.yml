@@ -1,0 +1,518 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - link "Retourner à l'accueil" [ref=e6] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e10]:
+        - generic [ref=e11]: Nos assurances
+        - link "Besoin d'aide ?" [ref=e20] [cursor=pointer]:
+          - /url: /besoin-daide/
+      - generic [ref=e21]:
+        - link "Retrouver un devis" [ref=e23] [cursor=pointer]:
+          - /url: /retrouver-un-devis/#
+        - link "Mon Espace AMV" [ref=e25] [cursor=pointer]:
+          - /url: /mon-espace-amv/
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - 'img "AMV: image fond" [ref=e31]'
+        - generic:
+          - 'img "AMV: AMV: premier plan"'
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - heading "Bienvenue chez AMV L ’assurance 2 roues" [level=1] [ref=e35]:
+              - generic [ref=e36]: Bienvenue chez AMV
+              - generic [ref=e37]:
+                - text: L ’assurance
+                - generic [ref=e38]: "2"
+                - text: roues
+            - generic [ref=e39]:
+              - generic [ref=e40]: Tarif sans engagement
+              - generic [ref=e43]: Assurance immédiate 24h/24
+          - generic [ref=e47]:
+            - generic [ref=e48]:
+              - generic [ref=e49]: Obtenez votre tarif
+              - generic [ref=e50]: en quelques clics !
+            - generic [ref=e53]:
+              - generic [ref=e54]:
+                - link "Moto" [ref=e55] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+                - link "Scooter" [ref=e60] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-scooter/assurance-scooter.aspx
+                - link "Ancien & Collection" [ref=e65] [cursor=pointer]:
+                  - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+              - generic [ref=e74]:
+                - link "Auto et 4x4" [ref=e75] [cursor=pointer]:
+                  - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+                - link "Quad" [ref=e81] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-quad/assurance-quad.aspx
+                - link "Prestige" [ref=e85] [cursor=pointer]:
+                  - /url: https://www.amv.fr/auto/assurance-prestige/amvgt_tarif_devis_assurance_en_ligne_accueil.aspx
+              - generic [ref=e92]:
+                - link "Scooter des mers" [ref=e93] [cursor=pointer]:
+                  - /url: https://www.amv.fr/jet-ski/assurance-jet-ski/devis-assurance-jetski.asp
+                - link "Camping-car" [ref=e98] [cursor=pointer]:
+                  - /url: https://www.amv.fr/camping-car/assurance-camping-car/devis-assurance-campingcar.asp
+                - link "Habitation" [ref=e107] [cursor=pointer]:
+                  - /url: https://www.amv.fr/habitation/assurance-habitation/devis-assurance-multirisques-habitation.asp
+        - link "En savoir plus sur AMV":
+          - /url: /#arguments
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - generic [ref=e119]: Vous êtes au bon endroit
+          - heading "Assurez-vous chez AMV pour rouler en toute confiance" [level=2] [ref=e120]
+        - generic [ref=e121]:
+          - 'img "Image: arguments AMV" [ref=e123]'
+          - list [ref=e125]:
+            - listitem [ref=e126]:
+              - generic [ref=e127]:
+                - heading "Leader de l’assurance moto et scooter" [level=3] [ref=e141]
+                - paragraph [ref=e142]: Recommandé par les assurés et les professionnels.
+            - listitem [ref=e143]:
+              - generic [ref=e144]:
+                - heading "50 ans d’expérience Plus d’1 million d’assurés" [level=3] [ref=e152]
+                - paragraph [ref=e153]: "Notre engagement depuis 1974 : assurer vos passions."
+            - listitem [ref=e154]:
+              - generic [ref=e155]:
+                - heading "L'alliance réussie d'un service client humain et du digital" [level=3] [ref=e166]
+                - paragraph [ref=e167]: Plus de 300 conseillers basés à Bordeaux à votre écoute etune gestion autonome de votre contrat dans Mon Espace AMV.
+            - listitem [ref=e168]:
+              - generic [ref=e169]:
+                - heading "Plus de 9 assurés sur 10 recommandent AMV" [level=3] [ref=e186]: Plus de 9 assurés sur 10recommandent AMV
+                - paragraph [ref=e187]: Nous améliorons sans cesse votre expérience client. Soyez le prochain assuré heureux !
+      - generic [ref=e189]:
+        - generic [ref=e190]:
+          - generic [ref=e191]: Chez AMV
+          - 'heading "L''assurance facilitée : simple, rapide, efficace" [level=2] [ref=e192]'
+        - 'img "image: Les Caractéristiques AMV" [ref=e195]'
+        - generic [ref=e198]:
+          - list [ref=e200]:
+            - listitem [ref=e201]:
+              - generic [ref=e202]:
+                - text: Vous souhaitez
+                - generic [ref=e203]: Avoir le prix de l’assurance de la moto de vos rêves ?
+                - paragraph [ref=e207]: Testez notre tarif en ligne et en quelques clics
+            - listitem [ref=e208]:
+              - generic [ref=e209]:
+                - text: Vous souhaitez
+                - generic [ref=e210]: Modifier vos garanties à 22h depuis votre canapé ?
+                - paragraph [ref=e214]: Gérez vos contrats en ligne depuis Mon Espace AMV
+            - listitem [ref=e215]:
+              - generic [ref=e216]:
+                - text: Vous souhaitez
+                - generic [ref=e217]: Prendre la route directement après l’achat de votre moto ?
+                - paragraph [ref=e221]: Souscrivez en ligne avec effet immédiat sous réserve d'acceptation
+            - listitem [ref=e222]:
+              - generic [ref=e223]:
+                - text: Vous souhaitez
+                - generic [ref=e224]: Avoir des conseils de professionnels ?
+                - paragraph [ref=e228]: Contactez l’un de nos 300 conseillers
+            - listitem [ref=e229]:
+              - generic [ref=e230]:
+                - text: Vous souhaitez
+                - generic [ref=e231]: Déclarer un sinistre au plus vite ?
+                - paragraph [ref=e235]: Déclarez votre sinistre depuis Mon Espace AMV
+          - generic [ref=e237]:
+            - button "Caracteristique précédent" [ref=e238] [cursor=pointer]
+            - button "Caracteristique suivant" [ref=e241] [cursor=pointer]
+        - generic [ref=e243]: Testez nos tarifs en quelques clics
+      - generic [ref=e247]:
+        - generic [ref=e248]:
+          - generic [ref=e249]:
+            - generic [ref=e250]: Mes avantages AMV
+            - heading "Profitez d'avantages exclusifs" [level=2] [ref=e251]
+          - 'img "Image: avantages AMV" [ref=e253]'
+        - generic [ref=e254]:
+          - generic [ref=e255]:
+            - text: Offre de parrainage
+            - heading "10% pour tout le monde" [level=3] [ref=e256]
+            - paragraph [ref=e257]: Parrainez vos proches sur un contrat d’assurance auto et profitez de -10% chacun.
+            - link [ref=e258] [cursor=pointer]:
+              - /url: /avantages/#parrainage
+          - generic [ref=e261]:
+            - text: Plusieurs véhicules à assurer ?
+            - heading "Bénéficiez de réductions" [level=3] [ref=e262]
+            - paragraph [ref=e263]: Profitez de tarifs réduits dès votre second contrat chez AMV.
+            - link [ref=e264] [cursor=pointer]:
+              - /url: /avantages/#reductions
+          - generic [ref=e267]:
+            - text: Fidélité récompensée
+            - heading "Réduction de franchise" [level=3] [ref=e268]
+            - paragraph [ref=e269]: AMV réduit votre franchise de -50% dès 3 ans et de -75% dès 5 ans d'assurance sans sinistre.
+            - link [ref=e270] [cursor=pointer]:
+              - /url: /avantages/#recompenses
+      - generic [ref=e274]:
+        - generic [ref=e275]:
+          - generic [ref=e276]: Avec le blog AMV
+          - heading "Retrouvez l’actualité et des conseils sur l’assurance" [level=2] [ref=e277]
+        - list [ref=e281]:
+          - listitem [ref=e282]:
+            - generic [ref=e283]:
+              - 'img "Vignette: Retrouvez AMV au coeur de la passion !" [ref=e285]'
+              - generic [ref=e286]:
+                - link [ref=e287] [cursor=pointer]:
+                  - /url: "#"
+                  - heading "Retrouvez AMV au coeur de la passion !" [level=3] [ref=e288]
+                - paragraph [ref=e289]: Motos, autos, modernes, anciennes, de collection, enduro, trail… Toutes les disciplines et les passions sont une fois de plus à ...
+                - link [ref=e292] [cursor=pointer]:
+                  - /url: https://www.amv.fr/actualite-assurance/retrouvez-amv-au-coeur-de-la-passion/
+          - listitem [ref=e295]:
+            - generic [ref=e296]:
+              - 'img "Vignette: Les accessoires essentiels pour un road trip..." [ref=e298]'
+              - generic [ref=e299]:
+                - link [ref=e300] [cursor=pointer]:
+                  - /url: "#"
+                  - heading "Les accessoires essentiels pour un road trip..." [level=3] [ref=e301]
+                - paragraph [ref=e302]: Un road trip à moto ne s’improvise pas, surtout lorsqu’il s’étire sur plusieurs jours et kilomètres. Voyager...
+                - link [ref=e305] [cursor=pointer]:
+                  - /url: https://www.amv.fr/assurance-moto/les-accessoires-essentiels-pour-un-road-trip-a-moto-reussi/
+          - listitem [ref=e308]:
+            - generic [ref=e309]:
+              - 'img "Vignette: Bien choisir son premier scooter électrique" [ref=e311]'
+              - generic [ref=e312]:
+                - link [ref=e313] [cursor=pointer]:
+                  - /url: "#"
+                  - heading "Bien choisir son premier scooter électrique" [level=3] [ref=e314]
+                - paragraph [ref=e315]: La mobilité électrique prend une nouvelle place, surtout en ville, et le scooter n’y échappe pas. Si vous...
+                - link [ref=e318] [cursor=pointer]:
+                  - /url: https://www.amv.fr/assurance-scooter/bien-choisir-son-premier-scooter-electrique/
+          - listitem [ref=e321]:
+            - generic [ref=e322]:
+              - 'img "Vignette: L’hivernage, aussi pour les quads" [ref=e324]'
+              - generic [ref=e325]:
+                - link [ref=e326] [cursor=pointer]:
+                  - /url: "#"
+                  - heading "L’hivernage, aussi pour les quads" [level=3] [ref=e327]
+                - paragraph [ref=e328]: "L’arrivée de l’hiver soulève une question importante pour tout possesseur de quad : comment le stocker en..."
+                - link [ref=e331] [cursor=pointer]:
+                  - /url: https://www.amv.fr/assurance-quad/lhivernage-aussi-pour-les-quads/
+        - link [ref=e336] [cursor=pointer]:
+          - /url: https://www.amv.fr/actualite-assurance/
+        - generic [ref=e339]: Testez nos tarifs en quelques clics
+      - generic [ref=e343]:
+        - generic [ref=e344]:
+          - generic [ref=e345]:
+            - generic [ref=e346]:
+              - generic [ref=e347]: Avis clients
+              - heading [level=2] [ref=e348]:
+                - text: AMV, c’est 1 million d’assurés. Que disent-ils de nous ?
+                - paragraph [ref=e349]: L’évaluation et les avis sont publiés par Avis Vérifiés, une société indépendante qui garantit la transparence et l’authenticité des retours d’expérience des assurés.
+            - paragraph [ref=e357]: Sur 5254 clients interrogés par Avis vérifiés, AMV obtient une note de satisfaction de 4,7/5
+          - 'img "Image: Avis vérifiés sur AMV" [ref=e359]'
+        - group "exemples d'avis" [ref=e361]:
+          - list [ref=e363]:
+            - listitem [ref=e364]:
+              - generic [ref=e365]:
+                - paragraph [ref=e366]: AMV est une très bonne assurance et conseillée par Yamaha. Les tarifs sont très corrects ; cela fait plusieur années que j'en fait parti, les souscriptions ainsi que toutes les modifications sur le site AMV sont simple et rapide. On pourrait peut-être juste regretter un service clients seulement disponible l'après -midi. Quoi qu'il en soit je recommande vivement cette assurance.
+                - generic [ref=e367]:
+                  - generic [ref=e368]: 5/5
+                  - generic [ref=e369]:
+                    - generic [ref=e370]: Christian I.
+                    - generic [ref=e371]: suite à une expérience du 28/06/2026
+            - listitem [ref=e372]:
+              - generic [ref=e373]:
+                - paragraph [ref=e374]: Le devis est simple à réaliser, le prix et les conditions sont top et la souscription est rapide. Meilleure assurance pour les 2 roues.
+                - generic [ref=e375]:
+                  - generic [ref=e376]: 5/5
+                  - generic [ref=e377]:
+                    - generic [ref=e378]: Jean-Christophe A.
+                    - generic [ref=e379]: suite à une expérience du 26/06/2026
+            - listitem [ref=e380]:
+              - generic [ref=e381]:
+                - paragraph [ref=e382]: Il a fallu faire plusieurs tentatives d envoi de documents et au final j'ai fini par téléphoner pour savoir si les documents étaient bon ou pas. Après rien a dire
+                - generic [ref=e383]:
+                  - generic [ref=e384]: 4/5
+                  - generic [ref=e385]:
+                    - generic [ref=e386]: Jerome D.
+                    - generic [ref=e387]: suite à une expérience du 25/06/2026
+            - listitem [ref=e388]:
+              - generic [ref=e389]:
+                - paragraph [ref=e390]: L'inscription relativement facile, par contre suis déçu de ne me rendre compte que trop tard que je ne peux assurer un véhicule déclarant mes enfants à charge comme conducteurs secondaires qu'après un an d'ancienneté chez AMV, cette information à mon sens devrait être présentée plus clairement. je souhaitais transférer tous mes contrats (4 véhicules et 3 habitations) chez le même assureur pour simplifier cette gestion, je me retrouve à devoir contracter des assurances chez Generali ou rester chez la GMF pour le reste de mes véhicules et habitations.
+                - generic [ref=e391]:
+                  - generic [ref=e392]: 4/5
+                  - generic [ref=e393]:
+                    - generic [ref=e394]: Christian F.
+                    - generic [ref=e395]: suite à une expérience du 22/06/2026
+            - listitem [ref=e396]:
+              - generic [ref=e397]:
+                - paragraph [ref=e398]: Oui pour le moment.Je n'ai pas eu besoin de l'intervention AMV, on verra quand il y aura un problème .
+                - generic [ref=e399]:
+                  - generic [ref=e400]: 4/5
+                  - generic [ref=e401]:
+                    - generic [ref=e402]: Thibaut B.
+                    - generic [ref=e403]: suite à une expérience du 06/07/2026
+          - generic [ref=e405]:
+            - button "Avis précédent" [ref=e406] [cursor=pointer]
+            - button "Avis suivant" [ref=e409] [cursor=pointer]
+        - link [ref=e413] [cursor=pointer]:
+          - /url: /clients/avis-client/
+      - generic [ref=e417]:
+        - generic [ref=e418]:
+          - generic [ref=e419]: Questions fréquentes
+          - heading "Vous vous posez des questions ? Nous y répondons ici" [level=2] [ref=e420]
+        - generic [ref=e422]:
+          - generic [ref=e423] [cursor=pointer]:
+            - generic [ref=e424]: Je viens de souscrire en ligne, quelles sont les prochaines étapes ?
+            - generic [ref=e427]:
+              - paragraph [ref=e428]:
+                - text: Vous
+                - strong [ref=e429]: êtes désormais assuré(e)
+                - text: ", sous réserve de l'exactitude de vos déclarations, de l'envoi des documents demandés et de l'encaissement de votre prime."
+              - paragraph [ref=e430]:
+                - text: A la fin de votre souscription, vous avez obtenu un
+                - strong [ref=e431]: numéro de demande d'assurance
+                - text: "que vous retrouverez sur nos courriers : nous vous invitons à le rappeler dans tous nos échanges."
+              - paragraph [ref=e432]:
+                - text: Dans les jours qui suivent, vous allez recevoir par email la
+                - strong [ref=e433]: liste complète des documents à nous adresser
+                - text: .
+              - paragraph [ref=e434]:
+                - text: Vous pourrez déposer vos documents dans MON ESPACE AMV > Vous venez de souscrire ? >
+                - link "Envoyez vos documents" [ref=e437]:
+                  - /url: https://www.amv.fr/espace-client/espace-client/espace-client_envoi_de_documents_souscription_identification.aspx?type=0
+              - paragraph [ref=e438]: Si vous avez déjà téléchargé ou envoyé tout ou partie des éléments, il n'est pas nécessaire de les renvoyer.
+          - generic [ref=e439] [cursor=pointer]:
+            - generic [ref=e440]: Comment puis-je modifier mon contrat ?
+            - generic [ref=e443]:
+              - heading "Modification de votre contrat" [level=2] [ref=e444]
+              - paragraph [ref=e445]: "Pour effectuer des modifications sur votre contrat (à l'exception des véhicules de collection et des camping-cars), veuillez suivre les étapes suivantes :"
+              - paragraph [ref=e446]:
+                - text: 1. Rendez-vous dans
+                - link "MON ESPACE AMV" [ref=e447]:
+                  - /url: https://www.amv.fr/espace-client/espace-client/espace-client_home.aspx
+                - text: et accédez à votre espace client en vous connectant.2. Sélectionnez le contrat concerné.3. Cliquez sur "
+                - strong [ref=e449]: Modifier mon contrat
+                - text: "\" puis sur \""
+                - strong [ref=e450]: Modifier mes garanties et/ou ajouter une option
+                - text: "\".4. Après avoir vérifié et validé vos informations, nous vous présenterons le tarif des garanties choisies.5. Vous pourrez ensuite souscrire immédiatement aux modifications souhaitées.6. Votre contrat sera mis à jour sous 48h dans votre Espace client."
+              - paragraph [ref=e451]:
+                - text: En utilisant votre
+                - strong [ref=e452]: espace client
+                - text: ", vous avez également la possibilité de"
+                - strong [ref=e453]:
+                  - text: modifier votre
+                  - link "immatriculation" [ref=e454]:
+                    - /url: https://www.amv.fr/espace-client/espace-client/espace-client_home.aspx
+                  - text: ", votre adresse de stationnement ou vos coordonnées."
+          - generic [ref=e456] [cursor=pointer]:
+            - generic [ref=e457]: Je vends mon véhicule, que dois-je faire ?
+            - generic [ref=e460]:
+              - heading [level=2] [ref=e461]:
+                - strong [ref=e462]: Vous vendez votre véhicule et vous avez déjà un projet de remplacement
+              - paragraph [ref=e463]:
+                - text: Dans ce cas, il n’est pas nécessaire de procéder à la résiliation de votre contrat. Ainsi,
+                - strong [ref=e464]: vous continuez à bénéficier des avantages fidélité acquis sur votre contrat, notamment la réduction de franchise
+                - text: .
+              - paragraph [ref=e465]:
+                - text: Rendez-vous dans
+                - link "Mon Espace AMV" [ref=e467]:
+                  - /url: https://www.amv.fr/espace-client/espace-client/espace-client_home.aspx
+                - text: "> Se connecter pour faire un devis et assurer votre nouveau véhicule à effet immédiat ou différé - Sélectionnez le contrat à remplacer> Modifier mon contrat > Changer de véhicule."
+              - heading [level=2] [ref=e469]:
+                - strong [ref=e470]: Vous vendez votre véhicule et vous n'avez pas de projet de remplacement
+              - paragraph [ref=e471]:
+                - text: Vous devez nous adresser une demande de résiliation avec un justificatif de vente (
+                - link "certificat de cession" [ref=e473]:
+                  - /url: https://www.amv.fr/docs/Docs/cerfa_15776-01.pdf
+                - text: ") :"
+              - list [ref=e474]:
+                - listitem [ref=e475]:
+                  - text: En vous connectant avec votre identifiant (n° client) sur
+                  - link "Mon Espace AMV" [ref=e477]:
+                    - /url: https://www.amv.fr/espace-client/espace-client/espace-client_home.aspx
+                  - text: . Sélectionnez le contrat à résilier, cliquez sur « Résilier » puis « Envoyer ma demande de résiliation »
+              - paragraph [ref=e478]: OU
+              - list [ref=e479]:
+                - listitem [ref=e480]: "Par courrier à l'adresse suivante :"
+              - paragraph [ref=e481]: AMV Service clients - 33735 Bordeaux Cedex 9
+              - paragraph [ref=e482]: Pour clôturer votre dossier, vous recevrez par courrier les dispositions particulières de résiliation. Vous y trouverez au verso votre relevé d’informations.
+              - paragraph [ref=e483]: Si vous résiliez avant la date d’échéance de votre contrat, nous vous rembourserons la part de cotisation que nous vous devons, dans un délai de 30 jours.
+          - generic [ref=e484] [cursor=pointer]:
+            - generic [ref=e485]: Comment déclarer un sinistre ?
+            - generic [ref=e488]:
+              - paragraph [ref=e489]:
+                - text: Vous pouvez déclarer votre sinistre
+                - strong [ref=e490]: 24h/24
+                - text: et
+                - strong [ref=e491]: 7j/7
+                - text: depuis
+                - link "Mon Espace AMV" [ref=e492]:
+                  - /url: https://www.amv.fr/espace-client/espace-client/espace-client_home.aspx
+                  - strong [ref=e493]:
+                    - generic [ref=e494]: Mon Espace AMV
+                - text: "> Mes contrats > Déclarer un sinistre."
+              - paragraph [ref=e495]: Si vous avez besoin d’aide pour votre déclaration, contactez le service indemnisation du lundi au vendredi de 9h à 18h30.
+              - paragraph [ref=e496]:
+                - emphasis [ref=e498]: "Bon à savoir : Munissez-vous de votre constat et/ou du dépôt de plainte avant de commencer votre déclaration."
+          - generic [ref=e499] [cursor=pointer]:
+            - generic [ref=e500]: Puis-je régler ma cotisation AMV par carte bancaire ?
+            - generic [ref=e503]:
+              - paragraph [ref=e504]: Oui, si vous souscrivez sur amv.fr, vous pouvez régler votre cotisation par carte bancaire.
+              - paragraph [ref=e505]: "Par ailleurs, à chaque renouvellement (échéance), vous pouvez régler votre cotisation d'assurance par carte bancaire depuis votre espace client :"
+              - list [ref=e506]:
+                - listitem [ref=e507]:
+                  - text: Rendez-vous dans
+                  - link "MON ESPACE AMV > Accédez à votre espace et connectez-vous" [ref=e509]:
+                    - /url: https://www.amv.fr/espace-client/espace-client/espace-client_home.aspx
+                  - text: .
+                - listitem [ref=e510]:
+                  - text: Choisissez le
+                  - strong [ref=e511]: contrat concerné
+                  - text: puis
+                  - strong [ref=e512]: "\"Régler ma cotisation\""
+                  - text: .
+          - generic [ref=e513] [cursor=pointer]:
+            - generic [ref=e514]: Quelle assurance moto choisir ?
+            - paragraph [ref=e518]: Pour choisir avec soin votre assurance moto, il est primordial de scruter attentivement les tarifs, les garanties et les franchises proposées. AMV, un assureur spécialisé dans le domaine de la moto, se présente comme une option à prendre en sérieuse considération. Fort de son expertise, AMV offre des solutions adaptées aux besoins spécifiques des motards, assurant ainsi une couverture complète et fiable pour leurs deux-roues. Grâce à son expérience dans le secteur, AMV peut offrir des services sur mesure et des conseils avisés, assurant la tranquillité d'esprit des motocyclistes tout au long de leurs aventures sur la route.
+          - generic [ref=e519] [cursor=pointer]:
+            - generic [ref=e520]: Quel est le prix d'une assurance moto ?
+            - paragraph [ref=e524]: Le coût d'une assurance moto chez AMV prend en compte plusieurs facteurs, tels que le modèle de la moto, l'expérience du conducteur (permis, sinistres, bonus), le lieu de stationnement habituel et le niveau de garanties désiré. Chez AMV, nous offrons des tarifs compétitifs adaptés à chaque profil de conducteur et à chaque type de moto. Nos conseillers spécialisés sont là pour vous aider à choisir la couverture qui répond le mieux à vos besoins et à votre budget. N'hésitez pas à nous contacter pour obtenir un devis personnalisé et découvrez comment nous pouvons protéger au mieux votre moto. Chez AMV, nous sommes fiers d'accompagner les motards depuis 50 ans et de leur proposer une assurance sur mesure pour rouler en toute sérénité.
+          - generic [ref=e525] [cursor=pointer]:
+            - generic [ref=e526]: Quelle formule assurance moto choisir ?
+            - paragraph [ref=e530]: Le choix de la formule d'assurance moto dépend entièrement de vos besoins spécifiques ainsi que de votre budget. Si vous possédez une moto récente, il est fortement recommandé de souscrire à une garantie dommages Tous Risques, cela vous permettra de couvrir les frais de réparation en cas d'accident responsable. AMV, en tant qu'assureur spécialisé dans l'assurance moto, propose différentes garanties et options adaptées à chaque profil. N'hésitez pas à faire un devis sur amv.fr ou les contacter pour obtenir des informations détaillées sur les formules d'assurance moto qu'ils proposent, afin de trouver celle qui répond le mieux à vos besoins spécifiques.
+          - generic [ref=e531] [cursor=pointer]:
+            - generic [ref=e532]: Puis-je modifier mon devis moto ou auto sur amv.fr ?
+            - paragraph [ref=e536]: Oui, sur amv.fr, vous avez la possibilité de modifier votre devis d'assurance moto à tout moment depuis la rubrique "Retrouver vos tarifs/devis". Les devis que vous établissez sont conservés pendant une période d'un mois. Vous pouvez souscrire à effet immédiat ou différé.
+          - generic [ref=e537] [cursor=pointer]:
+            - generic [ref=e538]: Comment obtenir un devis d'assurance moto ?
+            - paragraph [ref=e542]: Pour obtenir un devis d'assurance moto rapidement, AMV est votre partenaire de confiance. Spécialiste de l'assurance moto depuis 50 ans, cet assureur propose des solutions adaptées à vos besoins. Rendez-vous sur amv.fr et complétez simplement notre formulaire pour découvrir votre tarif en seulement 3 minutes. Faites confiance à AMV et roulez en toute sérénité avec la protection dont vous avez besoin.
+          - generic [ref=e543] [cursor=pointer]:
+            - generic [ref=e544]: Comment assurer sa moto ?
+            - generic [ref=e547]:
+              - paragraph [ref=e548]: Bien assurer votre moto est essentiel pour prendre la route en toute sérénité. Pour cela, pourquoi ne pas opter pour l'assurance en ligne proposée par AMV, un assureur de confiance spécialiste de l'assurance moto depuis 50 ans.
+              - paragraph [ref=e549]: AMV met à votre disposition un processus de souscription simple et rapide, vous permettant de bénéficier d'une couverture immédiate, sous réserve de certaines conditions bien entendu. Plus besoin de vous déplacer en agence, quelques clics suffisent pour obtenir votre contrat d'assurance.
+              - paragraph [ref=e550]: L'avantage de choisir AMV réside également dans sa gamme complète de formules d'assurance moto, adaptées à vos besoins et à votre budget. Quel que soit le type de moto que vous possédez, que ce soit une sportive, une routière, ou encore un scooter, AMV vous propose des solutions sur mesure pour une protection optimale.
+              - paragraph [ref=e551]: En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez souscrit cette garantie. Vous pouvez ainsi compter sur eux en toutes circonstances, qu'il s'agisse d'un accident, d'un vol ou d'une panne.
+              - paragraph [ref=e552]: En tant qu'expert de l'assurance moto, les conseillers AMV sont des passionnés de deux-roues et comprennent parfaitement vos besoins spécifiques en tant que motard. Ils sauront vous accompagner et vous conseiller au mieux tout au long de votre contrat.
+              - paragraph [ref=e553]: En choisissant AMV comme assureur pour votre moto, vous bénéficiez d'une assurance fiable et de qualité, sans tracas et sans perte de temps. N'attendez plus, rendez-vous sur amv.fr pour souscrire votre assurance moto en ligne et prendre la route en toute tranquillité dès maintenant !
+          - link [ref=e556] [cursor=pointer]:
+            - /url: /besoin-daide/
+      - generic [ref=e565]:
+        - generic [ref=e566]:
+          - generic [ref=e567]: Suivez AMV
+          - heading [level=2] [ref=e568]:
+            - text: L'assurance complice de votre passion
+            - paragraph [ref=e569]: Venez vibrer avec nous sur vos réseaux préférés.
+        - generic [ref=e570]:
+          - link "Instagram" [ref=e571] [cursor=pointer]:
+            - /url: https://www.instagram.com/amvassurance/?hl=fr
+          - link "Facebook" [ref=e575] [cursor=pointer]:
+            - /url: https://www.facebook.com/AMVAssurance/?locale=fr_FR
+          - link "Youtube" [ref=e580] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/AMVassurance
+    - generic [ref=e584]: Testez nos tarifs en quelques clics
+    - generic [ref=e587]:
+      - generic [ref=e589]:
+        - generic [ref=e590]:
+          - link "Retourner à l'accueil" [ref=e592] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=e596]:
+            - text: Leader de l'
+            - link "assurance moto et scooter" [ref=e598] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx
+            - text: ", AMV propose en ligne des solutions d'assurances dédiées aux particuliers :"
+            - link "assurance auto" [ref=e600] [cursor=pointer]:
+              - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+            - text: ", assurance habitation,"
+            - link "assurance moto de collection" [ref=e602] [cursor=pointer]:
+              - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+            - text: ", assurance 4X4 etc. Une gamme complète de formules d'assurance, des plus classiques aux plus spécifiques, comme l'assurance jetski ou quad, adaptées à vos besoins réels. Vous pouvez moduler vos contrats en y incluant des garanties particulières, en fonction de l'utilisation ou des risques liés à votre véhicule. De la demande de devis à la souscription de votre contrat assurance moto, auto ou autre, tout se fait en ligne. Nos 300 conseillers sont également à votre écoute pour vous renseigner et vous accompagner dans le choix de votre contrat d'assurance. Retrouvez l'histoire des"
+            - link "constructeurs moto" [ref=e603] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/constructeurs.aspx
+            - text: et leurs modèles de référence. Alors n'hésitez plus et, ensemble, ayons l'assurance de gagner ! Label Excellence Assurance Moto Scooter. AMV Assurance Moto sur 5254 clients interrogés par Avis Vérifiés, AMV obtient une note de satisfaction de 4,7/5.
+        - generic [ref=e604]:
+          - generic [ref=e606]:
+            - generic [ref=e607]: A propos d’AMV
+            - generic [ref=e609]:
+              - link "Qui sommes-nous ?" [ref=e611] [cursor=pointer]:
+                - /url: /qui-sommes-nous/
+              - link "Avis clients" [ref=e613] [cursor=pointer]:
+                - /url: https://www.avis-verifies.com/avis-clients/amv.fr
+              - link "Avantages AMV" [ref=e615] [cursor=pointer]:
+                - /url: /avantages/
+              - link "Presse" [ref=e617] [cursor=pointer]:
+                - /url: /presse/
+              - link "Nous rejoindre" [ref=e619] [cursor=pointer]:
+                - /url: https://www.amv.fr/rh/recrutement/nous_rejoindre.aspx
+              - link "Agenda" [ref=e621] [cursor=pointer]:
+                - /url: /actus/a-vos-agendas/
+          - generic [ref=e623]:
+            - generic [ref=e624]: Liens utiles
+            - generic [ref=e626]:
+              - link "Besoin d’aide ?" [ref=e628] [cursor=pointer]:
+                - /url: /besoin-daide/
+              - link "Mon Espace AMV" [ref=e630] [cursor=pointer]:
+                - /url: /mon-espace-amv/
+              - link "Loi Hamon" [ref=e632] [cursor=pointer]:
+                - /url: /loi-hamon/
+              - link "AMV Pro" [ref=e634] [cursor=pointer]:
+                - /url: https://www.amvpro.com/assurance-moto/moto_concessionnaire_identification.aspx
+              - link "AMV Sécurité" [ref=e636] [cursor=pointer]:
+                - /url: https://www.amvsecurite.fr/gravage/pages/view/accueil.xhtml
+              - link "AMV Espagne" [ref=e638] [cursor=pointer]:
+                - /url: https://www.amv.es/
+          - generic [ref=e640]:
+            - generic [ref=e641]: Assurances
+            - generic [ref=e643]:
+              - link "Assurance Moto" [ref=e645] [cursor=pointer]:
+                - /url: /assurance/moto/
+              - link "Assurance Scooter" [ref=e647] [cursor=pointer]:
+                - /url: /assurance/scooter/
+              - link "Assurance Quad" [ref=e649] [cursor=pointer]:
+                - /url: /assurance/quad/
+              - link "Assurance Ancien et collection" [ref=e651] [cursor=pointer]:
+                - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+              - link "Assurance Auto" [ref=e653] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+              - link "Assurance Prestige" [ref=e655] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-prestige/amvgt_tarif_devis_assurance_en_ligne_accueil.aspx
+              - link "Assurance Scooter des mers" [ref=e657] [cursor=pointer]:
+                - /url: https://www.amv.fr/jet-ski/assurance-jet-ski/devis-assurance-jetski.asp
+              - link "Assurance Camping-car" [ref=e659] [cursor=pointer]:
+                - /url: https://www.amv.fr/camping-car/assurance-camping-car/devis-assurance-campingcar.asp
+              - link "Assurance Habitation" [ref=e661] [cursor=pointer]:
+                - /url: https://www.amv.fr/habitation/assurance-habitation/devis-assurance-multirisques-habitation.asp
+          - generic [ref=e663]:
+            - generic [ref=e664]: Devis assurance
+            - generic [ref=e666]:
+              - link "Devis assurance moto" [ref=e668] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+              - link "Devis assurance moto 125" [ref=e670] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-125cm3/
+              - link "Devis assurance moto 500" [ref=e672] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-500cm3/
+              - link "Devis assurance moto 750" [ref=e674] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-750cm3/
+              - link "Devis assurance 1000" [ref=e676] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-1000cm3/
+              - link "Devis assurance YAMAHA" [ref=e678] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-yamaha/
+              - link "Devis assurance KAWASAKI" [ref=e680] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-kawasaki/
+              - link "Devis assurance HONDA" [ref=e682] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-honda/
+              - link "Devis assurance SUZUKI" [ref=e684] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-suzuki/
+              - link "Devis assurance Scooter" [ref=e686] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-scooter/assurance-scooter.aspx
+        - generic [ref=e688]:
+          - 'link "Aller sur le site : Facebook" [ref=e689] [cursor=pointer]':
+            - /url: https://www.facebook.com/AMVAssurance/?locale=fr_FR
+          - 'link "Aller sur le site : Instagram" [ref=e693] [cursor=pointer]':
+            - /url: https://www.instagram.com/amvassurance/?hl=fr
+          - 'link "Aller sur le site : LinkedIn" [ref=e696] [cursor=pointer]':
+            - /url: https://fr.linkedin.com/company/amv-assurance
+          - 'link "Aller sur le site : Youtube" [ref=e699] [cursor=pointer]':
+            - /url: https://www.youtube.com/user/AMVassurance
+      - generic [ref=e703]:
+        - generic [ref=e704]:
+          - link "Mentions légales" [ref=e705] [cursor=pointer]:
+            - /url: /mentions-legales/
+          - link "Protection des données" [ref=e706] [cursor=pointer]:
+            - /url: /protection-des-donnees/
+          - generic [ref=e707] [cursor=pointer]: Gérer mes cookies
+          - link "Copyright" [ref=e708] [cursor=pointer]:
+            - /url: /copyright/
+          - link "Plan du site" [ref=e709] [cursor=pointer]:
+            - /url: /plan-du-site/
+        - generic [ref=e710]: © 2025 AMV Tous droits réservés
+  - text: ;

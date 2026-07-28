@@ -1,0 +1,636 @@
+- generic [active] [ref=f21e1]:
+  - link "Aller au contenu principal" [ref=f21e2] [cursor=pointer]:
+    - /url: "#main_content"
+  - generic [ref=f21e3]:
+    - banner [ref=f21e4]:
+      - generic [ref=f21e7]:
+        - navigation "Navigation secondaire" [ref=f21e8]:
+          - paragraph [ref=f21e10]: Le spécialiste de l'assurance moto et de l'assurance scooter
+          - list [ref=f21e12]:
+            - listitem [ref=f21e13]:
+              - link "Qui sommes-nous ?" [ref=f21e14] [cursor=pointer]
+            - listitem [ref=f21e15]:
+              - link "Le blog" [ref=f21e16] [cursor=pointer]:
+                - /url: https://www.april-moto.com/blog/
+            - listitem [ref=f21e17]:
+              - link "Espace Pro" [ref=f21e18] [cursor=pointer]
+            - listitem [ref=f21e19]:
+              - link "Espace assuré" [ref=f21e20] [cursor=pointer]
+        - generic:
+          - link "APRIL Moto - Accueil" [ref=f21e22] [cursor=pointer]:
+            - /url: https://www.april-moto.com/
+            - img "APRIL Moto" [ref=f21e23]
+          - navigation "Navigation principale" [ref=f21e25]:
+            - list [ref=f21e26]:
+              - listitem [ref=f21e27]:
+                - link "Assurance Moto" [ref=f21e28] [cursor=pointer]:
+                  - /url: https://www.april-moto.com/assurance-moto/
+                  - generic:
+                    - text: Assurance
+                    - strong: Moto
+              - listitem [ref=f21e29]:
+                - link "Assurance Scooter" [ref=f21e30] [cursor=pointer]:
+                  - /url: https://www.april-moto.com/assurance-scooter/
+                  - generic:
+                    - text: Assurance
+                    - strong: Scooter
+              - listitem [ref=f21e31]:
+                - link "Assurance Cyclo 50cm3" [ref=f21e32] [cursor=pointer]:
+                  - /url: https://www.april-moto.com/cyclo-50cm3/
+                  - generic:
+                    - text: Assurance
+                    - strong:
+                      - text: Cyclo 50cm
+                      - superscript: "3"
+              - listitem [ref=f21e33]:
+                - link "Assurance Moto tout terrain" [ref=f21e34] [cursor=pointer]:
+                  - generic:
+                    - text: Assurance
+                    - strong: Moto tout terrain
+              - listitem [ref=f21e35]:
+                - link "Assurance Quad" [ref=f21e36] [cursor=pointer]:
+                  - /url: https://www.april-moto.com/assurance-quad/
+                  - generic:
+                    - text: Assurance
+                    - strong: Quad
+              - listitem [ref=f21e37]:
+                - link "Assurance Vélo" [ref=f21e38] [cursor=pointer]:
+                  - /url: https://www.april-moto.com/assurance-velo/
+                  - generic:
+                    - text: Assurance
+                    - strong: Vélo
+              - listitem [ref=f21e39]:
+                - link "Assurance Trottinette" [ref=f21e40] [cursor=pointer]:
+                  - /url: https://www.april-moto.com/assurance-trottinette/
+                  - generic:
+                    - text: Assurance
+                    - strong: Trottinette
+              - listitem [ref=f21e41]:
+                - link "Assurance Livraison" [ref=f21e42] [cursor=pointer]:
+                  - /url: https://www.april-moto.com/assurance-livraison-50-cc/
+                  - generic:
+                    - text: Assurance
+                    - strong: Livraison
+    - main [ref=f21e43]:
+      - generic [ref=f21e44]:
+        - generic [ref=f21e47]:
+          - 'heading "Assurance scooter 50 cc : trouvez la meilleure formule pour assurer votre 50 cm3." [level=1] [ref=f21e48]': Assurance scooter 50 cc :trouvez la meilleure formule pour assurer votre 50 cm3.
+          - list [ref=f21e49]:
+            - listitem [ref=f21e50]: Contrats simples
+            - listitem [ref=f21e51]: Conseillers expérimentés
+            - listitem [ref=f21e52]: Garanties solides
+            - listitem [ref=f21e53]: Assurance immédiate et paiement en ligne
+          - generic [ref=f21e54]:
+            - generic [ref=f21e55]: Démarrer mon devis
+            - generic [ref=f21e56]:
+              - textbox "Démarrer mon devis" [ref=f21e59]:
+                - /placeholder: La marque de votre deux-roues
+              - link "Obtenir mon tarif (3 min)" [ref=f21e60] [cursor=pointer]
+          - generic [ref=f21e61]:
+            - generic [ref=f21e62]: + 9 620 avis sur Opinion Assurances
+            - generic [ref=f21e63]:
+              - generic [ref=f21e64]: 4.4/5
+              - img "Logo Opinion Assurances" [ref=f21e66]
+        - generic [ref=f21e68]:
+          - table [ref=f21e73]:
+            - caption [ref=f21e74]: Comparatif des formules d'assurance et garanties incluses
+            - rowgroup [ref=f21e75]:
+              - row [ref=f21e76]:
+                - columnheader [ref=f21e77]
+                - columnheader "Essentielle Tiers" [ref=f21e78]:
+                  - generic [ref=f21e79]:
+                    - generic [ref=f21e80]: Essentielle
+                    - generic [ref=f21e81]: Tiers
+                - columnheader "Équilibre Tiers + vol et incendie" [ref=f21e82]:
+                  - generic [ref=f21e83]:
+                    - generic [ref=f21e84]: Équilibre
+                    - generic [ref=f21e85]: Tiers + vol et incendie
+                - columnheader "Tous risques" [ref=f21e86]
+              - row [ref=f21e89]:
+                - rowheader "Vos garanties" [ref=f21e90]
+                - cell "A partir de 14,77€ / mois Choisir" [ref=f21e91]:
+                  - generic [ref=f21e92]:
+                    - generic [ref=f21e93]: A partir de
+                    - generic [ref=f21e94]:
+                      - generic [ref=f21e95]: 14,77€
+                      - text: / mois
+                  - link "Choisir" [ref=f21e97] [cursor=pointer]
+                - cell "A partir de 23,60€ / mois Choisir" [ref=f21e98]:
+                  - generic [ref=f21e99]:
+                    - generic [ref=f21e100]: A partir de
+                    - generic [ref=f21e101]:
+                      - generic [ref=f21e102]: 23,60€
+                      - text: / mois
+                  - link "Choisir" [ref=f21e104] [cursor=pointer]
+                - cell "A partir de 30,32€ / mois Choisir" [ref=f21e105]:
+                  - generic [ref=f21e106]:
+                    - generic [ref=f21e107]: A partir de
+                    - generic [ref=f21e108]:
+                      - generic [ref=f21e109]: 30,32€
+                      - text: / mois
+                  - link "Choisir" [ref=f21e111] [cursor=pointer]
+              - row [ref=f21e112]:
+                - rowheader "Responsabilité civile Prise en charge des dommages matériels et corporels que vous causez aux tiers, y compris à votre passager." [ref=f21e113] [cursor=pointer]:
+                  - generic: Responsabilité civile
+                  - paragraph: Prise en charge des dommages matériels et corporels que vous causez aux tiers, y compris à votre passager.
+                - cell "Inclus" [ref=f21e114]
+                - cell "Inclus" [ref=f21e117]
+                - cell "Inclus" [ref=f21e120]
+              - row [ref=f21e123]:
+                - rowheader "Défense pénale et recours Bénéficiez d'une assistance et du règlement des frais (avocat, expertise) lorsqu'à la suite d'un sinistre, vous êtes en litige avec un tiers." [ref=f21e124] [cursor=pointer]:
+                  - generic: Défense pénale et recours
+                  - paragraph: Bénéficiez d'une assistance et du règlement des frais (avocat, expertise) lorsqu'à la suite d'un sinistre, vous êtes en litige avec un tiers.
+                - cell "Inclus" [ref=f21e125]
+                - cell "Inclus" [ref=f21e128]
+                - cell "Inclus" [ref=f21e131]
+              - row [ref=f21e134]:
+                - rowheader "Protection juridique Protégez votre permis (stage de récupération de points remboursés jusqu'à 240€) et défendez vos droits en cas de litige (assistance juridique jusqu'à 20 000€ )." [ref=f21e135] [cursor=pointer]:
+                  - generic: Protection juridique
+                  - paragraph: Protégez votre permis (stage de récupération de points remboursés jusqu'à 240€) et défendez vos droits en cas de litige (assistance juridique jusqu'à 20 000€ ).
+                - cell "Inclus" [ref=f21e136]
+                - cell "Inclus" [ref=f21e139]
+                - cell "Inclus" [ref=f21e142]
+              - row [ref=f21e145]:
+                - rowheader "Assistance accident Vous bénéficiez d'une assistance au véhicule ainsi que d'une assistance à la personne en cas d'accident, incendie ou vol du véhicule assuré en France et à l'étranger." [ref=f21e146] [cursor=pointer]:
+                  - generic: Assistance accident
+                  - paragraph: Vous bénéficiez d'une assistance au véhicule ainsi que d'une assistance à la personne en cas d'accident, incendie ou vol du véhicule assuré en France et à l'étranger.
+                - cell "Inclus" [ref=f21e147]
+                - cell "Inclus" [ref=f21e150]
+                - cell "Inclus" [ref=f21e153]
+              - row [ref=f21e156]:
+                - rowheader "Vol, incendie, explosion, forces de la nature Vous êtes indemnisé(e) en cas de vol, tentative de vol, incendie, explosion ou dommages causés par la nature (tempête, grêle, éboulement …) sur votre véhicule." [ref=f21e157] [cursor=pointer]:
+                  - generic: Vol, incendie, explosion, forces de la nature
+                  - paragraph: Vous êtes indemnisé(e) en cas de vol, tentative de vol, incendie, explosion ou dommages causés par la nature (tempête, grêle, éboulement …) sur votre véhicule.
+                - cell [ref=f21e158]
+                - cell "Inclus" [ref=f21e159]
+                - cell "Inclus" [ref=f21e162]
+              - row [ref=f21e165]:
+                - rowheader "Catastrophes naturelles et technologiques Nous indemnisons les dommages matériels subis par votre cyclo suite à une catastrophe naturelle ou technologique." [ref=f21e166] [cursor=pointer]:
+                  - generic: Catastrophes naturelles et technologiques
+                  - paragraph: Nous indemnisons les dommages matériels subis par votre cyclo suite à une catastrophe naturelle ou technologique.
+                - cell [ref=f21e167]
+                - cell "Inclus" [ref=f21e168]
+                - cell "Inclus" [ref=f21e171]
+              - row [ref=f21e174]:
+                - rowheader "Attentats et actes de terrorisme Vous êtes indemnisé(e) des dégradations subies par votre véhicule provoquées par un attentat, un sabotage, une émeute, un mouvement populaire ou un acte de terrorisme." [ref=f21e175] [cursor=pointer]:
+                  - generic: Attentats et actes de terrorisme
+                  - paragraph: Vous êtes indemnisé(e) des dégradations subies par votre véhicule provoquées par un attentat, un sabotage, une émeute, un mouvement populaire ou un acte de terrorisme.
+                - cell [ref=f21e176]
+                - cell "Inclus" [ref=f21e177]
+                - cell "Inclus" [ref=f21e180]
+              - row [ref=f21e183]:
+                - rowheader "Dommages tous accidents Votre cyclo est indemnisé en cas d'accident responsable ou lorsque la responsabilité ne peut être déterminée (animaux sauvages, chutes de branche, verglas…)." [ref=f21e184] [cursor=pointer]:
+                  - generic: Dommages tous accidents
+                  - paragraph: Votre cyclo est indemnisé en cas d'accident responsable ou lorsque la responsabilité ne peut être déterminée (animaux sauvages, chutes de branche, verglas…).
+                - cell [ref=f21e185]
+                - cell [ref=f21e186]
+                - cell "Inclus" [ref=f21e187]
+              - row [ref=f21e190]:
+                - rowheader "Protection corporelle du conducteur (jusqu'à 300 000 €) La seule option qui couvre le pilote ! Vous êtes indemnisé(e) jusqu'à 300 000 € en cas d'invalidité et 15 000 € en cas de décès." [ref=f21e191] [cursor=pointer]:
+                  - generic: Protection corporelle du conducteur (jusqu'à 300 000 €)
+                  - paragraph: La seule option qui couvre le pilote ! Vous êtes indemnisé(e) jusqu'à 300 000 € en cas d'invalidité et 15 000 € en cas de décès.
+                - cell [ref=f21e192]:
+                  - strong [ref=f21e193]: En option
+                - cell [ref=f21e194]:
+                  - strong [ref=f21e195]: En option
+                - cell [ref=f21e196]:
+                  - strong [ref=f21e197]: En option
+              - row [ref=f21e198]:
+                - rowheader "Assistance panne 0km Panne, crevaison, perte ou vol des clés, erreur de carburant, accident, voyage à l'étranger... L'assistance qui vous dépanne même à domicile." [ref=f21e199] [cursor=pointer]:
+                  - generic: Assistance panne 0km
+                  - paragraph: Panne, crevaison, perte ou vol des clés, erreur de carburant, accident, voyage à l'étranger... L'assistance qui vous dépanne même à domicile.
+                - cell [ref=f21e200]:
+                  - strong [ref=f21e201]: En option
+                - cell [ref=f21e202]:
+                  - strong [ref=f21e203]: En option
+                - cell [ref=f21e204]:
+                  - strong [ref=f21e205]: En option
+              - row [ref=f21e206]:
+                - rowheader "Accessoires et équipements (jusqu'à 1 000€) Assurez les accessoires de votre scooter et vos équipements de protection jusqu’à 1 000 € (2 plafonds au choix)." [ref=f21e207] [cursor=pointer]:
+                  - generic: Accessoires et équipements(jusqu'à 1 000€)
+                  - paragraph: Assurez les accessoires de votre scooter et vos équipements de protection jusqu’à 1 000 € (2 plafonds au choix).
+                - cell [ref=f21e208]
+                - cell [ref=f21e209]:
+                  - strong [ref=f21e210]: En option
+                - cell [ref=f21e211]:
+                  - strong [ref=f21e212]: En option
+              - row [ref=f21e213]:
+                - cell [ref=f21e214]
+                - cell "Essentielle A partir de 14,77€ / mois Choisir" [ref=f21e215]:
+                  - generic [ref=f21e216]: Essentielle
+                  - generic [ref=f21e217]:
+                    - generic [ref=f21e218]: A partir de
+                    - generic [ref=f21e219]:
+                      - generic [ref=f21e220]: 14,77€
+                      - text: / mois
+                  - link "Choisir" [ref=f21e222] [cursor=pointer]
+                - cell "Équilibre A partir de 23,60€ / mois Choisir" [ref=f21e223]:
+                  - generic [ref=f21e224]: Équilibre
+                  - generic [ref=f21e225]:
+                    - generic [ref=f21e226]: A partir de
+                    - generic [ref=f21e227]:
+                      - generic [ref=f21e228]: 23,60€
+                      - text: / mois
+                  - link "Choisir" [ref=f21e230] [cursor=pointer]
+                - cell "Tous risques A partir de 30,32€ / mois Choisir" [ref=f21e231]:
+                  - generic [ref=f21e232]: Tous risques
+                  - generic [ref=f21e233]:
+                    - generic [ref=f21e234]: A partir de
+                    - generic [ref=f21e235]:
+                      - generic [ref=f21e236]: 30,32€
+                      - text: / mois
+                  - link "Choisir" [ref=f21e238] [cursor=pointer]
+          - generic [ref=f21e240]:
+            - generic [ref=f21e242]:
+              - paragraph [ref=f21e243]:
+                - strong [ref=f21e244]: Les plus
+                - text: APRIL Moto
+              - list [ref=f21e246]:
+                - listitem [ref=f21e247]:
+                  - paragraph [ref=f21e248]:
+                    - text: Profitez de l'application Liberty Rider
+                    - strong [ref=f21e249]: gratuitement
+                  - paragraph [ref=f21e250]: L'abonnement Premium à l'application Liberty Rider est inclus gratuitement avec votre contrat APRIL Moto.
+                - listitem [ref=f21e251]:
+                  - paragraph [ref=f21e252]:
+                    - text: Un service client humain et
+                    - strong [ref=f21e253]: disponible
+                  - paragraph [ref=f21e254]: Notre équipe, basée à Tours, vous connaît et sait vous accompagner dans toutes vos démarches
+                - listitem [ref=f21e255]:
+                  - paragraph [ref=f21e256]:
+                    - text: Pour
+                    - strong [ref=f21e257]: tous les motards
+                    - text: et les deux-roues
+                  - paragraph [ref=f21e258]: Moto, scooter, cyclo, quad, moto verte... Nous assurons tous les 2 roues !
+                - listitem [ref=f21e259]:
+                  - paragraph [ref=f21e260]:
+                    - text: Jusqu'à
+                    - strong [ref=f21e261]: 1,2 million d'euros indemnisés
+                  - paragraph [ref=f21e262]: En cas d'accident corporel responsable, bénéficiez de l'une des meilleures garanties "Protection corporelle du conducteur" du marché
+            - generic [ref=f21e266]:
+              - paragraph [ref=f21e267]: Déjà assuré APRIL Moto ?
+              - paragraph [ref=f21e268]: Garanties, couverture, relevés... Retrouvez toutes vos infos dans votre espace assuré.
+              - link "Me connecter à mon Espace assuré" [ref=f21e269] [cursor=pointer]
+              - generic [ref=f21e270]:
+                - paragraph [ref=f21e271]: ou contactez le
+                - link "02 47 51 07 07" [ref=f21e272] [cursor=pointer]:
+                  - /url: tel:+0247510707
+                - paragraph [ref=f21e273]:
+                  - strong [ref=f21e274]: Appel gratuit.
+                  - text: "Du lundi au vendredi : 9:00 - 18:00."
+            - generic [ref=f21e278]:
+              - paragraph [ref=f21e279]: Devis par téléphone
+              - link "02 55 45 34 58" [ref=f21e280] [cursor=pointer]:
+                - /url: tel:+0247874888
+              - paragraph [ref=f21e281]:
+                - strong [ref=f21e282]: Appel gratuit.
+                - text: "Du lundi au vendredi : 9:00 - 19:00. Le samedi : 10:00 - 14:00"
+            - generic [ref=f21e286]:
+              - paragraph [ref=f21e287]: Besoin d’un conseil ?
+              - paragraph [ref=f21e288]: Besoin d'informations sur nos offres d'assurance ? N'attendez plus etparcourez notre guide dédiéà l'assurance des deux-roues.
+              - link "Consultez notre guide" [ref=f21e289] [cursor=pointer]
+        - paragraph [ref=f21e294]:
+          - text: Si tout conducteur de scooter a l’obligation d’assurer son deux-roues au tiers,
+          - strong [ref=f21e295]: vous pouvez compléter votre couverture en fonction de vos besoins.
+          - text: "Nous vous proposons trois formules principales : essentielle, équilibre et tous risques, mais aussi"
+          - strong [ref=f21e296]: diverses options auxquelles vous pouvez souscrire
+          - text: pour construire une offre d’assurance qui vous ressemble.
+        - generic [ref=f21e299]:
+          - generic [ref=f21e301]:
+            - heading [level=2] [ref=f21e302]:
+              - strong [ref=f21e303]: Choisissez une couverture sur-mesure,
+              - text: à l’image du conducteur que vous êtes
+            - paragraph [ref=f21e304]
+            - paragraph [ref=f21e305]:
+              - text: Vous en avez marre des embouteillages et de perdre du temps à trouver une place pour vous garer ? Optez pour le scooter, qui vous fera découvrir le plaisir de la mobilité et de la simplicité. Avec votre contrat d’
+              - strong [ref=f21e306]:
+                - link "assurance scooter" [ref=f21e307] [cursor=pointer]:
+                  - /url: https://www.april-moto.com/assurance-scooter/
+              - text: aussi, vous avez la solution d’assurance au meilleur tarif. Obtenir une assurance n’a jamais été aussi simple avec APRIL Moto, qui couvre tous les conducteurs
+            - paragraph [ref=f21e308]: Et en cas de sinistre, votre dossier sera pris en charge très rapidement, pour une satisfaction et un accompagnement maximum. Ne vous préoccupez plus des soucis liés à l’indemnisation de vos dommages corporels et matériels grâce à un remboursement rapide.
+            - paragraph [ref=f21e309]
+          - generic [ref=f21e313]:
+            - generic [ref=f21e314]:
+              - heading [level=2] [ref=f21e315]:
+                - text: Choisissez votre assurance
+                - strong [ref=f21e316]: selon la marque de votre cyclo
+              - link "Voir toutes les marques de cyclo 50cm3" [ref=f21e317] [cursor=pointer]
+            - generic:
+              - link [ref=f21e319] [cursor=pointer]:
+                - /url: https://www.april-moto.com/assurance-scooter-beta/
+                - text: Assurance cyclo
+                - strong [ref=f21e320]: Beta
+              - link [ref=f21e322] [cursor=pointer]:
+                - /url: https://www.april-moto.com/assurance-scooter-derbi/
+                - text: Assurance cyclo
+                - strong [ref=f21e323]: Derbi
+              - link [ref=f21e325] [cursor=pointer]:
+                - /url: https://www.april-moto.com/assurance-scooter-kymco/
+                - text: Assurance cyclo
+                - strong [ref=f21e326]: Kymco
+              - link [ref=f21e328] [cursor=pointer]:
+                - /url: https://www.april-moto.com/assurance-scooter-peugeot-motocycles/
+                - text: Assurance cyclo
+                - strong [ref=f21e329]: Peugeot
+              - link [ref=f21e331] [cursor=pointer]:
+                - /url: https://www.april-moto.com/assurance-scooter-piaggio/
+                - text: Assurance cyclo
+                - strong [ref=f21e332]: Piaggio
+              - link [ref=f21e334] [cursor=pointer]:
+                - /url: https://www.april-moto.com/assurance-scooter-sym/
+                - text: Assurance cyclo
+                - strong [ref=f21e335]: Sym
+              - link [ref=f21e337] [cursor=pointer]:
+                - /url: https://www.april-moto.com/assurance-scooter-rieju/
+                - text: Assurance cyclo
+                - strong [ref=f21e338]: Rieju
+        - generic [ref=f21e341]:
+          - generic [ref=f21e342]:
+            - heading [level=2] [ref=f21e344]:
+              - strong [ref=f21e345]: Des garanties primordiales incluses,
+              - text: et des protections sur-mesure en option
+            - link "Choisissez vos garanties" [ref=f21e347] [cursor=pointer]
+          - generic [ref=f21e349]:
+            - generic [ref=f21e351]:
+              - link "Assistance Accident" [ref=f21e352] [cursor=pointer]:
+                - /url: https://www.april-moto.com/assistance-accident/
+              - paragraph [ref=f21e353]: Assistance en cas d'accident ou vol (dépannage ou remorquage) en France et à l'étranger, prise en charge des personnes directement liées à l'usage de ce véhicule
+              - link "En savoir plus sur Assistance Accident (nouvelle fenêtre)" [ref=f21e354] [cursor=pointer]: En savoir plus
+              - generic [ref=f21e355]: Inclus
+            - generic [ref=f21e358]:
+              - link "Protection juridique" [ref=f21e359] [cursor=pointer]:
+                - /url: https://www.april-moto.com/protection-juridique-motard/
+              - paragraph [ref=f21e360]: Pour défendre vos intérêts, vous aider à régler vos litiges et protéger votre permis de conduire
+              - link "En savoir plus sur Protection juridique (nouvelle fenêtre)" [ref=f21e361] [cursor=pointer]: En savoir plus
+              - generic [ref=f21e362]: Inclus
+            - generic [ref=f21e365]:
+              - paragraph [ref=f21e366]:
+                - link "Web App Assistance" [ref=f21e367] [cursor=pointer]
+              - paragraph [ref=f21e368]: La Web App Assistance a été conçue pour vous faciliter les démarches en cas de panne ou d'accident !
+              - link "En savoir plus sur Web App Assistance (nouvelle fenêtre)" [ref=f21e369] [cursor=pointer]: En savoir plus
+              - generic [ref=f21e370]: Inclus
+            - generic [ref=f21e373]:
+              - link "Assistance Panne 0km" [ref=f21e374] [cursor=pointer]:
+                - /url: https://www.april-moto.com/assistance-panne-0km/
+              - paragraph [ref=f21e375]: Accident, panne, crevaison, panne d'essence, perte des clés ou des papiers, dépannage et remorquage, retrait de permis, assistance à l'étranger... Cette garantie s'occupe de tout !
+              - link "En savoir plus sur Assistance Panne 0km (nouvelle fenêtre)" [ref=f21e376] [cursor=pointer]: En savoir plus
+              - generic [ref=f21e377]: En option
+            - generic [ref=f21e380]:
+              - link "Protection Corporelle du Conducteur" [ref=f21e381] [cursor=pointer]:
+                - /url: https://www.april-moto.com/protection-corporelle-du-conducteur/
+              - paragraph [ref=f21e382]: Avec la Protection corporelle du conducteur, nous indemnisons les préjudices subis suite à un accident corporel, que vous soyez responsable ou non !
+              - link "En savoir plus sur Protection Corporelle du Conducteur (nouvelle fenêtre)" [ref=f21e383] [cursor=pointer]: En savoir plus
+              - generic [ref=f21e384]: En option
+            - generic [ref=f21e387]:
+              - link "Accessoires et équipements" [ref=f21e388] [cursor=pointer]:
+                - /url: https://www.april-moto.com/accessoires-et-equipements-rembourses/
+              - paragraph [ref=f21e389]: Les accessoires de votre moto ainsi que vos équipements de protection sont remboursés jusqu'à 10 000€.
+              - link "En savoir plus sur Accessoires et équipements (nouvelle fenêtre)" [ref=f21e390] [cursor=pointer]: En savoir plus
+              - generic [ref=f21e391]: En option
+        - generic [ref=f21e395]:
+          - generic [ref=f21e397]:
+            - heading [level=3] [ref=f21e398]:
+              - text: Consulter la
+              - strong [ref=f21e399]: FAQ et les conseils
+            - tablist [ref=f21e400]:
+              - tab [ref=f21e402]:
+                - button "Faut-il le permis AM (BSR) pour assurer un cyclomoteur 50cc ?" [ref=f21e403] [cursor=pointer]
+              - tab [ref=f21e406]:
+                - button "Peut-on assurer un 50cc sans BSR ?" [ref=f21e407] [cursor=pointer]
+              - tab [ref=f21e410]:
+                - button "Combien coûte une assurance cyclo 50cc pour un jeune conducteur ?" [ref=f21e411] [cursor=pointer]
+              - tab [ref=f21e414]:
+                - button "Quels documents fournir pour assurer un cyclomoteur ?" [ref=f21e415] [cursor=pointer]
+              - tab [ref=f21e418]:
+                - button "Mon cyclomoteur est débridé, suis-je couvert ?" [ref=f21e419] [cursor=pointer]
+              - tab [ref=f21e422]:
+                - button "Comment résilier mon assurance cyclo ?" [ref=f21e423] [cursor=pointer]
+              - tab [ref=f21e426]:
+                - button "Quelle est la différence entre un cyclo et un scooter 50cc ?" [ref=f21e427] [cursor=pointer]
+              - tab [ref=f21e430]:
+                - button "Comment est calculé le prix de mon assurance cyclo ?" [ref=f21e431] [cursor=pointer]
+            - link "Consulter la foire aux questions" [ref=f21e435] [cursor=pointer]: Voir la FAQ
+          - generic [ref=f21e437]:
+            - heading [level=3] [ref=f21e438]:
+              - text: Télécharger des
+              - strong [ref=f21e439]: documents utiles
+            - generic [ref=f21e440]:
+              - button "APRIL Moto - Dispositions Générales Cyclo" [ref=f21e443] [cursor=pointer]
+              - button "APRIL Moto - Document d'information Cyclo" [ref=f21e447] [cursor=pointer]
+              - button "APRIL Moto - Annexes assistance" [ref=f21e451] [cursor=pointer]
+            - link "Voir tous les documents utiles" [ref=f21e455] [cursor=pointer]: Voir tous les documents
+    - navigation "Fil d'Ariane" [ref=f21e456]:
+      - link "APRIL Moto" [ref=f21e457] [cursor=pointer]:
+        - /url: https://www.april-moto.com/
+      - text: ">"
+      - link "Assurance Scooter" [ref=f21e458] [cursor=pointer]:
+        - /url: https://www.april-moto.com/assurance-scooter/
+      - text: ">"
+      - link "Cylindrées Scooter" [ref=f21e459] [cursor=pointer]:
+        - /url: https://www.april-moto.com/cylindrees-scooter/
+      - text: "> Assurance Cyclo 50cm3"
+    - contentinfo [ref=f21e460]:
+      - list [ref=f21e464]:
+        - listitem [ref=f21e465]:
+          - list [ref=f21e466]:
+            - listitem [ref=f21e467]:
+              - link "Espace assuré" [ref=f21e468] [cursor=pointer]
+            - listitem [ref=f21e469]:
+              - link "FAQ" [ref=f21e470] [cursor=pointer]
+            - listitem [ref=f21e471]:
+              - link "Accès courtier" [ref=f21e472] [cursor=pointer]
+            - listitem [ref=f21e473]:
+              - link "Contact" [ref=f21e474] [cursor=pointer]
+            - listitem [ref=f21e475]:
+              - link "Blog" [ref=f21e476] [cursor=pointer]:
+                - /url: https://www.april-moto.com/blog/
+            - listitem [ref=f21e477]:
+              - link "Codes Promos" [ref=f21e478] [cursor=pointer]
+            - listitem [ref=f21e479]:
+              - 'link "Accessibilité : partiellement conforme" [ref=f21e480] [cursor=pointer]'
+            - listitem [ref=f21e481]:
+              - link "Résilier mon contrat" [ref=f21e482] [cursor=pointer]
+            - listitem [ref=f21e483]:
+              - link "Renoncer à mon Contrat" [ref=f21e484] [cursor=pointer]
+            - listitem [ref=f21e485]:
+              - link "Plan du site" [ref=f21e486] [cursor=pointer]
+        - listitem [ref=f21e487]:
+          - link "Suivez-nous" [ref=f21e488] [cursor=pointer]:
+            - /url: "#"
+          - list [ref=f21e489]:
+            - listitem [ref=f21e490]:
+              - link "Facebook" [ref=f21e491] [cursor=pointer]
+            - listitem [ref=f21e492]:
+              - link "Instagram" [ref=f21e493] [cursor=pointer]
+            - listitem [ref=f21e494]:
+              - link "Linkedin" [ref=f21e495] [cursor=pointer]
+            - listitem [ref=f21e496]:
+              - link "Youtube" [ref=f21e497] [cursor=pointer]:
+                - /url: https://www.youtube-nocookie.com/playlist?list=PLMdi6YczweXkohiWRl0eA1k1pq4daray4
+        - listitem [ref=f21e498]:
+          - link "Obtenir votre devis" [ref=f21e499] [cursor=pointer]:
+            - /url: "#"
+          - list [ref=f21e500]:
+            - listitem [ref=f21e501]:
+              - link "Devis assurance Moto" [ref=f21e502] [cursor=pointer]
+            - listitem [ref=f21e503]:
+              - link "Devis assurance Scooter" [ref=f21e504] [cursor=pointer]
+            - listitem [ref=f21e505]:
+              - link "Devis assurance Cyclo 50" [ref=f21e506] [cursor=pointer]
+            - listitem [ref=f21e507]:
+              - link "Devis assurance Moto Tout Terrain" [ref=f21e508] [cursor=pointer]
+            - listitem [ref=f21e509]:
+              - link "Devis assurance Quad" [ref=f21e510] [cursor=pointer]
+            - listitem [ref=f21e511]:
+              - link "Devis assurance Livraison" [ref=f21e512] [cursor=pointer]
+            - listitem [ref=f21e513]:
+              - link "Devis assurance Vélo" [ref=f21e514] [cursor=pointer]
+            - listitem [ref=f21e515]:
+              - link "Devis assurance Trottinette" [ref=f21e516] [cursor=pointer]
+        - listitem [ref=f21e517]:
+          - link "A propos d’APRIL" [ref=f21e518] [cursor=pointer]:
+            - /url: "#"
+          - list [ref=f21e519]:
+            - listitem [ref=f21e520]:
+              - link "Groupe APRIL" [ref=f21e521] [cursor=pointer]:
+                - /url: https://www.april-moto.com/groupe-april/
+            - listitem [ref=f21e522]:
+              - link "Qui sommes-nous ?" [ref=f21e523] [cursor=pointer]
+            - listitem [ref=f21e524]:
+              - link "Fondation APRIL" [ref=f21e525] [cursor=pointer]
+      - generic [ref=f21e526]:
+        - separator [ref=f21e528]
+        - generic [ref=f21e530]:
+          - paragraph [ref=f21e532]: "Informations règlementaires :"
+          - list [ref=f21e533]:
+            - listitem [ref=f21e534]:
+              - link "Conditions générales d’Utilisation" [ref=f21e535] [cursor=pointer]
+            - listitem [ref=f21e536]:
+              - link "Gestion des cookies" [ref=f21e537] [cursor=pointer]
+            - listitem [ref=f21e538]:
+              - link "Politique de données personnelles" [ref=f21e539] [cursor=pointer]
+            - listitem [ref=f21e540]:
+              - link "Fonctionnement du Tarificateur" [ref=f21e541] [cursor=pointer]
+            - listitem [ref=f21e542]:
+              - link "Faire une réclamation" [ref=f21e543] [cursor=pointer]
+            - listitem [ref=f21e544]:
+              - link "Résilier mon contrat" [ref=f21e545] [cursor=pointer]
+        - separator [ref=f21e547]
+      - generic [ref=f21e550]:
+        - img "APRIL Moto" [ref=f21e552]
+        - list [ref=f21e553]:
+          - listitem [ref=f21e554]:
+            - link "APRIL Santé" [ref=f21e555] [cursor=pointer]
+          - listitem [ref=f21e556]:
+            - link "APRIL Emprunteur" [ref=f21e557] [cursor=pointer]
+          - listitem [ref=f21e558]:
+            - link "APRIL Prévoyance" [ref=f21e559] [cursor=pointer]
+          - listitem [ref=f21e560]:
+            - link "APRIL International" [ref=f21e561] [cursor=pointer]:
+              - /url: https://www.april-international.com/fr
+          - listitem [ref=f21e562]:
+            - link "APRIL Moto" [ref=f21e563] [cursor=pointer]
+          - listitem [ref=f21e564]:
+            - link "APRIL Marine" [ref=f21e565] [cursor=pointer]
+          - listitem [ref=f21e566]:
+            - link "APRIL Auto" [ref=f21e567] [cursor=pointer]
+    - navigation "Navigation rapide":
+      - generic:
+        - button "Fermer le menu rapide" [ref=f21e568] [cursor=pointer]
+        - button "Devis & Contact - Ouvrir le menu rapide" [ref=f21e569] [cursor=pointer]:
+          - generic: Devis & Contact
+    - button "Ouvrir le panneau d'accessibilité" [ref=f21e570] [cursor=pointer]
+    - dialog "Paramètres d'accessibilité" [ref=f21e571]:
+      - generic [ref=f21e572]:
+        - heading "Accessibilité" [level=2] [ref=f21e573]
+        - generic [ref=f21e574]:
+          - button "Réinitialiser" [ref=f21e575] [cursor=pointer]
+          - button "Fermer le panneau d'accessibilité" [ref=f21e576] [cursor=pointer]
+      - generic [ref=f21e578]:
+        - group "Vision" [ref=f21e579]:
+          - generic [ref=f21e581]:
+            - generic [ref=f21e582]:
+              - generic [ref=f21e583]: Dyslexie
+              - button "Détails du filtre Dyslexie" [ref=f21e584]:
+                - generic [ref=f21e585]: "?"
+            - generic [ref=f21e586] [cursor=pointer]:
+              - switch "Dyslexie"
+          - generic [ref=f21e588]:
+            - generic [ref=f21e589]:
+              - generic [ref=f21e590]: Senior
+              - button "Détails du filtre Senior" [ref=f21e591]:
+                - generic [ref=f21e592]: "?"
+            - generic [ref=f21e593] [cursor=pointer]:
+              - switch "Senior"
+          - generic [ref=f21e595]:
+            - generic [ref=f21e596]:
+              - generic [ref=f21e597]: Malvoyance
+              - button "Détails du filtre Malvoyance" [ref=f21e598]:
+                - generic [ref=f21e599]: "?"
+            - generic [ref=f21e600] [cursor=pointer]:
+              - switch "Malvoyance"
+          - generic [ref=f21e602]:
+            - generic [ref=f21e603]:
+              - generic [ref=f21e604]: Presbytie
+              - button "Détails du filtre Presbytie" [ref=f21e605]:
+                - generic [ref=f21e606]: "?"
+            - generic [ref=f21e607] [cursor=pointer]:
+              - switch "Presbytie"
+          - generic [ref=f21e609]:
+            - generic [ref=f21e610]:
+              - generic [ref=f21e611]: Cataracte
+              - button "Détails du filtre Cataracte" [ref=f21e612]:
+                - generic [ref=f21e613]: "?"
+            - generic [ref=f21e614] [cursor=pointer]:
+              - switch "Cataracte"
+          - generic [ref=f21e616]:
+            - generic [ref=f21e617]:
+              - generic [ref=f21e618]: DMLA
+              - button "Détails du filtre DMLA" [ref=f21e619]:
+                - generic [ref=f21e620]: "?"
+            - generic [ref=f21e621] [cursor=pointer]:
+              - switch "DMLA"
+        - group "Confort" [ref=f21e623]:
+          - generic [ref=f21e625]:
+            - generic [ref=f21e626]:
+              - generic [ref=f21e627]: Fatigue visuelle
+              - button "Détails du filtre Fatigue visuelle" [ref=f21e628]:
+                - generic [ref=f21e629]: "?"
+            - generic [ref=f21e630] [cursor=pointer]:
+              - switch "Fatigue visuelle"
+          - generic [ref=f21e632]:
+            - generic [ref=f21e633]:
+              - generic [ref=f21e634]: Migraine
+              - button "Détails du filtre Migraine" [ref=f21e635]:
+                - generic [ref=f21e636]: "?"
+            - generic [ref=f21e637] [cursor=pointer]:
+              - switch "Migraine"
+          - generic [ref=f21e639]:
+            - generic [ref=f21e640]:
+              - generic [ref=f21e641]: Confort de lecture
+              - button "Détails du filtre Confort de lecture" [ref=f21e642]:
+                - generic [ref=f21e643]: "?"
+            - generic [ref=f21e644] [cursor=pointer]:
+              - switch "Confort de lecture"
+          - generic [ref=f21e646]:
+            - generic [ref=f21e647]:
+              - generic [ref=f21e648]: Épilepsie photosensible
+              - button "Détails du filtre Épilepsie photosensible" [ref=f21e649]:
+                - generic [ref=f21e650]: "?"
+            - generic [ref=f21e651] [cursor=pointer]:
+              - switch "Épilepsie photosensible"
+          - generic [ref=f21e653]:
+            - generic [ref=f21e654]:
+              - generic [ref=f21e655]: Trouble de l'attention
+              - button "Détails du filtre Trouble de l'attention" [ref=f21e656]:
+                - generic [ref=f21e657]: "?"
+            - generic [ref=f21e658] [cursor=pointer]:
+              - switch "Trouble de l'attention"
+        - group "Motricité" [ref=f21e660]:
+          - generic [ref=f21e662]:
+            - generic [ref=f21e663]:
+              - generic [ref=f21e664]: Motricité réduite
+              - button "Détails du filtre Motricité réduite" [ref=f21e665]:
+                - generic [ref=f21e666]: "?"
+            - generic [ref=f21e667] [cursor=pointer]:
+              - switch "Motricité réduite"

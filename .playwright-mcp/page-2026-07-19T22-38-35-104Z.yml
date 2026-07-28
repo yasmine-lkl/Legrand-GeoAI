@@ -1,0 +1,382 @@
+- generic [active] [ref=f39e1]:
+  - generic:
+    - generic:
+      - 'dialog "Plateforme de Gestion du Consentement : Personnalisez vos Options"':
+        - generic [ref=f39e2]:
+          - text: Axeptio consent
+          - checkbox [ref=f39e3]
+        - generic [ref=f39e4]:
+          - paragraph [ref=f39e5]: "Plateforme de Gestion du Consentement : Personnalisez vos Options"
+          - paragraph [ref=f39e6]: Notre plateforme vous permet d'adapter et de gérer vos paramètres de confidentialité, en garantissant la conformité avec les réglementations. Personnalisez vos préférences pour contrôler la manière dont vos informations sont manipulées.
+      - button "Gérez vos préférences en matière de cookies et données personnelles" [ref=f39e7] [cursor=pointer]
+  - generic [ref=f39e16]:
+    - generic [ref=f39e17]:
+      - link "Aller au contenu principal" [ref=f39e18] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=f39e19]:
+        - list [ref=f39e20]:
+          - listitem [ref=f39e21]:
+            - link "Conseils et actus" [ref=f39e22] [cursor=pointer]:
+              - /url: /conseils-actualites
+          - listitem [ref=f39e23]:
+            - link "Qui sommes-nous ?" [ref=f39e24] [cursor=pointer]:
+              - /url: /qui-sommes-nous
+          - listitem [ref=f39e25]:
+            - link "Nos +" [ref=f39e26] [cursor=pointer]:
+              - /url: /nos-plus
+          - listitem [ref=f39e27]:
+            - link "Nous rencontrer" [ref=f39e28] [cursor=pointer]:
+              - /url: /nous-rencontrer
+          - listitem [ref=f39e29]:
+            - link "Espace courtier" [ref=f39e30] [cursor=pointer]:
+              - /url: http://www.lecourtierdumotard.fr/
+        - list [ref=f39e31]:
+          - listitem [ref=f39e32]:
+            - link "FAQ (nouvelle fenêtre)" [ref=f39e35] [cursor=pointer]:
+              - /url: /faq
+              - text: FAQ
+              - generic [ref=f39e36]: (nouvelle fenêtre)
+          - listitem [ref=f39e37]:
+            - link "Contact" [ref=f39e38] [cursor=pointer]:
+              - /url: /nous-contacter
+          - listitem [ref=f39e42]:
+            - link "Espace perso (nouvelle fenêtre)" [ref=f39e45] [cursor=pointer]:
+              - /url: https://espaceperso.mutuelledesmotards.fr/
+              - text: Espace perso
+              - generic [ref=f39e46]: (nouvelle fenêtre)
+      - banner [ref=f39e47]:
+        - generic [ref=f39e48]:
+          - heading [level=1] [ref=f39e51]:
+            - link [ref=f39e52] [cursor=pointer]:
+              - /url: /
+              - img "Mutuelle des Motards - Liberté assurée (aller à l'accueil)" [ref=f39e53]
+          - generic [ref=f39e54]:
+            - navigation "Menu principal" [ref=f39e55]:
+              - list [ref=f39e56]:
+                - listitem [ref=f39e57]:
+                  - button [ref=f39e58] [cursor=pointer]
+                - listitem [ref=f39e63]:
+                  - button [ref=f39e64] [cursor=pointer]
+                - listitem [ref=f39e69]:
+                  - button [ref=f39e70] [cursor=pointer]
+                - listitem [ref=f39e75]:
+                  - button [ref=f39e76] [cursor=pointer]
+                - listitem [ref=f39e81]:
+                  - button [ref=f39e82] [cursor=pointer]
+                - listitem [ref=f39e87]:
+                  - button [ref=f39e88] [cursor=pointer]
+            - generic:
+              - link "Votre recherche":
+                - /url: /recherche
+          - link "Testez nos tarifs" [ref=f39e95] [cursor=pointer]:
+            - /url: /nos-tarifs
+          - text: Menu
+        - generic [ref=f39e97]:
+          - generic [ref=f39e100]:
+            - textbox "Rechercher" [ref=f39e103]
+            - button "Search" [ref=f39e104] [cursor=pointer]
+          - generic [ref=f39e105]: Entrer votre recherche
+    - main [ref=f39e106]:
+      - generic [ref=f39e108]:
+        - generic [ref=f39e109]:
+          - generic [ref=f39e110]:
+            - list [ref=f39e111]:
+              - listitem [ref=f39e112]:
+                - button "Téléphone" [ref=f39e113] [cursor=pointer]
+              - listitem [ref=f39e117]:
+                - button "Bureau" [ref=f39e118] [cursor=pointer]
+              - listitem [ref=f39e123]:
+                - button "FAQ" [ref=f39e124] [cursor=pointer]
+              - listitem [ref=f39e130]:
+                - button "Devis" [ref=f39e131] [cursor=pointer]
+            - generic [ref=f39e136]:
+              - paragraph [ref=f39e137]: Contact
+              - heading "Contactez-nous" [level=1] [ref=f39e138]
+              - paragraph [ref=f39e139]: Laissez vous guider et trouvez la réponse la plus adaptée à vos besoins.
+              - link "Contactez-nous" [ref=f39e140] [cursor=pointer]:
+                - /url: "https://www.mutuelledesmotards.fr/nous-contacter  "
+          - generic [ref=f39e144]:
+            - heading [level=2] [ref=f39e149]:
+              - text: Assurons notre liberté - La nouvelle campagne de la Mutuelle des Motards
+              - link "Découvrir la campagne" [ref=f39e150] [cursor=pointer]:
+                - /url: https://www.mutuelledesmotards.fr/assurons-notre-liberte
+            - generic [ref=f39e154]:
+              - generic [ref=f39e155]:
+                - generic [ref=f39e156]:
+                  - heading [level=3] [ref=f39e157]:
+                    - generic [ref=f39e164]:
+                      - text: Des assurances
+                      - strong [ref=f39e165]: personnalisées
+                  - paragraph [ref=f39e167]: Des assurances sur-mesure qui s’adaptent au mieux à votre pratique du 2 et 3-roues
+                  - link "Découvrir les assurances" [ref=f39e168] [cursor=pointer]:
+                    - /url: https://montarifenligne.mutuelledesmotards.fr/web/tarificateur/calcul
+                - generic [ref=f39e172]:
+                  - heading [level=3] [ref=f39e173]:
+                    - generic [ref=f39e179]:
+                      - text: Les meilleures
+                      - strong [ref=f39e180]: garanties
+                  - paragraph [ref=f39e182]: Des couvertures uniques issues d’une expertise depuis 1983 et approuvées par nos sociétaires
+                  - link "Découvrir les assurances" [ref=f39e183] [cursor=pointer]:
+                    - /url: https://montarifenligne.mutuelledesmotards.fr/web/tarificateur/calcul
+                - generic [ref=f39e187]:
+                  - heading [level=3] [ref=f39e188]:
+                    - strong [ref=f39e192]: Accompagnement
+                  - paragraph [ref=f39e194]: 43 Maisons des Motards, 57 délégations bénévoles et des services accessibles en ligne.
+              - link "Scroller" [ref=f39e195] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=f39e202]:
+              - generic [ref=f39e203]:
+                - heading "Des assurances personnalisées" [level=2] [ref=f39e204]
+                - generic [ref=f39e205]: La Mutuelle des Motards travaille sans relâche depuis plus de 40 ans pour concevoir des garanties qui assurent une protection complète selon votre pratique du 2-roues.
+              - list [ref=f39e207]:
+                - listitem [ref=f39e208]:
+                  - link "Toutes les assurances" [ref=f39e209] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=f39e210]:
+                  - link "Pour tous les jours" [ref=f39e211] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=f39e212]:
+                  - link "Pour le fun" [ref=f39e213] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=f39e214]:
+                  - link "Pour le reste" [ref=f39e215] [cursor=pointer]:
+                    - /url: "#"
+              - list [ref=f39e218]:
+                - listitem [ref=f39e219]:
+                  - generic [ref=f39e221]:
+                    - tabpanel [ref=f39e224]:
+                      - generic [ref=f39e226]:
+                        - img "Label excellence 2025" [ref=f39e229]
+                        - generic [ref=f39e230]:
+                          - heading "Vous avez raison de nous faire confiance !" [level=2] [ref=f39e231]
+                          - link "Pour en savoir plus, rendez-vous sur notre actualité" [ref=f39e234] [cursor=pointer]:
+                            - /url: /actualites/la-mutuelle-obtient-le-label-dexcellence
+                    - tablist [ref=f39e236]:
+                      - tab "1 of 1" [selected] [ref=f39e237] [cursor=pointer]: "1"
+                - listitem [ref=f39e238]:
+                  - 'link "Moto de collection : la quête de l’authentique moto de collection En savoir plus" [ref=f39e239] [cursor=pointer]':
+                    - /url: /assurances/assurance-moto-collection
+                    - generic [ref=f39e243]:
+                      - generic [ref=f39e244]: "Moto de collection : la quête de l’authentique"
+                      - generic [ref=f39e245]: moto de collection
+                    - generic [ref=f39e246]: En savoir plus
+                - listitem [ref=f39e250]:
+                  - 'link "Assurance moto sur-mesure : la protection unique pour toutes les motos personnalisées Moto personnalisée En savoir plus" [ref=f39e251] [cursor=pointer]':
+                    - /url: /assurances/assurance-moto-personnalisee
+                    - generic [ref=f39e255]:
+                      - generic [ref=f39e256]: "Assurance moto sur-mesure : la protection unique pour toutes les motos personnalisées"
+                      - generic [ref=f39e257]: Moto personnalisée
+                    - generic [ref=f39e258]: En savoir plus
+                - listitem [ref=f39e262]:
+                  - 'link "Moto gros cube : l’assurance avec 2-roues d’avance moto gros cube En savoir plus" [ref=f39e263] [cursor=pointer]':
+                    - /url: /assurances/assurance-moto-gros-cube
+                    - generic [ref=f39e267]:
+                      - generic [ref=f39e268]: "Moto gros cube : l’assurance avec 2-roues d’avance"
+                      - generic [ref=f39e269]: moto gros cube
+                    - generic [ref=f39e270]: En savoir plus
+                - listitem [ref=f39e274]:
+                  - link "Assurer votre moto 125 cc 125cc En savoir plus" [ref=f39e275] [cursor=pointer]:
+                    - /url: /assurances/assurance-moto-125
+                    - generic [ref=f39e279]:
+                      - generic [ref=f39e280]: Assurer votre moto 125 cc
+                      - generic [ref=f39e281]: 125cc
+                    - generic [ref=f39e282]: En savoir plus
+                - listitem [ref=f39e286]:
+                  - 'link "Side-car : partagez la passion de la moto side-car En savoir plus" [ref=f39e287] [cursor=pointer]':
+                    - /url: /assurances/assurance-side-car
+                    - generic [ref=f39e291]:
+                      - generic [ref=f39e292]: "Side-car : partagez la passion de la moto"
+                      - generic [ref=f39e293]: side-car
+                    - generic [ref=f39e294]: En savoir plus
+                - listitem [ref=f39e298]:
+                  - 'link "Scooter gros cube : assurez votre maxi scoot scooter gros cube En savoir plus" [ref=f39e299] [cursor=pointer]':
+                    - /url: /assurances/assurance-scooter-gros-cube
+                    - generic [ref=f39e303]:
+                      - generic [ref=f39e304]: "Scooter gros cube : assurez votre maxi scoot"
+                      - generic [ref=f39e305]: scooter gros cube
+                    - generic [ref=f39e306]: En savoir plus
+                - listitem [ref=f39e310]:
+                  - link "Votre contrat d'assurance Auto sélectionné par des motards, pour des motards ! voiture En savoir plus" [ref=f39e311] [cursor=pointer]:
+                    - /url: /assurances/assurance-auto
+                    - generic [ref=f39e315]:
+                      - generic [ref=f39e316]: Votre contrat d'assurance Auto sélectionné par des motards, pour des motards !
+                      - generic [ref=f39e317]: voiture
+                    - generic [ref=f39e318]: En savoir plus
+                - listitem [ref=f39e322]:
+                  - 'link "Quad ou Buggy : même sur 4 roues, la Mutuelle vous assure ! Assurer mon quad En savoir plus" [ref=f39e323] [cursor=pointer]':
+                    - /url: /assurances/assurance-quad
+                    - generic [ref=f39e327]:
+                      - generic [ref=f39e328]: "Quad ou Buggy : même sur 4 roues, la Mutuelle vous assure !"
+                      - generic [ref=f39e329]: Assurer mon quad
+                    - generic [ref=f39e330]: En savoir plus
+                - listitem [ref=f39e334]:
+                  - 'link "Moto tout-terrain : assurez vos crampons moto de tout-terrain En savoir plus" [ref=f39e335] [cursor=pointer]':
+                    - /url: /assurances/assurance-moto-tout-terrain
+                    - generic [ref=f39e339]:
+                      - generic [ref=f39e340]: "Moto tout-terrain : assurez vos crampons"
+                      - generic [ref=f39e341]: moto de tout-terrain
+                    - generic [ref=f39e342]: En savoir plus
+                - listitem [ref=f39e346]:
+                  - 'link "Moto pour la piste : posez le genou en toute sérénité moto de piste En savoir plus" [ref=f39e347] [cursor=pointer]':
+                    - /url: /assurances/assurance-moto-piste
+                    - generic [ref=f39e351]:
+                      - generic [ref=f39e352]: "Moto pour la piste : posez le genou en toute sérénité"
+                      - generic [ref=f39e353]: moto de piste
+                    - generic [ref=f39e354]: En savoir plus
+                - listitem [ref=f39e358]:
+                  - 'link "Scooter 50 cc : l’assurance adaptée à votre quotidien scooter 50cc En savoir plus" [ref=f39e359] [cursor=pointer]':
+                    - /url: /assurance-scooter-50
+                    - generic [ref=f39e363]:
+                      - generic [ref=f39e364]: "Scooter 50 cc : l’assurance adaptée à votre quotidien"
+                      - generic [ref=f39e365]: scooter 50cc
+                    - generic [ref=f39e366]: En savoir plus
+                - listitem [ref=f39e370]:
+                  - 'link "Scooter 125 cc : l''assurance adaptée à votre quotidien scooter 125cc En savoir plus" [ref=f39e371] [cursor=pointer]':
+                    - /url: /assurances/assurance-scooter-125
+                    - generic [ref=f39e375]:
+                      - generic [ref=f39e376]: "Scooter 125 cc : l'assurance adaptée à votre quotidien"
+                      - generic [ref=f39e377]: scooter 125cc
+                    - generic [ref=f39e378]: En savoir plus
+                - listitem [ref=f39e382]:
+                  - 'link "Moto vintage : assurez votre increvable moto de plus de 15 ans En savoir plus" [ref=f39e383] [cursor=pointer]':
+                    - /url: /assurances/assurance-moto-plus-de-15-ans
+                    - generic [ref=f39e387]:
+                      - generic [ref=f39e388]: "Moto vintage : assurez votre increvable"
+                      - generic [ref=f39e389]: moto de plus de 15 ans
+                    - generic [ref=f39e390]: En savoir plus
+                - listitem [ref=f39e394]:
+                  - 'link "Assurance habitation : protégez bien plus que vos deux-roues ! ¹ logement En savoir plus" [ref=f39e395] [cursor=pointer]':
+                    - /url: /assurances/assurance-habitation
+                    - generic [ref=f39e399]:
+                      - generic [ref=f39e400]: "Assurance habitation : protégez bien plus que vos deux-roues ! ¹"
+                      - generic [ref=f39e401]: logement
+                    - generic [ref=f39e402]: En savoir plus
+                - listitem [ref=f39e406]:
+                  - link "L’assurance pour votre trottinette électrique et autres E.D.P.M. EDPM En savoir plus" [ref=f39e407] [cursor=pointer]:
+                    - /url: /assurances/assurance-trottinette
+                    - generic [ref=f39e411]:
+                      - generic [ref=f39e412]: L’assurance pour votre trottinette électrique et autres E.D.P.M.
+                      - generic [ref=f39e413]: EDPM
+                    - generic [ref=f39e414]: En savoir plus
+                - listitem [ref=f39e418]:
+                  - 'link "Vélo à assistance électrique : assurez plus qu''un vélo, assurez-vous ! Vélo électrique En savoir plus" [ref=f39e419] [cursor=pointer]':
+                    - /url: /assurances/assurance-velo-assistance-electrique
+                    - generic [ref=f39e423]:
+                      - generic [ref=f39e424]: "Vélo à assistance électrique : assurez plus qu'un vélo, assurez-vous !"
+                      - generic [ref=f39e425]: Vélo électrique
+                    - generic [ref=f39e426]: En savoir plus
+        - generic [ref=f39e431]:
+          - link "L'actualité moto et Mutuelle" [ref=f39e434] [cursor=pointer]:
+            - /url: /actualites
+          - link "Les conseils d'experts" [ref=f39e436] [cursor=pointer]:
+            - /url: /conseils
+          - link "Les événements motards dans votre région" [ref=f39e438] [cursor=pointer]:
+            - /url: /evenements
+        - generic [ref=f39e441]:
+          - generic [ref=f39e442]:
+            - heading "Prêt à rejoindre la Mutuelle des Motards ?" [level=2] [ref=f39e443]
+            - generic [ref=f39e444]: Trouvez le contrat qui vous correspond !
+          - generic [ref=f39e445]:
+            - link "Pour vous" [ref=f39e446] [cursor=pointer]:
+              - /url: https://montarifenligne.mutuelledesmotards.fr/web/tarificateur/calcul
+            - link "Pour les pros" [ref=f39e447] [cursor=pointer]:
+              - /url: https://www.mutuelledesmotards.fr/espace-pro
+    - generic [ref=f39e448]:
+      - generic [ref=f39e449]:
+        - generic [ref=f39e450]:
+          - heading [level=1]
+          - text: Assurons notre liberté
+          - paragraph [ref=f39e451]: Mutuelle des Motards
+        - navigation [ref=f39e452]:
+          - heading "La Mutuelle" [level=1] [ref=f39e453]
+          - list [ref=f39e454]:
+            - listitem [ref=f39e455]:
+              - link "Qui sommes-nous ?" [ref=f39e456] [cursor=pointer]:
+                - /url: /histoire-mutuelle
+            - listitem [ref=f39e457]:
+              - link "Maison des Motards et délégations" [ref=f39e458] [cursor=pointer]:
+                - /url: https://nous-rencontrer.mutuelledesmotards.fr
+            - listitem [ref=f39e459]:
+              - link "Nous contacter" [ref=f39e460] [cursor=pointer]:
+                - /url: https://www.mutuelledesmotards.fr/nous-contacter
+            - listitem [ref=f39e461]:
+              - link "Espace carrière" [ref=f39e462] [cursor=pointer]:
+                - /url: https://www.mutuelledesmotards.fr/espace-carriere
+            - listitem [ref=f39e463]:
+              - link "Espace presse" [ref=f39e464] [cursor=pointer]:
+                - /url: https://www.mutuelledesmotards.fr/espace-presse
+            - listitem [ref=f39e465]:
+              - link "Rapports réglementaires" [ref=f39e466] [cursor=pointer]:
+                - /url: https://www.mutuelledesmotards.fr/rapports-reglementaires
+            - listitem [ref=f39e467]:
+              - link "Statuts" [ref=f39e468] [cursor=pointer]:
+                - /url: https://www.mutuelledesmotards.fr/sites/default/files/inline/images/MUT001-SOUSC-S-V04-2021-05-10-securise.pdf
+            - listitem [ref=f39e469]:
+              - link "Contact" [ref=f39e470] [cursor=pointer]:
+                - /url: /contact
+        - navigation [ref=f39e471]:
+          - heading "Les Liens utiles" [level=1] [ref=f39e472]
+          - list [ref=f39e473]:
+            - listitem [ref=f39e474]:
+              - link "Assistance 24h/24" [ref=f39e475] [cursor=pointer]:
+                - /url: /assistance-24h24
+            - listitem [ref=f39e476]:
+              - link "FAQ" [ref=f39e477] [cursor=pointer]:
+                - /url: https://www.mutuelledesmotards.fr/faq
+            - listitem [ref=f39e478]:
+              - link "Avis des sociétaires" [ref=f39e479] [cursor=pointer]:
+                - /url: /avis-de-nos-societaires
+            - listitem [ref=f39e480]:
+              - link "Réclamations" [ref=f39e481] [cursor=pointer]:
+                - /url: /reclamations
+            - listitem [ref=f39e482]:
+              - link "Politique de cookies" [ref=f39e483] [cursor=pointer]:
+                - /url: https://www.mutuelledesmotards.fr/politique-de-cookies-0
+            - listitem [ref=f39e484]:
+              - link "Aide et accessibilité" [ref=f39e485] [cursor=pointer]:
+                - /url: /aide-et-accessibilite
+            - listitem [ref=f39e486]:
+              - link "Politique de protection des données à caractère personnel" [ref=f39e487] [cursor=pointer]:
+                - /url: /notre-politique-de-protection-des-donnees-caractere-personnel
+            - listitem [ref=f39e488]:
+              - link "Procédure d’alerte" [ref=f39e489] [cursor=pointer]:
+                - /url: https://www.mutuelledesmotards.fr/dispositif-lanceur-alerte
+            - listitem [ref=f39e490]:
+              - link "Procédure de lancement d'alerte" [ref=f39e491] [cursor=pointer]:
+                - /url: https://www.mutuelledesmotards.fr/dispositif-lanceur-alerte
+        - generic [ref=f39e492]:
+          - heading "Suivez-nous" [level=1] [ref=f39e493]
+          - list [ref=f39e494]:
+            - listitem [ref=f39e495]:
+              - link "Facebook (nouvelle fenêtre)" [ref=f39e496] [cursor=pointer]:
+                - /url: https://www.facebook.com/mutuelledesmotards/
+            - listitem [ref=f39e500]:
+              - link "Youtube (nouvelle fenêtre)" [ref=f39e501] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/MutuelledesMotards
+            - listitem [ref=f39e505]:
+              - link "Instagram (nouvelle fenêtre)" [ref=f39e506] [cursor=pointer]:
+                - /url: https://www.instagram.com/mutuelledesmotards/
+            - listitem [ref=f39e510]:
+              - link "Linkedin (nouvelle fenêtre)" [ref=f39e511] [cursor=pointer]:
+                - /url: https://fr.linkedin.com/company/mutuelle-des-motards
+            - listitem [ref=f39e515]:
+              - link "Lib TV (nouvelle fenêtre)" [ref=f39e516] [cursor=pointer]:
+                - /url: https://www.libtv.fr/
+      - contentinfo [ref=f39e520]:
+        - generic [ref=f39e521]:
+          - link [ref=f39e522] [cursor=pointer]:
+            - /url: /
+            - img "Mutuelle des Motards - Liberté assurée (aller à l'accueil)" [ref=f39e523]
+          - paragraph [ref=f39e524]: ©2026 Mutuelle des Motards. Tous droits réservés
+        - list [ref=f39e526]:
+          - generic [ref=f39e527]:
+            - link [ref=f39e529] [cursor=pointer]:
+              - /url: https://www.avis-verifies.com/avis-clients/mutuelledesmotards.fr
+              - img "Avis Vérifiés - 4.8 sur 5 - 5812 avis clients" [ref=f39e530]
+            - listitem [ref=f39e531]:
+              - link [ref=f39e532] [cursor=pointer]:
+                - /url: /aide-et-accessibilite
+                - img "Site accessible de niveau A" [ref=f39e533]
+          - listitem [ref=f39e534]:
+            - link "Mentions légales" [ref=f39e535] [cursor=pointer]:
+              - /url: /mentions-legales

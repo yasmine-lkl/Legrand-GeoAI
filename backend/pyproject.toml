@@ -1,0 +1,75 @@
+[project]
+name = "legrand-geoai-backend"
+version = "1.0.0"
+description = "Agent IA interne pour Legrand GeoAI — Géomatique"
+requires-python = ">=3.12"
+readme = "README.md"
+
+dependencies = [
+    # --- Web Framework ---
+    "fastapi[standard]>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "pydantic>=2.9.0",
+    "pydantic-settings>=2.6.0",
+    "python-multipart>=0.0.12",
+
+    # --- Database ---
+    "sqlalchemy[asyncio]>=2.0.36",
+    "asyncpg>=0.30.0",
+    "alembic>=1.14.0",
+    "greenlet>=3.1.0",
+
+    # --- Authentication ---
+    "python-jose[cryptography]>=3.3.0",
+    "passlib[bcrypt]>=1.7.4",
+    # bcrypt doit rester < 4.1 : passlib 1.7.4 lance un self-test incompatible
+    # avec bcrypt >= 4.1 (suppression de bcrypt.__about__) → échec du hachage.
+    "bcrypt==4.0.1",
+
+    # --- Orchestration des tâches (pipeline documentaire) ---
+    "hatchet-sdk>=1.16.0",
+
+    # --- AI / RAG ---
+    "chromadb>=0.5.0",
+    "httpx>=0.27.0",
+    "sentence-transformers>=3.3.0",
+
+    # --- Document Processing & extraction structurée ---
+    # Docling : parsing (layout, ordre de lecture, tables TableFormer) +
+    # HybridChunker. Remplace Surya/Paddle + le chunker maison.
+    "docling>=2.0.0",
+    # Moteur OCR utilisé par Docling (extra non inclus dans docling-slim).
+    "easyocr>=1.7.0",
+    "pymupdf>=1.24.0",  # rendu de page pour le repli VLM Qwen3-VL
+
+    # --- Logging ---
+    "structlog>=24.4.0",
+
+    # --- Utils ---
+    "pillow>=10.4.0",
+    "aiofiles>=24.1.0",
+    "python-magic>=0.4.27",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.0",
+    "pytest-asyncio>=0.24.0",
+    "httpx>=0.27.0",
+    "ruff>=0.8.0",
+    "mypy>=1.13.0",
+]
+
+[tool.ruff]
+line-length = 99
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["app"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]

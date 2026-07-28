@@ -1,0 +1,252 @@
+# ============================================================
+# Legrand GeoAI — Docker Compose
+# ============================================================
+# Démarrage : make up
+# ============================================================
+
+services:
+  # --- Reverse Proxy (TLS + rate limiting) ---
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports:
+      - "8090:80"
+      - "8443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      backend:
+        condition: service_healthy
+      frontend:
+        condition: service_started
+    networks:
+      - frontend_net
+    security_opt:
+      - no-new-privileges:true
+
+  # --- PostgreSQL 16 ---
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - db_net
+    security_opt:
+      - no-new-privileges:true
+
+  # --- Hatchet PostgreSQL (orchestrateur — base isolée) ---
+  hatchet-postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: hatchet
+      POSTGRES_PASSWORD: ${HATCHET_PG_PASSWORD:-hatchet_changez_moi}
+      POSTGRES_DB: hatchet
+    volumes:
+      - hatchet_pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U hatchet -d hatchet"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - hatchet_net
+    security_opt:
+      - no-new-privileges:true
+
+  # --- Hatchet Engine (orchestration 100% du pipeline documentaire) ---
+  # Image "lite" : moteur + API + dashboard dans un seul conteneur,
+  # file de messages adossée à PostgreSQL (pas de RabbitMQ requis).
+  hatchet:
+    image: ghcr.io/hatchet-dev/hatchet/hatchet-lite:latest
+    restart: unless-stopped
+    # Dashboard publié sur 8899 (8888 interne) pour éviter tout conflit de port.
+    ports:
+      - "8899:8888"
+    environment:
+      DATABASE_URL: "postgresql://hatchet:${HATCHET_PG_PASSWORD:-hatchet_changez_moi}@hatchet-postgres:5432/hatchet?sslmode=disable"
+      SERVER_GRPC_BIND_ADDRESS: "0.0.0.0"
+      SERVER_GRPC_INSECURE: "t"
+      SERVER_GRPC_PORT: "7077"
+      SERVER_GRPC_BROADCAST_ADDRESS: "hatchet:7077"
+      SERVER_URL: "http://localhost:8899"
+      SERVER_AUTH_COOKIE_DOMAIN: "localhost"
+      SERVER_AUTH_COOKIE_INSECURE: "t"
+      SERVER_AUTH_COOKIE_SECRETS: "a9a9126713391c8055f116470b5402eb a30e5293bc982c09c1d87f78cf39c3a8"
+      SERVER_AUTH_SET_EMAIL_VERIFIED: "t"
+      SERVER_DEFAULT_ENGINE_VERSION: "V1"
+    depends_on:
+      hatchet-postgres:
+        condition: service_healthy
+    # Le moteur génère sa config + ses clés de chiffrement dans /config.
+    # On le persiste pour que les jetons restent valides après un recreate.
+    volumes:
+      - hatchet_config:/config
+    networks:
+      - hatchet_net
+      - backend_net
+      - frontend_net
+    security_opt:
+      - no-new-privileges:true
+
+  # --- Ollama (LLM + Embeddings) ---
+  ollama:
+    image: ollama/ollama:latest
+    restart: unless-stopped
+    volumes:
+      - ollama_models:/root/.ollama
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+      # Flash-attention : attention plus rapide et moins gourmande en VRAM.
+      - OLLAMA_FLASH_ATTENTION=1
+      # 1 = séquentiel. Sur GPU 8 Go le VLM est limité par le calcul (pas la VRAM) :
+      # paralléliser ralentit chaque page et provoque des timeouts. Garder à 1.
+      - OLLAMA_NUM_PARALLEL=1
+      # Garder le modèle chargé en VRAM entre les documents (évite les recharges).
+      - OLLAMA_KEEP_ALIVE=30m
+      # Cache KV quantifié q8_0 : ~2× moins de VRAM pour le contexte → permet
+      # num_ctx=12288 sur GPU 8 Go (qualité quasi identique).
+      - OLLAMA_KV_CACHE_TYPE=q8_0
+    healthcheck:
+      # L'image ollama ne contient ni curl ni wget : on utilise la CLI ollama,
+      # qui interroge le serveur local (code 0 si le serveur répond).
+      test: ["CMD-SHELL", "ollama list >/dev/null 2>&1 || exit 1"]
+      interval: 10s
+      timeout: 10s
+      retries: 10
+      start_period: 30s
+    deploy:
+      resources:
+        # --- GPU (production) ---
+        # Activé : nécessite le NVIDIA Container Toolkit installé sur l'hôte.
+        # Sans cela, Ollama tournerait en CPU (beaucoup plus lent).
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+        limits:
+          memory: 48G
+    networks:
+      - backend_net
+      # Accès sortant pour télécharger les modèles (ollama pull).
+      - frontend_net
+    security_opt:
+      - no-new-privileges:true
+
+  # --- Backend FastAPI ---
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - uploads_data:/data/uploads
+      - chromadb_data:/data/chromadb
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8000/api/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+    depends_on:
+      postgres:
+        condition: service_healthy
+      ollama:
+        condition: service_healthy
+      hatchet:
+        condition: service_started
+    networks:
+      - frontend_net
+      - backend_net
+      - db_net
+      - hatchet_net
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+    security_opt:
+      - no-new-privileges:true
+
+  # --- Hatchet Worker (OCR + Ingestion — exécute les workflows) ---
+  hatchet-worker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    command: python -m app.hatchet.worker
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - uploads_data:/data/uploads
+      - chromadb_data:/data/chromadb
+    depends_on:
+      postgres:
+        condition: service_healthy
+      ollama:
+        condition: service_healthy
+      hatchet:
+        condition: service_started
+    networks:
+      - backend_net
+      - db_net
+      - hatchet_net
+    deploy:
+      resources:
+        limits:
+          memory: 8G
+    security_opt:
+      - no-new-privileges:true
+
+  # --- Frontend Next.js ---
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      - NEXT_PUBLIC_API_URL=/api
+    networks:
+      - frontend_net
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+    security_opt:
+      - no-new-privileges:true
+
+volumes:
+  pg_data:
+  hatchet_pg_data:
+  hatchet_config:
+  hatchet_certs:
+  caddy_data:
+  caddy_config:
+  ollama_models:
+  uploads_data:
+  chromadb_data:
+
+networks:
+  frontend_net:
+    driver: bridge
+  backend_net:
+    driver: bridge
+    internal: true
+  db_net:
+    driver: bridge
+    internal: true
+  hatchet_net:
+    driver: bridge
+    internal: true
