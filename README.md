@@ -6,7 +6,7 @@
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -37,7 +37,7 @@
 └────────────────┴────────────┴──────────┴────────────────┘
 ```
 
-## 🔧 Stack technique
+## Stack technique
 
 | Composant | Choix | Détails |
 |-----------|-------|---------|
@@ -56,7 +56,7 @@
 | **Proxy** | Caddy | Auto-TLS, headers sécurité |
 | **Déploiement** | Docker Compose | Rootless, 3 réseaux isolés |
 
-## 🚀 Démarrage rapide
+## Démarrage rapide
 
 ### Prérequis
 
@@ -109,7 +109,7 @@ make pull-models-light # Light (Qwen3 8B + BGE-M3)
 - Email : `admin@legrand-geoai.local`
 - Mot de passe : (défini dans `.env`)
 
-## 🪓 Hatchet — orchestration du pipeline
+## Hatchet — orchestration du pipeline
 
 Hatchet est **100% responsable** du cycle de vie d'un document : dès l'upload,
 le backend déclenche le workflow `document-ingestion` (DAG durable) au lieu d'un
@@ -207,7 +207,7 @@ Legrand GeoAI/
 - **Docker** : Conteneurs rootless, `no-new-privileges`
 - **Données** : 100% on-premise, aucune donnée externalisée
 
-## 📋 Commandes Make
+## Commandes Make
 
 ```bash
 make up              # Démarrer tous les services
@@ -227,7 +227,7 @@ make format          # Formatter le code Python
 make test            # Lancer les tests
 ```
 
-## 🖥️ GPU recommandé
+## GPU recommandé
 
 - **NVIDIA RTX 6000 Ada** (48 Go) — Qwen3 32B Q8 + BGE-M3 + reranker
 - **NVIDIA RTX 4090** (24 Go) — Qwen3 8B + BGE-M3 + reranker
