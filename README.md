@@ -197,7 +197,7 @@ Legrand GeoAI/
 └── .env.example
 ```
 
-## 🔒 Sécurité
+## Sécurité
 
 - **Réseau** : 4 réseaux Docker isolés (frontend, backend, db, hatchet)
 - **Auth** : JWT avec refresh token, RBAC 3 niveaux
