@@ -2,16 +2,13 @@
 
 **Agent IA interne pour la recherche documentaire en géomatique.**
 
-100% local · 100% sécurisé · 100% français
+100% local · 100% sécurisé 
 
-> 📘 Pour la présentation technique complète (choix d'architecture, pipeline RAG
-> détaillé, chiffres mesurés, sécurité, limites, roadmap), voir
-> **[PRESENTATION_TECHNIQUE.md](PRESENTATION_TECHNIQUE.md)**.
-> 💰 Pour le chiffrage d'hébergement : **[HOSTING_COST_COMPARISON_10_20_USERS.md](HOSTING_COST_COMPARISON_10_20_USERS.md)**.
+ Pour le chiffrage d'hébergement : **[HOSTING_COST_COMPARISON_10_20_USERS.md](HOSTING_COST_COMPARISON_10_20_USERS.md)**.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -52,7 +49,7 @@
 `postgres`, `hatchet`, `hatchet-postgres` · **4 réseaux Docker** isolés
 (`frontend_net` exposé, `backend_net` / `db_net` / `hatchet_net` internes).
 
-> ⚠️ `backend` et `hatchet-worker` sont **deux conteneurs bâtis depuis la même
+> `backend` et `hatchet-worker` sont **deux conteneurs bâtis depuis la même
 > image** (`./backend`). Toute modification du code `backend/` impose de
 > reconstruire **les deux** (`make up` le fait).
 
@@ -269,7 +266,7 @@ validate ──► parse ──────────────────�
   `failed` de plus de 7 jours (fichier + chunks + ligne BDD).
 - **Ré-indexation** : workflow `reindex-collection` (fan-out par document).
 
-> ℹ️ Le repli VLM n'est **pas** un fan-out Hatchet par page : il est exécuté
+>  Le repli VLM n'est **pas** un fan-out Hatchet par page : il est exécuté
 > *dans* la tâche `parse`, page par page, borné par le sémaphore
 > `VLM_CONCURRENCY` (=1 sur GPU 8 Go — voir *Réglages GPU* plus bas).
 
@@ -330,7 +327,7 @@ Le battement `: keepalive` est indispensable : le reranking CPU retarde le
 premier token de plusieurs secondes et un navigateur/proxy fermerait une
 connexion restée inactive.
 
-## 🎛️ Réglages RAG (`.env`)
+##  Réglages RAG (`.env`)
 
 La stratégie de récupération est **générique** (aucune règle par document) :
 
@@ -380,7 +377,7 @@ timeouts) ; `OLLAMA_NUM_PARALLEL=2` avec le 7B (dépasse la VRAM) ;
 `qwen2.5vl:3b` à concurrence 3 (~50 % de pages perdues).
 **Sur 8 Go, augmenter le parallélisme ne fait que perdre des pages.**
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 Legrand GeoAI/
@@ -435,7 +432,7 @@ Legrand GeoAI/
 └── HOSTING_COST_COMPARISON_10_20_USERS.md
 ```
 
-## 🔒 Sécurité
+##  Sécurité
 
 - **Données** : 100% on-premise. Aucun appel sortant à l'exécution — les modèles
   d'extraction et le reranker sont bakés dans l'image et forcés hors-ligne
@@ -462,7 +459,7 @@ Hatchet ; `SERVER_AUTH_COOKIE_SECRETS` de `docker-compose.yml` est en clair ;
 le rate limiting mémoire ne survit pas à un redémarrage et n'est pas partagé
 entre workers uvicorn.
 
-## 📋 Commandes Make
+##  Commandes Make
 
 ```bash
 # --- Cycle de vie ---
@@ -509,7 +506,7 @@ make test               # pytest  ⚠ aucune suite de tests n'existe encore
 > modèle voulu à la main :
 > `docker compose exec ollama ollama pull qwen2.5vl:7b`.
 
-## 🩺 Dépannage
+## Dépannage
 
 | Symptôme | Cause probable | Correctif |
 |----------|----------------|-----------|
