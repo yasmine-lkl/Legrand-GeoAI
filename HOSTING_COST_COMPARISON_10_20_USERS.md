@@ -4,7 +4,7 @@
 **Scope:** Production hosting cost estimate for your current stack (Next.js frontend, FastAPI backend, PostgreSQL, Redis, Ollama inference, Chroma/vector data).
 **Goal:** Most performant practical deployment for 10–20 internal users.
 
->  **Read § 0 first.** This study was priced against an earlier version of the
+>  This study was priced against an earlier version of the
 > stack. The architecture has since changed (Redis dropped, Hatchet added, GPU
 > sizing measured). § 0 restates the assumptions and adjusts the totals; the
 > original per-provider breakdowns below are kept unchanged for traceability.
